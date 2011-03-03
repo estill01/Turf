@@ -1,0 +1,2 @@
+DEPRECATION WARNING: Base.named_scope has been deprecated, please use Base.scope instead. (called from <top (required)> at /Users/ethanstillman/code/rails/base-app/config/environment.rb:5)
+DEPRECATION WARNING: Base.named_scope has been deprecated, please use Base.scope instead. (called from <top (required)> at /Users/ethanstillman/code/rails/base-app/config/environment.rb:5)
