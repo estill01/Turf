@@ -1,0 +1,140 @@
+ShopperSeeks
+Milestone: 1 
+Spec: v.2
+Release Goal: March 17th
+
+Sections Overview
+==================
+1. Data Model
+2. Pages
+3. Engagement Mechanisms
+4. Wants Management
+5. Social Mechanisms
+6. Experience Protection
+7. Initial Monetization
+8. Accessibility
+9. Reporting
+10. Likely Services/Technology Stack
+
+
+1. Data Model
+==============
+- Users
+	- Name
+	- Email
+	- Twitter Id
+	- Salt (an aspect of password encryption)
+	- Encrypted password (storing unencrypted passwords is a bad idea)
+- Wants
+	- Title (max 140 characters)
+	- Description
+	- Size preferences
+	- Category id
+	- Price range
+	- Image/s
+	- Color 	
+	- Brand
+	- Need by whenever/exact date
+	- Public flag
+- Offers
+	- Link(s) to product
+	- Product images
+	- Product description
+	- Response text (maybe max 140 characters, maybe not)
+	- Public flag
+
+2. Pages
+=========
+- Main interactions
+	- Input Want
+	- Want accepted
+	- Public Want feed
+	- Input Offer
+	- User Profile
+		- Review Wants/Offers created
+		- Review Offers received/sent
+	- Received Offer examination
+		- Account management/Deletion
+- Static
+	- Landing
+	- About
+	- FAQ/How it works
+	- Contact
+	- Terms of Service
+	- Privacy Policy
+	- Blog (via tumblr @ blog.shopperseeks.com)
+
+
+3. Engagement Mechanisms
+=========================
+- Want fulfillment notification
+	- Accept email address and/or Twitter id from Want creator/shopper 
+	  during account creation.
+	- If merchant sends an Offer in response to user Want, system 
+	  emails/tweets at shopper.
+	- Email/tweet contains a link to the received Offer page (i.e. list of 
+	  links/images to products to buy) + other copy
+	- Run URLs through Bit.ly/custom short domain for Twitter sharing
+- Forgotten User password recovery processes
+
+4. Wants Management
+====================
+- View current and historic Wants on User account page
+	- User account page can only be viewed by account owner for now.
+- Silence/Pause receiveing Offers on a per-Want basis
+- Delete/Archive unwanted/closed Wants 
+	# Guiding users to Archive vs. Delete Wants will be good for data collection efforts, although we should give ability to do either.
+
+
+5. Social Mechanisms
+=====================
+- Tweet
+	- site
+	- want
+	- received offer
+- Facebook 'like'
+	- site
+	- want
+	- received offer
+
+
+6. Experience Protection
+==========================
+- Rate-limit Want replies
+- use CAPTCHA to start
+- Pre 'open' short-looking URLs and use expanded results in display
+- ~85-90% functional code test coverage
+- Post-production QA testing
+
+
+7. Initial Monetization
+========================
+- Meta-affiliate network membership/installation
+
+
+8. Accessibility
+=================
+- Modern browsers + IE 8
+- Deployment/server configuration
+- Plan for 1,000s of users, be ready for more
+
+
+9. Reporting
+=============
+- Data export to Excel/TSV/CSV
+
+
+10. Likely Services/Technology Stack
+=====================================
+- Services
+	- MailChimp
+		- emailing users
+	- Linode
+		- Site hosting
+- Technology
+	- Ruby/Rails 3
+	- MySQL
+	- Nginx
+		- Server
+	- HTML 5/CSS3 + modernizr (that's spelled correctly)
+	- jQuery 1.5
