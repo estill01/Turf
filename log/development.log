@@ -1,2 +1,107 @@
 DEPRECATION WARNING: Base.named_scope has been deprecated, please use Base.scope instead. (called from <top (required)> at /Users/ethanstillman/code/rails/base-app/config/environment.rb:5)
 DEPRECATION WARNING: Base.named_scope has been deprecated, please use Base.scope instead. (called from <top (required)> at /Users/ethanstillman/code/rails/base-app/config/environment.rb:5)
+DEPRECATION WARNING: Base.named_scope has been deprecated, please use Base.scope instead. (called from <top (required)> at /Users/ethanstillman/work/shopperseeks/site/config/environment.rb:5)
+DEPRECATION WARNING: Base.named_scope has been deprecated, please use Base.scope instead. (called from <top (required)> at /Users/ethanstillman/work/shopperseeks/site/config/environment.rb:5)
+DEPRECATION WARNING: Base.named_scope has been deprecated, please use Base.scope instead. (called from <top (required)> at /Users/ethanstillman/work/shopperseeks/site/config/environment.rb:5)
+DEPRECATION WARNING: Base.named_scope has been deprecated, please use Base.scope instead. (called from <top (required)> at /Users/ethanstillman/work/shopperseeks/site/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-03 19:47:30 -0500
+
+NoMethodError (undefined method `route' for #<ActionDispatch::Routing::Mapper:0x0000010128b098>):
+  config/routes.rb:3:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (25.3ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (61.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-03 19:48:17 -0500
+
+ActionController::RoutingError (uninitialized constant PagesController):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-03 19:48:18 -0500
+
+ActionController::RoutingError (uninitialized constant PagesController):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+DEPRECATION WARNING: Base.named_scope has been deprecated, please use Base.scope instead. (called from <top (required)> at /Users/ethanstillman/work/shopperseeks/site/config/environment.rb:5)
+DEPRECATION WARNING: Base.named_scope has been deprecated, please use Base.scope instead. (called from <top (required)> at /Users/ethanstillman/work/shopperseeks/site/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-03 19:50:43 -0500
+  Processing by PagesController#home as HTML
+Completed   in 1ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.6ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.1ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-03 19:50:48 -0500
+  Processing by PagesController#home as HTML
+Completed   in 1ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (69.1ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.5ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (78.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-03 19:51:01 -0500
+  Processing by PagesController#home as HTML
+Completed   in 0ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.1ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-03 19:51:01 -0500
+  Processing by PagesController#home as HTML
+Completed   in 0ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.1ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-03 19:51:02 -0500
+  Processing by PagesController#home as HTML
+Completed   in 0ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.5ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-03 19:51:02 -0500
+  Processing by PagesController#home as HTML
+Completed   in 0ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.2ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.8ms)
