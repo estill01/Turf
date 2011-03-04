@@ -1,0 +1,17 @@
+# I believe this is necessary to get Jammit to run properly
+embed_assets: off
+package_assets: always
+
+javascripts:
+    common:
+        - public/javascripts/*.js
+    
+
+
+stylesheets:
+    common:
+        # - public/stylesheets/*.css
+        - public/stylesheets/scss/*.scss
+    
+
+

@@ -105,3 +105,375 @@ Jammit::ConfigurationNotFound (could not find the "" configuration file):
 Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
 Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.2ms)
 Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-03 19:55:08 -0500
+  Processing by PagesController#home as HTML
+Completed   in 0ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-03 19:55:08 -0500
+  Processing by PagesController#home as HTML
+Completed   in 0ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-03 19:55:08 -0500
+  Processing by PagesController#home as HTML
+Completed   in 0ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.3ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-03 19:55:32 -0500
+  Processing by PagesController#home as HTML
+Completed   in 0ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.7ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-03 19:55:32 -0500
+  Processing by PagesController#home as HTML
+Completed   in 0ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.8ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-03 19:55:55 -0500
+  Processing by PagesController#home as HTML
+Completed   in 0ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.5ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-03 20:03:51 -0500
+  Processing by PagesController#home as HTML
+Completed   in 0ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.5ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.8ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-03 20:03:52 -0500
+  Processing by PagesController#home as HTML
+Completed   in 0ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.7ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-03 20:06:05 -0500
+  Processing by PagesController#home as HTML
+Completed   in 0ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.8ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-03 20:06:05 -0500
+  Processing by PagesController#home as HTML
+Completed   in 0ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-03 20:09:25 -0500
+  Processing by PagesController#home as HTML
+Completed   in 0ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-03 20:17:12 -0500
+  Processing by PagesController#home as HTML
+Completed   in 1ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-03 20:17:13 -0500
+  Processing by PagesController#home as HTML
+Completed   in 0ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.4ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 13:43:34 -0500
+  Processing by PagesController#home as HTML
+Completed   in 0ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (35.5ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (79.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 15:55:34 -0500
+  Processing by PagesController#home as HTML
+Completed   in 0ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (27.8ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.6ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (37.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 16:00:00 -0500
+  Processing by PagesController#home as HTML
+Completed   in 0ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (81.7ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (87.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 16:04:57 -0500
+  Processing by PagesController#home as HTML
+Completed   in 0ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (30.6ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 16:20:38 -0500
+  Processing by PagesController#home as HTML
+Completed   in 0ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.7ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 16:21:45 -0500
+  Processing by PagesController#home as HTML
+Completed   in 0ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.6ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 16:41:52 -0500
+  Processing by PagesController#home as HTML
+Completed   in 0ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (18.4ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (17.4ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (69.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 16:41:53 -0500
+  Processing by PagesController#home as HTML
+Completed   in 0ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (54.0ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.8ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (72.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 16:41:53 -0500
+  Processing by PagesController#home as HTML
+Completed   in 0ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.7ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 16:41:54 -0500
+  Processing by PagesController#home as HTML
+Completed   in 0ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (19.7ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (26.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 16:51:40 -0500
+  Processing by PagesController#home as HTML
+Completed   in 0ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.7ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 16:51:41 -0500
+  Processing by PagesController#home as HTML
+Completed   in 0ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.7ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 16:51:42 -0500
+  Processing by PagesController#home as HTML
+Completed   in 0ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.7ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 16:52:48 -0500
+  Processing by PagesController#home as HTML
+Completed   in 1ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.8ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 16:52:49 -0500
+  Processing by PagesController#home as HTML
+Completed   in 0ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.8ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 16:52:49 -0500
+  Processing by PagesController#home as HTML
+Completed   in 0ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.6ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 16:52:49 -0500
+  Processing by PagesController#home as HTML
+Completed   in 0ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.6ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 16:52:50 -0500
+  Processing by PagesController#home as HTML
+Completed   in 0ms
+
+Jammit::ConfigurationNotFound (could not find the "" configuration file):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.8ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.2ms)
