@@ -507,3 +507,197 @@ DEPRECATION WARNING: Base.named_scope has been deprecated, please use Base.scope
 DEPRECATION WARNING: Base.named_scope has been deprecated, please use Base.scope instead. (called from <top (required)> at /Users/ethanstillman/work/shopperseeks/site/config/environment.rb:5)
 DEPRECATION WARNING: Base.named_scope has been deprecated, please use Base.scope instead. (called from <top (required)> at /Users/ethanstillman/work/shopperseeks/site/config/environment.rb:5)
 DEPRECATION WARNING: Base.named_scope has been deprecated, please use Base.scope instead. (called from <top (required)> at /Users/ethanstillman/work/shopperseeks/site/config/environment.rb:5)
+DEPRECATION WARNING: Base.named_scope has been deprecated, please use Base.scope instead. (called from <top (required)> at /Users/ethanstillman/work/shopperseeks/site/config/environment.rb:5)
+DEPRECATION WARNING: Base.named_scope has been deprecated, please use Base.scope instead. (called from <top (required)> at /Users/ethanstillman/work/shopperseeks/site/config/environment.rb:5)
+DEPRECATION WARNING: Base.named_scope has been deprecated, please use Base.scope instead. (called from <top (required)> at /Users/ethanstillman/work/shopperseeks/site/config/environment.rb:5)
+DEPRECATION WARNING: Base.named_scope has been deprecated, please use Base.scope instead. (called from <top (required)> at /Users/ethanstillman/work/shopperseeks/site/config/environment.rb:5)
+DEPRECATION WARNING: Base.named_scope has been deprecated, please use Base.scope instead. (called from <top (required)> at /Users/ethanstillman/work/shopperseeks/site/config/environment.rb:5)
+DEPRECATION WARNING: Base.named_scope has been deprecated, please use Base.scope instead. (called from <top (required)> at /Users/ethanstillman/work/shopperseeks/site/config/environment.rb:5)
+DEPRECATION WARNING: Base.named_scope has been deprecated, please use Base.scope instead. (called from <top (required)> at /Users/ethanstillman/work/shopperseeks/site/config/environment.rb:5)
+DEPRECATION WARNING: Base.named_scope has been deprecated, please use Base.scope instead. (called from <top (required)> at /Users/ethanstillman/work/shopperseeks/site/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 20:51:01 -0500
+
+Mysql2::Error (Unknown database 'tood_name_database'):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (32.3ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (39.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 20:57:19 -0500
+
+Mysql2::Error (Unknown database 'tood_name_database'):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 20:57:23 -0500
+
+Mysql2::Error (Unknown database 'tood_name_database'):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 20:57:27 -0500
+
+Mysql2::Error (Unknown database 'tood_name_database'):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 20:57:32 -0500
+
+Mysql2::Error (Unknown database 'tood_name_database'):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 20:57:57 -0500
+
+Mysql2::Error (Unknown database 'tood_name_database'):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 20:57:58 -0500
+
+Mysql2::Error (Unknown database 'tood_name_database'):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 20:57:59 -0500
+
+Mysql2::Error (Unknown database 'tood_name_database'):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 20:57:59 -0500
+
+Mysql2::Error (Unknown database 'tood_name_database'):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 20:57:59 -0500
+
+Mysql2::Error (Unknown database 'tood_name_database'):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 20:58:57 -0500
+
+Mysql2::Error (Unknown database 'tood_name_database'):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 20:58:58 -0500
+
+Mysql2::Error (Unknown database 'tood_name_database'):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 20:58:59 -0500
+
+Mysql2::Error (Unknown database 'tood_name_database'):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 20:58:59 -0500
+
+Mysql2::Error (Unknown database 'tood_name_database'):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 20:58:59 -0500
+
+Mysql2::Error (Unknown database 'tood_name_database'):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 20:59:00 -0500
+
+Mysql2::Error (Unknown database 'tood_name_database'):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 20:59:00 -0500
+
+Mysql2::Error (Unknown database 'tood_name_database'):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.2ms)
+DEPRECATION WARNING: Base.named_scope has been deprecated, please use Base.scope instead. (called from <top (required)> at /Users/ethanstillman/work/shopperseeks/site/config/environment.rb:5)
+DEPRECATION WARNING: Base.named_scope has been deprecated, please use Base.scope instead. (called from <top (required)> at /Users/ethanstillman/work/shopperseeks/site/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 20:59:30 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: Base.named_scope has been deprecated, please use Base.scope instead. (called from <top (required)> at /Users/ethanstillman/work/shopperseeks/site/config/environment.rb:5)
+DEPRECATION WARNING: Base.named_scope has been deprecated, please use Base.scope instead. (called from <top (required)> at /Users/ethanstillman/work/shopperseeks/site/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-04 21:21:34 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
