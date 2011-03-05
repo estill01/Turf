@@ -1,5 +1,7 @@
-Welcome to the Protovore base-app.
-It's largely ripped off of the ThoughtBot Suspenders gem but with some infrastructure added to get you a bit further along towards deploy.
+#Protovore Base-App
+
+This is a starting point.
+It's largely ripped off of the ThoughtBot Suspenders gem but with a bit of additional infrastructure to optimize footprint and maintainability.
 
 
 Next Steps
@@ -20,3 +22,4 @@ Resources
 
 	Jammit
 		http://documentcloud.github.com/jammit/
+
