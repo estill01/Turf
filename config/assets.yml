@@ -1,6 +1,6 @@
 # I believe this is necessary to get Jammit to run properly
 embed_assets: off
-# package_assets: always
+package_assets: always
 
 javascripts:
     common:
