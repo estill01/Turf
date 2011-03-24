@@ -1,5 +1,5 @@
 source 'http://rubygems.org'
-
+  gem 'heroku'
   gem 'rails', '3.0.4'
   gem 'bcrypt-ruby'
   gem 'acts_as_list'

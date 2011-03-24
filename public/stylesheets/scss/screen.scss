@@ -1,1 +1,89 @@
 @import "base";
+
+body {
+	background-color: #948a81;
+}
+
+#content-container {
+	position: relative;
+	margin: 0 auto;
+	width: 800px;
+	padding: 0;
+	height: auto;
+	
+	header {
+		display:block;
+		margin: 0;
+		padding: 10px 0 30px 0;
+
+		height: auto;
+		
+		#logo {
+			margin: 0 0 0 36px;
+			padding: 0;
+			img {
+				padding: 0;
+				margin: 0;
+			}			
+		}
+	}
+	
+	#main {
+		display: block;
+		height: 50em;
+		// background-color: yellow;
+		#iphone {
+			display: inline;
+			position: static;
+			float: left;
+			width: auto;
+			height: auto;
+			margin: 0 55px 0 0;
+		}
+		#iphone-content {
+			.screen {
+				display: inline;
+				position: absolute;
+				float:left;
+				margin: 0 0 0 20px;
+				z-index: 5;
+			}
+			.hidden {
+				visibility: hidden;
+			}
+		}
+		
+		#right-content {
+			display: inline;
+			float: left;
+			width: auto;
+			height: 5em;
+			#copy {
+				margin: 38px 0 0 0;
+			}
+			#shelf {
+				margin: 24px 0 0 0;
+			}
+		}
+	}
+	
+	footer {
+		display: block;
+		height: 10em;
+		background-color: pink;
+	}
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+

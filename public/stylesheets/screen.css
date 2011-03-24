@@ -1,4 +1,4 @@
-/* line 14, ../../../../../.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 14, ../../../../../../.rvm/gems/ruby-1.9.2-p136@rails3/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -18,42 +18,120 @@ table, caption, tbody, tfoot, thead, tr, th, td {
   vertical-align: baseline;
 }
 
-/* line 17, ../../../../../.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../.rvm/gems/ruby-1.9.2-p136@rails3/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
   color: black;
   background: white;
 }
 
-/* line 19, ../../../../../.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 19, ../../../../../../.rvm/gems/ruby-1.9.2-p136@rails3/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 21, ../../../../../.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 21, ../../../../../../.rvm/gems/ruby-1.9.2-p136@rails3/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: separate;
   border-spacing: 0;
   vertical-align: middle;
 }
 
-/* line 23, ../../../../../.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 23, ../../../../../../.rvm/gems/ruby-1.9.2-p136@rails3/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 25, ../../../../../.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 25, ../../../../../../.rvm/gems/ruby-1.9.2-p136@rails3/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: "" "";
 }
-/* line 96, ../../../../../.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 96, ../../../../../../.rvm/gems/ruby-1.9.2-p136@rails3/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
 }
 
-/* line 27, ../../../../../.rvm/gems/ruby-1.9.2-p136@rails3tutorial/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 27, ../../../../../../.rvm/gems/ruby-1.9.2-p136@rails3/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
+}
+
+/* line 3, scss/screen.scss */
+body {
+  background-color: #948a81;
+}
+
+/* line 7, scss/screen.scss */
+#content-container {
+  position: relative;
+  margin: 0 auto;
+  width: 800px;
+  padding: 0;
+  height: auto;
+}
+/* line 14, scss/screen.scss */
+#content-container header {
+  display: block;
+  margin: 0;
+  padding: 10px 0 30px 0;
+  height: auto;
+}
+/* line 21, scss/screen.scss */
+#content-container header #logo {
+  margin: 0 0 0 36px;
+  padding: 0;
+}
+/* line 24, scss/screen.scss */
+#content-container header #logo img {
+  padding: 0;
+  margin: 0;
+}
+/* line 31, scss/screen.scss */
+#content-container #main {
+  display: block;
+  height: 50em;
+}
+/* line 35, scss/screen.scss */
+#content-container #main #iphone {
+  display: inline;
+  position: static;
+  float: left;
+  width: auto;
+  height: auto;
+  margin: 0 55px 0 0;
+}
+/* line 44, scss/screen.scss */
+#content-container #main #iphone-content .screen {
+  display: inline;
+  position: absolute;
+  float: left;
+  margin: 0 0 0 20px;
+  z-index: 5;
+}
+/* line 51, scss/screen.scss */
+#content-container #main #iphone-content .hidden {
+  visibility: hidden;
+}
+/* line 56, scss/screen.scss */
+#content-container #main #right-content {
+  display: inline;
+  float: left;
+  width: auto;
+  height: 5em;
+}
+/* line 61, scss/screen.scss */
+#content-container #main #right-content #copy {
+  margin: 38px 0 0 0;
+}
+/* line 64, scss/screen.scss */
+#content-container #main #right-content #shelf {
+  margin: 24px 0 0 0;
+}
+/* line 70, scss/screen.scss */
+#content-container footer {
+  display: block;
+  height: 10em;
+  background-color: pink;
 }
