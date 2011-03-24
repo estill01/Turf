@@ -13,7 +13,7 @@ $(document).ready(function () {
 				x = 1;
 			};
 			$("#iphone-" + x).delay(1000).fadeIn(500);
-		}, 4000);
+		}, 6000);
 	};
 
 	iphoneLoop();

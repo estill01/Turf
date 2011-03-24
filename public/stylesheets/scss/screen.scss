@@ -1,7 +1,9 @@
 @import "base";
 
 body {
-	background-color: #948a81;
+	background-color: #948a81;	
+	// background-color: #00edd0;
+	
 }
 
 #content-container {
@@ -57,15 +59,44 @@ body {
 		}
 		
 		#right-content {
-			font-family: 'VT323';
 			display: inline;
 			float: left;
 			width: auto;
 			height: 5em;
 			margin: 0 0 0 55px;
 			#copy {
+				font-family: 'VT323';
 				margin: 38px 0 0 0;
+				font-size: 20px;
+				color: #544e49;
+				// color: #21ffff;
+				text-shadow: 1px 1px 1px gray;
+
+				a {
+					text-decoration: none;
+					color: white;
+				}
+
+				#overview {
+					margin: 0 0 24px 0;
+					em {
+						color: white;
+					}
+					
+				}
+				
+				#bullets {
+					color: white;
+					font-size: 20px;
+					line-height: 22px;
+					font-weight: thin;
+					em {
+						color: #544e49;
+						// color: #21ffff;
+					}
+				}
 			}
+			
 			#shelf {
 				margin: 24px 0 0 0;
 			}
