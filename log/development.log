@@ -701,3 +701,7 @@ Started GET "/" for 127.0.0.1 at 2011-03-04 21:21:34 -0500
   Processing by PagesController#home as HTML
 Rendered pages/home.html.erb within layouts/application (1.7ms)
 Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: Base.named_scope has been deprecated, please use Base.scope instead. (called from <top (required)> at /Users/ethanstillman/work/clients/tseng/turf/config/environment.rb:5)
+DEPRECATION WARNING: Base.named_scope has been deprecated, please use Base.scope instead. (called from <top (required)> at /Users/ethanstillman/work/clients/tseng/turf/config/environment.rb:5)
+DEPRECATION WARNING: Base.named_scope has been deprecated, please use Base.scope instead. (called from <top (required)> at /Users/ethanstillman/work/clients/tseng/turf/config/environment.rb:5)
+DEPRECATION WARNING: Base.named_scope has been deprecated, please use Base.scope instead. (called from <top (required)> at /Users/ethanstillman/work/clients/tseng/turf/config/environment.rb:5)
