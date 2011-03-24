@@ -91,7 +91,7 @@ body {
 /* line 31, scss/screen.scss */
 #content-container #main {
   display: block;
-  height: 50em;
+  height: 514px;
 }
 /* line 35, scss/screen.scss */
 #content-container #main #iphone {
@@ -109,6 +109,10 @@ body {
   float: left;
   margin: 93px 0 0 23px;
   z-index: 5;
+}
+/* line 52, scss/screen.scss */
+#content-container #main #iphone-content .hidden {
+  visibility: hidden;
 }
 /* line 57, scss/screen.scss */
 #content-container #main #right-content {
@@ -130,5 +134,45 @@ body {
 #content-container footer {
   display: block;
   height: 10em;
-  background-color: pink;
+  margin-top: 95px;
+}
+/* line 77, scss/screen.scss */
+#content-container footer #footer-container {
+  width: 515px;
+  height: 76px;
+  margin: 0 auto;
+  line-height: 0.9em;
+}
+/* line 84, scss/screen.scss */
+#content-container footer #footer-container #line-1 {
+  display: inline-block;
+  margin: 0;
+  line-height: 0.5;
+}
+/* line 88, scss/screen.scss */
+#content-container footer #footer-container #line-1 img {
+  margin: 0;
+  padding: 0;
+}
+/* line 93, scss/screen.scss */
+#content-container footer #footer-container #line-2 {
+  display: inline-block;
+  float: left;
+}
+/* line 96, scss/screen.scss */
+#content-container footer #footer-container #line-2 #more {
+  display: inline;
+  float: left;
+  margin: 0 7px 0 0;
+}
+/* line 101, scss/screen.scss */
+#content-container footer #footer-container #line-2 #email {
+  display: inline;
+  float: left;
+  margin: 0 8px 0 0;
+}
+/* line 106, scss/screen.scss */
+#content-container footer #footer-container #line-2 #twitter {
+  display: inline;
+  float: left;
 }

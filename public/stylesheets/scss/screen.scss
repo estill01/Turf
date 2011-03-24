@@ -30,8 +30,8 @@ body {
 	
 	#main {
 		display: block;
-		height: 50em;
-		// background-color: yellow;
+		height: 514px;
+
 		#iphone {
 			display: inline;
 			position: static;
@@ -50,7 +50,7 @@ body {
 				z-index: 5;
 			}
 			.hidden {
-			
+				visibility: hidden;
 			}
 		}
 		
@@ -72,7 +72,43 @@ body {
 	footer {
 		display: block;
 		height: 10em;
-		background-color: pink;
+		margin-top: 95px;
+		
+		#footer-container {
+			width: 515px;
+			height: 76px;
+			margin: 0 auto;
+
+			line-height: 0.9em;
+			
+			#line-1 {
+				display: inline-block;
+				margin: 0;
+				line-height: 0.5;
+				img {
+					margin: 0;
+					padding: 0;
+				}
+			}
+			#line-2 {
+				display: inline-block;
+				float:left;
+				#more {
+					display: inline;
+					float:left;
+					margin: 0 7px 0 0;			
+				}
+				#email {
+					display: inline;
+					float:left;
+					margin: 0 8px 0 0;				
+				}
+				#twitter {
+					display: inline;
+					float:left;
+				}
+			}
+		}
 	}
 	
 	

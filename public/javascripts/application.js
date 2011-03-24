@@ -7,7 +7,7 @@ $(document).ready(function () {
 		var max = 6;
 	
 		setInterval(function () {
-			$("iphone-" + x).fadeOut(500);
+			$("#iphone-" + x).fadeOut(500);
 			x++;
 			if (x > max) {
 				x = 1;
