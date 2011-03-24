@@ -9,23 +9,23 @@
             <%= image_tag('/images/iphone/iphone.jpg') %>
         </div>
         <div id="iphone-content">
-            <div id="iphone-1" class="screen">
-                <%= image_tag('/images/iphone/1.jpg') %>
-            </div>
-            <div id="iphone-2" class="screen hidden">
-                <%= image_tag('/images/iphone/2.jpg') %>
-            </div>
-            <div id="iphone-3" class="screen hidden">
-                <%= image_tag('/images/iphone/3.jpg') %>
-            </div>
-            <div id="iphone-4" class="screen hidden">
-                <%= image_tag('/images/iphone/4.jpg') %>
+            <div id="iphone-6" class="screen hidden">
+                <%= image_tag('/images/iphone/6.jpg') %>
             </div>
             <div id="iphone-5" class="screen hidden">
                 <%= image_tag('/images/iphone/5.jpg') %>
             </div>
-            <div id="iphone-6" class="screen hidden">
-                <%= image_tag('/images/iphone/6.jpg') %>
+            <div id="iphone-4" class="screen hidden">
+                <%= image_tag('/images/iphone/4.jpg') %>
+            </div>
+            <div id="iphone-3" class="screen hidden">
+                <%= image_tag('/images/iphone/3.jpg') %>
+            </div>
+            <div id="iphone-2" class="screen hidden">
+                <%= image_tag('/images/iphone/2.jpg') %>
+            </div>            
+            <div id="iphone-1" class="screen">
+                <%= image_tag('/images/iphone/1.jpg') %>
             </div>
         </div>
         <div id="right-content">
@@ -49,10 +49,14 @@
                     <%= image_tag('/images/bottom/more.jpg') %>
                 </div>
                 <div id="email">
-                    <%= image_tag('/images/bottom/email.jpg') %>
+                    <a href="mailto:piechart@mac.com?subject=[Turf] Let's make a (iPhone app) baby!">
+                        <%= image_tag('/images/bottom/email.jpg', :mousedown => "/images/bottom/email-click.jpg") %>
+                    </a>
                 </div>
                 <div id="twitter">
-                    <%= image_tag('/images/bottom/twitter.jpg') %>
+                    <a href="http://twitter.com/turfhq">
+                        <%= image_tag('/images/bottom/twitter.jpg') %>
+                    </a>
                 </div>
             </div>
         </div>

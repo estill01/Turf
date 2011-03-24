@@ -2251,3 +2251,505 @@ Started GET "/" for 127.0.0.1 at 2011-03-24 01:25:42 -0400
   Processing by PagesController#home as HTML
 Rendered pages/home.html.erb within layouts/application (4.5ms)
 Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:28:27 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:28:33 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:28:40 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:28:45 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:29:42 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 22ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:29:49 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:29:53 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bottom/email-click.jpg" for 127.0.0.1 at 2011-03-24 01:32:35 -0400
+
+ActionController::RoutingError (No route matches "/bottom/email-click.jpg"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/bottom/email-click.jpg" for 127.0.0.1 at 2011-03-24 01:32:35 -0400
+
+ActionController::RoutingError (No route matches "/bottom/email-click.jpg"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/bottom/email-click.jpg" for 127.0.0.1 at 2011-03-24 01:32:35 -0400
+
+ActionController::RoutingError (No route matches "/bottom/email-click.jpg"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/bottom/email-click.jpg" for 127.0.0.1 at 2011-03-24 01:32:36 -0400
+
+ActionController::RoutingError (No route matches "/bottom/email-click.jpg"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/bottom/email-click.jpg" for 127.0.0.1 at 2011-03-24 01:32:36 -0400
+
+ActionController::RoutingError (No route matches "/bottom/email-click.jpg"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/bottom/email-click.jpg" for 127.0.0.1 at 2011-03-24 01:32:36 -0400
+
+ActionController::RoutingError (No route matches "/bottom/email-click.jpg"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/bottom/email-click.jpg" for 127.0.0.1 at 2011-03-24 01:32:36 -0400
+
+ActionController::RoutingError (No route matches "/bottom/email-click.jpg"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/bottom/email-click.jpg" for 127.0.0.1 at 2011-03-24 01:32:36 -0400
+
+ActionController::RoutingError (No route matches "/bottom/email-click.jpg"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/bottom/email-click.jpg" for 127.0.0.1 at 2011-03-24 01:32:36 -0400
+
+ActionController::RoutingError (No route matches "/bottom/email-click.jpg"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/bottom/email-click.jpg" for 127.0.0.1 at 2011-03-24 01:32:36 -0400
+
+ActionController::RoutingError (No route matches "/bottom/email-click.jpg"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/bottom/email-click.jpg" for 127.0.0.1 at 2011-03-24 01:32:37 -0400
+
+ActionController::RoutingError (No route matches "/bottom/email-click.jpg"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/bottom/email-click.jpg" for 127.0.0.1 at 2011-03-24 01:32:37 -0400
+
+ActionController::RoutingError (No route matches "/bottom/email-click.jpg"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/bottom/email-click.jpg" for 127.0.0.1 at 2011-03-24 01:32:37 -0400
+
+ActionController::RoutingError (No route matches "/bottom/email-click.jpg"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/bottom/email-click.jpg" for 127.0.0.1 at 2011-03-24 01:32:37 -0400
+
+ActionController::RoutingError (No route matches "/bottom/email-click.jpg"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/bottom/email-click.jpg" for 127.0.0.1 at 2011-03-24 01:32:37 -0400
+
+ActionController::RoutingError (No route matches "/bottom/email-click.jpg"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/bottom/email-click.jpg" for 127.0.0.1 at 2011-03-24 01:32:37 -0400
+
+ActionController::RoutingError (No route matches "/bottom/email-click.jpg"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/bottom/email-click.jpg" for 127.0.0.1 at 2011-03-24 01:32:38 -0400
+
+ActionController::RoutingError (No route matches "/bottom/email-click.jpg"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/bottom/email-click.jpg" for 127.0.0.1 at 2011-03-24 01:32:38 -0400
+
+ActionController::RoutingError (No route matches "/bottom/email-click.jpg"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/bottom/email-click.jpg" for 127.0.0.1 at 2011-03-24 01:32:38 -0400
+
+ActionController::RoutingError (No route matches "/bottom/email-click.jpg"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/bottom/email-click.jpg" for 127.0.0.1 at 2011-03-24 01:32:38 -0400
+
+ActionController::RoutingError (No route matches "/bottom/email-click.jpg"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:32:43 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:33:15 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:33:48 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:33:53 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:33:58 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:34:05 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:41:13 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:42:51 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (59.2ms)
+Completed 200 OK in 65ms (Views: 63.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:42:53 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:42:59 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (60.7ms)
+Completed 200 OK in 67ms (Views: 65.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:43:17 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:43:18 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (60.9ms)
+Completed 200 OK in 68ms (Views: 67.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:43:20 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:43:34 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:46:00 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:47:20 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:47:56 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:48:06 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:48:19 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:48:42 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:53:26 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:53:51 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:54:38 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:55:42 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:55:55 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:56:16 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:56:25 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:56:55 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:57:43 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:57:51 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:58:05 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:58:20 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:58:36 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:59:20 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 01:59:40 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 02:00:52 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 02:01:23 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 02:01:38 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 15ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 02:02:08 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 02:02:41 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 02:03:33 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 02:03:50 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 02:06:16 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 02:09:16 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 02:11:08 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 02:11:40 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 02:12:17 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 02:12:38 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 02:14:23 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 02:15:01 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms)

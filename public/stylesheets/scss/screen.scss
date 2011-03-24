@@ -34,10 +34,12 @@ body {
 
 		#iphone {
 			display: inline;
-			position: static;
+			position: relative;
 			float: left;
 			width: auto;
 			height: auto;
+			z-index: 1;
+			// visibility: hidden;
 			// margin: 0 55px 0 0;
 		}
 		#iphone-content {
@@ -46,15 +48,16 @@ body {
 				position: absolute;
 				left: 0;
 				float:left;
-				margin: 93px 0 0 23px;
+				margin: 93px 0 0 22px;
 				z-index: 5;
 			}
 			.hidden {
-				visibility: hidden;
+				display:none;
 			}
 		}
 		
 		#right-content {
+			font-family: 'VT323';
 			display: inline;
 			float: left;
 			width: auto;
