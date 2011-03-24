@@ -1,22 +1,39 @@
 @import "base";
+@import "compass/css3";
 
 body {
-	background-color: #948a81;	
+	// background-color: #948a81;	
 	// background-color: #00edd0;
-	
+	background-color: #abc4ce;
+	// background-color: pink;
+	// @include linear-gradient(color-stops(white, purple), top);	
+}
+
+// #c4d6dd - border
+// #68e3e7 - sky
+
+#background {
+	display: inline-block;
+	position: absolute;
+	float: left;
+	min-height: 40em;
+	width: 100%;
+	background: #68e3e7 url('/images/buildings.png') repeat-x bottom left;
+	border-bottom: 2px solid #c4d6dd;	
 }
 
 #content-container {
 	position: relative;
 	margin: 0 auto;
-	width: 800px;
-	padding: 0;
+	padding-top: 40px;
+	width: 805px;
 	height: auto;
+
 	
 	header {
 		display:block;
 		margin: 0;
-		padding: 10px 0 30px 0;
+		padding: 0 0 30px 0;
 
 		height: auto;
 		
@@ -32,7 +49,7 @@ body {
 	
 	#main {
 		display: block;
-		height: 514px;
+		height: 520px;
 
 		#iphone {
 			display: inline;
@@ -41,6 +58,7 @@ body {
 			width: auto;
 			height: auto;
 			z-index: 1;
+			// background-color: yellow;
 			// visibility: hidden;
 			// margin: 0 55px 0 0;
 		}
@@ -70,7 +88,7 @@ body {
 				font-size: 20px;
 				color: #544e49;
 				// color: #21ffff;
-				text-shadow: 1px 1px 1px gray;
+				// text-shadow: 1px 1px 1px gray;
 
 				a {
 					text-decoration: none;
@@ -122,6 +140,7 @@ body {
 				display: inline-block;
 				margin: 0;
 				line-height: 0.5;
+				// background-color: red;
 				img {
 					margin: 0;
 					padding: 0;
@@ -130,6 +149,7 @@ body {
 			#line-2 {
 				display: inline-block;
 				float:left;
+				// background-color: yellow;
 				#more {
 					display: inline;
 					float:left;
@@ -138,7 +158,7 @@ body {
 				#email {
 					display: inline;
 					float:left;
-					margin: 0 8px 0 0;				
+					margin: 0 7px 0 0;				
 				}
 				#twitter {
 					display: inline;

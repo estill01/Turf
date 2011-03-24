@@ -3047,3 +3047,881 @@ Started GET "/" for 127.0.0.1 at 2011-03-24 02:49:57 -0400
   Processing by PagesController#home as HTML
 Rendered pages/home.html.erb within layouts/application (5.2ms)
 Completed 200 OK in 67ms (Views: 64.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 15:51:11 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 14ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 15:52:01 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:06:10 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 11ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:06:11 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:06:16 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:06:23 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:06:37 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:06:47 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:06:52 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:10:08 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:11:05 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:11:11 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:11:12 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:13:24 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:18:00 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:18:40 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:18:45 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:18:55 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:19:06 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:19:18 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:19:21 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:19:51 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:20:23 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:20:30 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:20:38 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:20:43 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 12ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:20:49 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:20:52 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 32ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:21:04 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:21:15 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:22:00 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:22:28 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:22:36 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:23:49 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:23:57 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:24:25 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:24:26 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:24:40 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:25:07 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:25:24 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:25:31 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (59.8ms)
+Completed 200 OK in 65ms (Views: 64.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:25:40 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:25:45 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:25:51 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:33:34 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:34:07 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:34:19 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:34:30 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:34:42 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:51:18 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:54:07 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:54:30 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:55:33 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:55:58 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:58:03 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:58:04 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:58:13 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:59:04 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:59:05 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:59:10 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:59:26 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 16:59:37 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:00:05 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:00:08 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:01:27 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/buildings.png" for 127.0.0.1 at 2011-03-24 17:01:27 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/buildings.png"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (28.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:01:28 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/buildings.png" for 127.0.0.1 at 2011-03-24 17:01:28 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/buildings.png"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:01:42 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/buildings.png" for 127.0.0.1 at 2011-03-24 17:01:43 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/buildings.png"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:02:07 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/buildings.png" for 127.0.0.1 at 2011-03-24 17:02:08 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/buildings.png"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:02:33 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/buildings.png" for 127.0.0.1 at 2011-03-24 17:02:33 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/buildings.png"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:02:54 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/buildings.png" for 127.0.0.1 at 2011-03-24 17:02:54 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/buildings.png"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:02:57 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/buildings.png" for 127.0.0.1 at 2011-03-24 17:02:57 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/buildings.png"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:03:55 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/buildings.png" for 127.0.0.1 at 2011-03-24 17:03:55 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/buildings.png"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:03:56 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/buildings.png" for 127.0.0.1 at 2011-03-24 17:03:56 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/buildings.png"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:03:59 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/buildings.png" for 127.0.0.1 at 2011-03-24 17:04:00 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/buildings.png"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:04:56 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/buildings.png" for 127.0.0.1 at 2011-03-24 17:04:57 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/buildings.png"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:05:08 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/buildings.png" for 127.0.0.1 at 2011-03-24 17:05:09 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/buildings.png"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:05:27 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/buildings.png" for 127.0.0.1 at 2011-03-24 17:05:27 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/buildings.png"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:05:33 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 13ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/buildings.png" for 127.0.0.1 at 2011-03-24 17:05:33 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/buildings.png"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:05:37 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/buildings.png" for 127.0.0.1 at 2011-03-24 17:05:37 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/buildings.png"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:05:46 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/buildings.png" for 127.0.0.1 at 2011-03-24 17:05:47 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/buildings.png"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:05:56 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/buildings.png" for 127.0.0.1 at 2011-03-24 17:05:56 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/buildings.png"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:06:11 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/buildings.png" for 127.0.0.1 at 2011-03-24 17:06:11 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/buildings.png"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:06:18 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/buildings.png" for 127.0.0.1 at 2011-03-24 17:06:19 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/buildings.png"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:06:23 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/buildings.png" for 127.0.0.1 at 2011-03-24 17:06:23 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/buildings.png"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:06:34 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/buildings.png" for 127.0.0.1 at 2011-03-24 17:06:34 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/buildings.png"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:06:45 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/buildings.png" for 127.0.0.1 at 2011-03-24 17:06:45 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/buildings.png"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:06:48 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/buildings.png" for 127.0.0.1 at 2011-03-24 17:06:48 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/buildings.png"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:07:00 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/buildings.png" for 127.0.0.1 at 2011-03-24 17:07:00 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/buildings.png"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:07:24 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/buildings.png" for 127.0.0.1 at 2011-03-24 17:07:24 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/buildings.png"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:07:27 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/buildings.png" for 127.0.0.1 at 2011-03-24 17:07:27 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/buildings.png"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:07:58 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/buildings.png" for 127.0.0.1 at 2011-03-24 17:07:59 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/buildings.png"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:08:04 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/buildings.png" for 127.0.0.1 at 2011-03-24 17:08:05 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/buildings.png"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:08:11 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/buildings.png" for 127.0.0.1 at 2011-03-24 17:08:12 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/buildings.png"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:08:47 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:09:05 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/buildings.png" for 127.0.0.1 at 2011-03-24 17:09:06 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/buildings.png"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:09:39 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/buildings.png" for 127.0.0.1 at 2011-03-24 17:09:40 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/buildings.png"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:09:45 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/buildings.png" for 127.0.0.1 at 2011-03-24 17:09:46 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/buildings.png"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:09:54 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/buildings.png" for 127.0.0.1 at 2011-03-24 17:09:55 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/buildings.png"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (6.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:10:00 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/buildings.png" for 127.0.0.1 at 2011-03-24 17:10:01 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/buildings.png"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:10:31 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-24 17:10:41 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.0ms)

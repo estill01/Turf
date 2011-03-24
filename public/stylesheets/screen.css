@@ -58,42 +58,53 @@ a img {
   border: none;
 }
 
-/* line 3, scss/screen.scss */
+/* line 4, scss/screen.scss */
 body {
-  background-color: #948a81;
+  background-color: #abc4ce;
 }
 
-/* line 9, scss/screen.scss */
+/* line 15, scss/screen.scss */
+#background {
+  display: inline-block;
+  position: absolute;
+  float: left;
+  min-height: 40em;
+  width: 100%;
+  background: #68e3e7 url("/images/buildings.png") repeat-x bottom left;
+  border-bottom: 2px solid #c4d6dd;
+}
+
+/* line 25, scss/screen.scss */
 #content-container {
   position: relative;
   margin: 0 auto;
-  width: 800px;
-  padding: 0;
+  padding-top: 40px;
+  width: 805px;
   height: auto;
 }
-/* line 16, scss/screen.scss */
+/* line 33, scss/screen.scss */
 #content-container header {
   display: block;
   margin: 0;
-  padding: 10px 0 30px 0;
+  padding: 0 0 30px 0;
   height: auto;
 }
-/* line 23, scss/screen.scss */
+/* line 40, scss/screen.scss */
 #content-container header #logo {
   margin: 0 0 0 36px;
   padding: 0;
 }
-/* line 26, scss/screen.scss */
+/* line 43, scss/screen.scss */
 #content-container header #logo img {
   padding: 0;
   margin: 0;
 }
-/* line 33, scss/screen.scss */
+/* line 50, scss/screen.scss */
 #content-container #main {
   display: block;
-  height: 514px;
+  height: 520px;
 }
-/* line 37, scss/screen.scss */
+/* line 54, scss/screen.scss */
 #content-container #main #iphone {
   display: inline;
   position: relative;
@@ -102,7 +113,7 @@ body {
   height: auto;
   z-index: 1;
 }
-/* line 48, scss/screen.scss */
+/* line 66, scss/screen.scss */
 #content-container #main #iphone-content .screen {
   display: inline;
   position: absolute;
@@ -111,11 +122,11 @@ body {
   margin: 93px 0 0 22px;
   z-index: 5;
 }
-/* line 56, scss/screen.scss */
+/* line 74, scss/screen.scss */
 #content-container #main #iphone-content .hidden {
   display: none;
 }
-/* line 61, scss/screen.scss */
+/* line 79, scss/screen.scss */
 #content-container #main #right-content {
   display: inline;
   float: left;
@@ -123,88 +134,87 @@ body {
   height: 5em;
   margin: 0 0 0 55px;
 }
-/* line 67, scss/screen.scss */
+/* line 85, scss/screen.scss */
 #content-container #main #right-content #copy {
   font-family: 'VT323';
   margin: 38px 0 0 0;
   font-size: 20px;
   color: #544e49;
-  text-shadow: 1px 1px 1px gray;
 }
-/* line 75, scss/screen.scss */
+/* line 93, scss/screen.scss */
 #content-container #main #right-content #copy a {
   text-decoration: none;
   color: white;
 }
-/* line 78, scss/screen.scss */
+/* line 96, scss/screen.scss */
 #content-container #main #right-content #copy a:hover {
   color: #21ffff;
 }
-/* line 83, scss/screen.scss */
+/* line 101, scss/screen.scss */
 #content-container #main #right-content #copy #overview {
   margin: 0 0 24px 0;
 }
-/* line 85, scss/screen.scss */
+/* line 103, scss/screen.scss */
 #content-container #main #right-content #copy #overview em {
   color: white;
 }
-/* line 91, scss/screen.scss */
+/* line 109, scss/screen.scss */
 #content-container #main #right-content #copy #bullets {
   color: white;
   font-size: 20px;
   line-height: 22px;
   font-weight: thin;
 }
-/* line 96, scss/screen.scss */
+/* line 114, scss/screen.scss */
 #content-container #main #right-content #copy #bullets em {
   color: #544e49;
 }
-/* line 103, scss/screen.scss */
+/* line 121, scss/screen.scss */
 #content-container #main #right-content #shelf {
   margin: 24px 0 0 0;
 }
-/* line 109, scss/screen.scss */
+/* line 127, scss/screen.scss */
 #content-container footer {
   display: block;
   height: 10em;
   margin-top: 95px;
 }
-/* line 114, scss/screen.scss */
+/* line 132, scss/screen.scss */
 #content-container footer #footer-container {
   width: 515px;
   height: 76px;
   margin: 0 auto;
   line-height: 0.9em;
 }
-/* line 121, scss/screen.scss */
+/* line 139, scss/screen.scss */
 #content-container footer #footer-container #line-1 {
   display: inline-block;
   margin: 0;
   line-height: 0.5;
 }
-/* line 125, scss/screen.scss */
+/* line 144, scss/screen.scss */
 #content-container footer #footer-container #line-1 img {
   margin: 0;
   padding: 0;
 }
-/* line 130, scss/screen.scss */
+/* line 149, scss/screen.scss */
 #content-container footer #footer-container #line-2 {
   display: inline-block;
   float: left;
 }
-/* line 133, scss/screen.scss */
+/* line 153, scss/screen.scss */
 #content-container footer #footer-container #line-2 #more {
   display: inline;
   float: left;
   margin: 0 7px 0 0;
 }
-/* line 138, scss/screen.scss */
+/* line 158, scss/screen.scss */
 #content-container footer #footer-container #line-2 #email {
   display: inline;
   float: left;
-  margin: 0 8px 0 0;
+  margin: 0 7px 0 0;
 }
-/* line 143, scss/screen.scss */
+/* line 163, scss/screen.scss */
 #content-container footer #footer-container #line-2 #twitter {
   display: inline;
   float: left;
