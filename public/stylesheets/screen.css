@@ -136,71 +136,75 @@ body {
   text-decoration: none;
   color: white;
 }
-/* line 80, scss/screen.scss */
+/* line 78, scss/screen.scss */
+#content-container #main #right-content #copy a:hover {
+  color: #21ffff;
+}
+/* line 83, scss/screen.scss */
 #content-container #main #right-content #copy #overview {
   margin: 0 0 24px 0;
 }
-/* line 82, scss/screen.scss */
+/* line 85, scss/screen.scss */
 #content-container #main #right-content #copy #overview em {
   color: white;
 }
-/* line 88, scss/screen.scss */
+/* line 91, scss/screen.scss */
 #content-container #main #right-content #copy #bullets {
   color: white;
   font-size: 20px;
   line-height: 22px;
   font-weight: thin;
 }
-/* line 93, scss/screen.scss */
+/* line 96, scss/screen.scss */
 #content-container #main #right-content #copy #bullets em {
   color: #544e49;
 }
-/* line 100, scss/screen.scss */
+/* line 103, scss/screen.scss */
 #content-container #main #right-content #shelf {
   margin: 24px 0 0 0;
 }
-/* line 106, scss/screen.scss */
+/* line 109, scss/screen.scss */
 #content-container footer {
   display: block;
   height: 10em;
   margin-top: 95px;
 }
-/* line 111, scss/screen.scss */
+/* line 114, scss/screen.scss */
 #content-container footer #footer-container {
   width: 515px;
   height: 76px;
   margin: 0 auto;
   line-height: 0.9em;
 }
-/* line 118, scss/screen.scss */
+/* line 121, scss/screen.scss */
 #content-container footer #footer-container #line-1 {
   display: inline-block;
   margin: 0;
   line-height: 0.5;
 }
-/* line 122, scss/screen.scss */
+/* line 125, scss/screen.scss */
 #content-container footer #footer-container #line-1 img {
   margin: 0;
   padding: 0;
 }
-/* line 127, scss/screen.scss */
+/* line 130, scss/screen.scss */
 #content-container footer #footer-container #line-2 {
   display: inline-block;
   float: left;
 }
-/* line 130, scss/screen.scss */
+/* line 133, scss/screen.scss */
 #content-container footer #footer-container #line-2 #more {
   display: inline;
   float: left;
   margin: 0 7px 0 0;
 }
-/* line 135, scss/screen.scss */
+/* line 138, scss/screen.scss */
 #content-container footer #footer-container #line-2 #email {
   display: inline;
   float: left;
   margin: 0 8px 0 0;
 }
-/* line 140, scss/screen.scss */
+/* line 143, scss/screen.scss */
 #content-container footer #footer-container #line-2 #twitter {
   display: inline;
   float: left;
