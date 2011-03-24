@@ -38,18 +38,19 @@ body {
 			float: left;
 			width: auto;
 			height: auto;
-			margin: 0 55px 0 0;
+			// margin: 0 55px 0 0;
 		}
 		#iphone-content {
 			.screen {
 				display: inline;
 				position: absolute;
+				left: 0;
 				float:left;
-				margin: 0 0 0 20px;
+				margin: 93px 0 0 23px;
 				z-index: 5;
 			}
 			.hidden {
-				visibility: hidden;
+			
 			}
 		}
 		
@@ -58,6 +59,7 @@ body {
 			float: left;
 			width: auto;
 			height: 5em;
+			margin: 0 0 0 55px;
 			#copy {
 				margin: 38px 0 0 0;
 			}

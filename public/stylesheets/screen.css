@@ -100,36 +100,33 @@ body {
   float: left;
   width: auto;
   height: auto;
-  margin: 0 55px 0 0;
 }
 /* line 44, scss/screen.scss */
 #content-container #main #iphone-content .screen {
   display: inline;
   position: absolute;
+  left: 0;
   float: left;
-  margin: 0 0 0 20px;
+  margin: 93px 0 0 23px;
   z-index: 5;
 }
-/* line 51, scss/screen.scss */
-#content-container #main #iphone-content .hidden {
-  visibility: hidden;
-}
-/* line 56, scss/screen.scss */
+/* line 57, scss/screen.scss */
 #content-container #main #right-content {
   display: inline;
   float: left;
   width: auto;
   height: 5em;
+  margin: 0 0 0 55px;
 }
-/* line 61, scss/screen.scss */
+/* line 63, scss/screen.scss */
 #content-container #main #right-content #copy {
   margin: 38px 0 0 0;
 }
-/* line 64, scss/screen.scss */
+/* line 66, scss/screen.scss */
 #content-container #main #right-content #shelf {
   margin: 24px 0 0 0;
 }
-/* line 70, scss/screen.scss */
+/* line 72, scss/screen.scss */
 #content-container footer {
   display: block;
   height: 10em;
