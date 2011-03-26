@@ -1,13 +1,14 @@
 <div id="background">
+    <div class="clouds">
+        <%= image_tag('/images/clouds.png') %>
+    </div>
 </div>
-<div id="content-container">
-    <header>
-        <div id="logo">
-            <%= image_tag('/images/logo.png') %>
-        </div>
-    </header>
-    <div id="main">
-        <div id="iphone">
+<div id="block-1" class="content-container">
+    <div id="logo">
+        <%= image_tag('/images/logo.png') %>
+    </div>
+    <div id="iphone">
+        <div id="iphone-body">
             <%= image_tag('/images/iphone/iphone.png') %>
         </div>
         <div id="iphone-content">
@@ -30,7 +31,9 @@
                 <%= image_tag('/images/iphone/1.jpg') %>
             </div>
         </div>
-        <div id="right-content">
+    </div>
+</div>
+        <!-- <div id="right-content">
             <div id="copy">
                 <div id="overview">
                     <p>Turf is a location based game set in the real world<br/>
@@ -46,35 +49,39 @@
                         + invest in properties to get more coins 
                     </p>
                 </div>
-                <!-- <%= image_tag('/images/right/copy.png') %> -->
             </div>
             <div id="shelf">
                 <%= image_tag('/images/right/trophies.png') %>
             </div>
+            <div id="footer">
+                <div id="footer-container">
+                    <div id="line-1">
+                        <div id="seeking">
+                            <%= image_tag('/images/bottom/seeking.png') %>
+                        </div>
+                    </div>
+                    <div id="line-2">
+                        <div id="more">
+                            <%= image_tag('/images/bottom/more.png') %>
+                        </div>
+                        <div id="email">
+                            <a href="mailto:piechart@mac.com?subject=[Turf] Let's make a (iPhone app) baby!">
+                                <%= image_tag('/images/bottom/email.png', :mousedown => "/images/bottom/email-click.png") %>
+                            </a>
+                        </div>
+                        <div id="twitter">
+                            <a href="http://twitter.com/turfhq">
+                                <%= image_tag('/images/bottom/twitter.png') %>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
-    <footer>
-        <div id="footer-container">
-            <div id="line-1">
-                <div id="seeking">
-                    <%= image_tag('/images/bottom/seeking.png') %>
-                </div>
-            </div>
-            <div id="line-2">
-                <div id="more">
-                    <%= image_tag('/images/bottom/more.png') %>
-                </div>
-                <div id="email">
-                    <a href="mailto:piechart@mac.com?subject=[Turf] Let's make a (iPhone app) baby!">
-                        <%= image_tag('/images/bottom/email.png', :mousedown => "/images/bottom/email-click.png") %>
-                    </a>
-                </div>
-                <div id="twitter">
-                    <a href="http://twitter.com/turfhq">
-                        <%= image_tag('/images/bottom/twitter.png') %>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </footer>
 </div>
+
+<div id="footer">
+    <p>copyright 2011 Michael Tseng | site coded by Ethan Stillman</p>
+</div> -->

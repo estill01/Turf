@@ -61,60 +61,81 @@ a img {
 /* line 4, scss/screen.scss */
 body {
   background-color: #abc4ce;
+  font-family: 'VT323';
 }
 
-/* line 15, scss/screen.scss */
+/* line 9, scss/screen.scss */
 #background {
-  display: inline-block;
-  position: absolute;
-  float: left;
-  min-height: 40em;
+  display: inline;
+  position: fixed;
+  min-height: 610px;
   width: 100%;
   background: #68e3e7 url("/images/buildings.png") repeat-x bottom left;
   border-bottom: 2px solid #c4d6dd;
 }
+/* line 17, scss/screen.scss */
+#background .clouds {
+  margin: 50px 0 0 300px;
+}
 
-/* line 25, scss/screen.scss */
-#content-container {
+/* line 22, scss/screen.scss */
+.content-container {
+  display: inline;
   position: relative;
-  margin: 0 auto;
-  padding-top: 40px;
-  width: 805px;
+  float: left;
+  padding-top: 25px;
+  width: auto;
   height: auto;
+  background-color: yellow;
 }
-/* line 33, scss/screen.scss */
-#content-container header {
-  display: block;
-  margin: 0;
-  padding: 0 0 30px 0;
+
+/* line 35, scss/screen.scss */
+#block-1 {
+  margin: 0 0 0 200px;
   height: auto;
-}
-/* line 40, scss/screen.scss */
-#content-container header #logo {
-  margin: 0 0 0 36px;
-  padding: 0;
+  width: auto;
+  position: relative;
+  display: inline;
+  float: left;
+  clear: both;
 }
 /* line 43, scss/screen.scss */
-#content-container header #logo img {
+#block-1 #logo {
+  clear: both;
+  position: relative;
+  display: block;
+  margin: 0 0 30px 0;
+  padding: 0;
+  background-color: blue;
+  text-align: center;
+  clear: both;
+}
+/* line 51, scss/screen.scss */
+#block-1 #logo img {
   padding: 0;
   margin: 0;
+  background-color: red;
 }
-/* line 50, scss/screen.scss */
-#content-container #main {
-  display: block;
-  height: 520px;
-}
-/* line 54, scss/screen.scss */
-#content-container #main #iphone {
+/* line 59, scss/screen.scss */
+#block-1 #iphone {
   display: inline;
   position: relative;
   float: left;
   width: auto;
   height: auto;
   z-index: 1;
+  background-color: green;
+  margin: 0;
+  padding: 0;
 }
-/* line 66, scss/screen.scss */
-#content-container #main #iphone-content .screen {
+/* line 70, scss/screen.scss */
+#block-1 #iphone #iphone-body {
+  display: inline;
+  position: relative;
+  float: left;
+}
+/* line 78, scss/screen.scss */
+#block-1 #iphone #iphone-content .screen {
   display: inline;
   position: absolute;
   left: 0;
@@ -122,100 +143,7 @@ body {
   margin: 93px 0 0 22px;
   z-index: 5;
 }
-/* line 74, scss/screen.scss */
-#content-container #main #iphone-content .hidden {
+/* line 86, scss/screen.scss */
+#block-1 #iphone #iphone-content .hidden {
   display: none;
-}
-/* line 79, scss/screen.scss */
-#content-container #main #right-content {
-  display: inline;
-  float: left;
-  width: auto;
-  height: 5em;
-  margin: 0 0 0 55px;
-}
-/* line 85, scss/screen.scss */
-#content-container #main #right-content #copy {
-  font-family: 'VT323';
-  margin: 38px 0 0 0;
-  font-size: 20px;
-  color: #544e49;
-}
-/* line 93, scss/screen.scss */
-#content-container #main #right-content #copy a {
-  text-decoration: none;
-  color: white;
-}
-/* line 96, scss/screen.scss */
-#content-container #main #right-content #copy a:hover {
-  color: #21ffff;
-}
-/* line 101, scss/screen.scss */
-#content-container #main #right-content #copy #overview {
-  margin: 0 0 24px 0;
-}
-/* line 103, scss/screen.scss */
-#content-container #main #right-content #copy #overview em {
-  color: white;
-}
-/* line 109, scss/screen.scss */
-#content-container #main #right-content #copy #bullets {
-  color: white;
-  font-size: 20px;
-  line-height: 22px;
-  font-weight: thin;
-}
-/* line 114, scss/screen.scss */
-#content-container #main #right-content #copy #bullets em {
-  color: #544e49;
-}
-/* line 121, scss/screen.scss */
-#content-container #main #right-content #shelf {
-  margin: 24px 0 0 0;
-}
-/* line 127, scss/screen.scss */
-#content-container footer {
-  display: block;
-  height: 10em;
-  margin-top: 95px;
-}
-/* line 132, scss/screen.scss */
-#content-container footer #footer-container {
-  width: 515px;
-  height: 76px;
-  margin: 0 auto;
-  line-height: 0.9em;
-}
-/* line 139, scss/screen.scss */
-#content-container footer #footer-container #line-1 {
-  display: inline-block;
-  margin: 0;
-  line-height: 0.5;
-}
-/* line 144, scss/screen.scss */
-#content-container footer #footer-container #line-1 img {
-  margin: 0;
-  padding: 0;
-}
-/* line 149, scss/screen.scss */
-#content-container footer #footer-container #line-2 {
-  display: inline-block;
-  float: left;
-}
-/* line 153, scss/screen.scss */
-#content-container footer #footer-container #line-2 #more {
-  display: inline;
-  float: left;
-  margin: 0 7px 0 0;
-}
-/* line 158, scss/screen.scss */
-#content-container footer #footer-container #line-2 #email {
-  display: inline;
-  float: left;
-  margin: 0 7px 0 0;
-}
-/* line 163, scss/screen.scss */
-#content-container footer #footer-container #line-2 #twitter {
-  display: inline;
-  float: left;
 }

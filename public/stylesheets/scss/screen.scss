@@ -2,66 +2,78 @@
 @import "compass/css3";
 
 body {
-	// background-color: #948a81;	
-	// background-color: #00edd0;
 	background-color: #abc4ce;
-	// background-color: pink;
-	// @include linear-gradient(color-stops(white, purple), top);	
+	font-family: 'VT323';
 }
 
-// #c4d6dd - border
-// #68e3e7 - sky
-
 #background {
-	display: inline-block;
-	position: absolute;
-	float: left;
-	min-height: 40em;
+	display: inline;
+	position: fixed;
+	min-height: 610px;
 	width: 100%;
 	background: #68e3e7 url('/images/buildings.png') repeat-x bottom left;
 	border-bottom: 2px solid #c4d6dd;	
+	
+	.clouds {
+		margin: 50px 0 0 300px;
+	}
 }
 
-#content-container {
+.content-container {
+	display: inline;
 	position: relative;
-	margin: 0 auto;
-	padding-top: 40px;
-	width: 805px;
+	float: left;
+	padding-top: 25px;
+	width: auto;
 	height: auto;
+	background-color: yellow;
+}
 
-	
-	header {
-		display:block;
-		margin: 0;
-		padding: 0 0 30px 0;
-
-		height: auto;
-		
-		#logo {
-			margin: 0 0 0 36px;
+// ===========
+// = Block-1 =
+// ===========
+#block-1 {
+	margin: 0 0 0 200px;
+	height: auto;
+	width: auto;
+	position: relative;
+	display: inline;
+	float: left;
+	clear: both;
+	#logo {
+		clear: both;
+		position: relative;
+		display: block;
+		margin: 0 0 30px 0;
+		padding: 0;
+		background-color: blue;
+		text-align: center;
+		img {
 			padding: 0;
-			img {
-				padding: 0;
-				margin: 0;
-			}			
-		}
+			margin: 0;
+			background-color: red;
+		}		
+		clear: both;	
 	}
 	
-	#main {
-		display: block;
-		height: 520px;
-
-		#iphone {
+	#iphone {
+		display: inline;
+		position: relative;
+		float: left;
+		width: auto;
+		height: auto;
+		z-index: 1;
+		background-color: green;
+		margin: 0;
+		padding: 0;
+		
+		#iphone-body {
 			display: inline;
 			position: relative;
 			float: left;
-			width: auto;
-			height: auto;
-			z-index: 1;
-			// background-color: yellow;
-			// visibility: hidden;
-			// margin: 0 55px 0 0;
+			
 		}
+		
 		#iphone-content {
 			.screen {
 				display: inline;
@@ -75,110 +87,127 @@ body {
 				display:none;
 			}
 		}
-		
-		#right-content {
-			display: inline;
-			float: left;
-			width: auto;
-			height: 5em;
-			margin: 0 0 0 55px;
-			#copy {
-				font-family: 'VT323';
-				margin: 38px 0 0 0;
-				font-size: 20px;
-				color: #544e49;
-				// color: #21ffff;
-				// text-shadow: 1px 1px 1px gray;
-
-				a {
-					text-decoration: none;
-					color: white;
-					&:hover {
-						color: #21ffff;
-					}
-				}
-
-				#overview {
-					margin: 0 0 24px 0;
-					em {
-						color: white;
-					}
-					
-				}
-				
-				#bullets {
-					color: white;
-					font-size: 20px;
-					line-height: 22px;
-					font-weight: thin;
-					em {
-						color: #544e49;
-						// color: #21ffff;
-					}
-				}
-			}
-			
-			#shelf {
-				margin: 24px 0 0 0;
-			}
-		}
 	}
-	
-	footer {
-		display: block;
-		height: 10em;
-		margin-top: 95px;
-		
-		#footer-container {
-			width: 515px;
-			height: 76px;
-			margin: 0 auto;
-
-			line-height: 0.9em;
-			
-			#line-1 {
-				display: inline-block;
-				margin: 0;
-				line-height: 0.5;
-				// background-color: red;
-				img {
-					margin: 0;
-					padding: 0;
-				}
-			}
-			#line-2 {
-				display: inline-block;
-				float:left;
-				// background-color: yellow;
-				#more {
-					display: inline;
-					float:left;
-					margin: 0 7px 0 0;			
-				}
-				#email {
-					display: inline;
-					float:left;
-					margin: 0 7px 0 0;				
-				}
-				#twitter {
-					display: inline;
-					float:left;
-				}
-			}
-		}
-	}
-	
-	
-	
-	
-	
 }
-
-
-
-
-
-
-
-
-
+// 		
+// 		#right-content {
+// 			display: inline;
+// 			float: left;
+// 			width: 600px;
+// 			height: 5em;
+// 			margin: 0 0 0 55px;
+// 			background-color: blue;
+// 			#copy {
+// 				font-family: 'VT323';
+// 				margin: 11px 0 0 0;
+// 				font-size: 20px;
+// 				// color: #544e49;
+// 				color: white;
+// 				// color: #21ffff;
+// 				text-shadow: 1px 1px 1px #c1c1c1;
+// 
+// 				a {
+// 					text-decoration: none;
+// 					color: #6820de;
+// 					text-shadow: none;
+// 					&:hover {
+// 						color: #b78ff8;
+// 					}
+// 				}
+// 
+// 				#overview {
+// 					margin: 0 0 24px 0;
+// 					em {
+// 						color: white;
+// 					}
+// 					
+// 				}
+// 				
+// 				#bullets {
+// 					color: white;
+// 					font-size: 20px;
+// 					line-height: 22px;
+// 					font-weight: thin;
+// 					em {
+// 						color: #544e49;
+// 						color: white;
+// 						// color: #21ffff;
+// 					}
+// 				}
+// 			}
+// 			
+// 			#shelf {
+// 				margin: 24px 0 0 0;
+// 			}
+// 		}
+// 	}
+// 	
+// 	#footer {
+// 		display: block;
+// 		position: fixed;
+// 		height: 10em;
+// 		margin-top: 95px;
+// 		
+// 		#footer-container {
+// 			width: 515px;
+// 			height: 76px;
+// 			margin: 0 auto;
+// 
+// 			line-height: 0.9em;
+// 			
+// 			#line-1 {
+// 				display: inline-block;
+// 				margin: 0;
+// 				line-height: 0.5;
+// 				// background-color: red;
+// 				img {
+// 					margin: 0;
+// 					padding: 0;
+// 				}
+// 			}
+// 			#line-2 {
+// 				display: inline-block;
+// 				float:left;
+// 				// background-color: yellow;
+// 				#more {
+// 					display: inline;
+// 					float:left;
+// 					margin: 0 7px 0 0;			
+// 				}
+// 				#email {
+// 					display: inline;
+// 					float:left;
+// 					margin: 0 7px 0 0;				
+// 				}
+// 				#twitter {
+// 					display: inline;
+// 					float:left;
+// 				}
+// 			}
+// 		}
+// 	}
+// 	
+// }
+// 
+// // ===========
+// // = Block-2 =
+// // ===========
+// #block-2 {
+// 	
+// }
+// 
+// 
+// 
+// // ==========
+// // = Footer =
+// // ==========
+// #footer {
+// 	p {
+// 		color: white;
+// 	}
+// }
+// 
+// 
+// 
+// 
+// 
