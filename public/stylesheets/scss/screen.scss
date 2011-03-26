@@ -7,26 +7,40 @@ body {
 }
 
 #background {
-	display: inline;
-	position: fixed;
-	min-height: 610px;
-	width: 100%;
+	display:block;
+    clear:both;
+	position: absolute;    
+	height: 610px;
+	width: 4000px;
 	background: #68e3e7 url('/images/buildings.png') repeat-x bottom left;
 	border-bottom: 2px solid #c4d6dd;	
-	
-	.clouds {
-		margin: 50px 0 0 300px;
-	}
+}
+.clouds {
+	margin: 50px 0 0 300px;
+	display: inline;
+	float: left;
+	position: absolute;
+	clear: both;
+}
+
+
+#main-container {
+	width: 3000px; 
+	height: auto;
+	display: block;
+	clear: both;
+	float: left;
+	// background-color: pink;
+
 }
 
 .content-container {
 	display: inline;
-	position: relative;
+	position: relative;    
 	float: left;
-	padding-top: 25px;
 	width: auto;
 	height: auto;
-	background-color: yellow;
+	// background-color: yellow;
 }
 
 // ===========
@@ -39,19 +53,20 @@ body {
 	position: relative;
 	display: inline;
 	float: left;
-	clear: both;
+	// clear: both;
+	// background-color: orange;
 	#logo {
 		clear: both;
-		position: relative;
 		display: block;
-		margin: 0 0 30px 0;
+		position: relative;
+		margin: 20px 0 20px 0;
 		padding: 0;
-		background-color: blue;
+		// background-color: blue;
 		text-align: center;
 		img {
 			padding: 0;
 			margin: 0;
-			background-color: red;
+			// background-color: red;
 		}		
 		clear: both;	
 	}
@@ -63,7 +78,7 @@ body {
 		width: auto;
 		height: auto;
 		z-index: 1;
-		background-color: green;
+		// background-color: green;
 		margin: 0;
 		padding: 0;
 		
@@ -89,6 +104,62 @@ body {
 		}
 	}
 }
+
+
+// ===========
+// = Block-2 =
+// ===========
+#block-2 {
+	display: inline;
+	position: relative;
+	float: left;
+	height: auto;
+	width: auto;
+	// background-color: red;
+	
+	#trophy-parade {
+		display: block;
+		position: relative;
+		// clear: both;	
+		height: auto;
+		width: auto;
+		margin: 190px 0 0 0;
+		.trophies {	
+			margin: 115px 0 0 0;
+		}
+		#trophy-1 {
+			margin: 74px 0 0 0;
+		}
+		#trophy-2 {
+			margin: 79px 0 0 0;
+			// background-color: green;
+		}
+		#trophy-3 {
+			// background-color: pink;	
+		}
+		#trophy-4 {
+			margin: 41px 0 0 0;
+		}
+		#note {
+			margin: 0 0 0 80px;
+		}
+	}
+	
+	#runner-container {
+		display: block;
+		position: static;
+		float:left;
+		height: 51px;
+		width: 100%;
+		background-color: magenta;
+
+		#runner {
+			position: fixed;
+		}
+	}	
+}
+
+
 // 		
 // 		#right-content {
 // 			display: inline;

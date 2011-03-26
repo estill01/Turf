@@ -1,7 +1,9 @@
 $(document).ready(function () {
 
+// ===============
+// = iPhone loop =
+// ===============
 
-// IPHONE LOOP
 	function iphoneLoop () {
 		var x = 1;
 		var max = 6;
@@ -17,4 +19,25 @@ $(document).ready(function () {
 	};
 
 	iphoneLoop();
+	
+	
+// ==============================
+// = Clouds and planes and such =
+// ==============================
+	function cloudFloat () {
+		setInterval(function () {
+			$(".clouds").animate({
+				left: '+= 2000'
+			}, 2000);
+		}, 3000);		
+	};
+	
+	cloudFloat();
+	
+
+
+	
+	
+	
+	
 });

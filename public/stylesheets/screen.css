@@ -66,30 +66,43 @@ body {
 
 /* line 9, scss/screen.scss */
 #background {
-  display: inline;
-  position: fixed;
-  min-height: 610px;
-  width: 100%;
+  display: block;
+  clear: both;
+  position: absolute;
+  height: 610px;
+  width: 4000px;
   background: #68e3e7 url("/images/buildings.png") repeat-x bottom left;
   border-bottom: 2px solid #c4d6dd;
 }
-/* line 17, scss/screen.scss */
-#background .clouds {
+
+/* line 18, scss/screen.scss */
+.clouds {
   margin: 50px 0 0 300px;
+  display: inline;
+  float: left;
+  position: absolute;
+  clear: both;
 }
 
-/* line 22, scss/screen.scss */
+/* line 27, scss/screen.scss */
+#main-container {
+  width: 3000px;
+  height: auto;
+  display: block;
+  clear: both;
+  float: left;
+}
+
+/* line 37, scss/screen.scss */
 .content-container {
   display: inline;
   position: relative;
   float: left;
-  padding-top: 25px;
   width: auto;
   height: auto;
-  background-color: yellow;
 }
 
-/* line 35, scss/screen.scss */
+/* line 49, scss/screen.scss */
 #block-1 {
   margin: 0 0 0 200px;
   height: auto;
@@ -97,26 +110,23 @@ body {
   position: relative;
   display: inline;
   float: left;
-  clear: both;
 }
-/* line 43, scss/screen.scss */
+/* line 58, scss/screen.scss */
 #block-1 #logo {
   clear: both;
-  position: relative;
   display: block;
-  margin: 0 0 30px 0;
+  position: relative;
+  margin: 20px 0 20px 0;
   padding: 0;
-  background-color: blue;
   text-align: center;
   clear: both;
 }
-/* line 51, scss/screen.scss */
+/* line 66, scss/screen.scss */
 #block-1 #logo img {
   padding: 0;
   margin: 0;
-  background-color: red;
 }
-/* line 59, scss/screen.scss */
+/* line 74, scss/screen.scss */
 #block-1 #iphone {
   display: inline;
   position: relative;
@@ -124,17 +134,16 @@ body {
   width: auto;
   height: auto;
   z-index: 1;
-  background-color: green;
   margin: 0;
   padding: 0;
 }
-/* line 70, scss/screen.scss */
+/* line 85, scss/screen.scss */
 #block-1 #iphone #iphone-body {
   display: inline;
   position: relative;
   float: left;
 }
-/* line 78, scss/screen.scss */
+/* line 93, scss/screen.scss */
 #block-1 #iphone #iphone-content .screen {
   display: inline;
   position: absolute;
@@ -143,7 +152,57 @@ body {
   margin: 93px 0 0 22px;
   z-index: 5;
 }
-/* line 86, scss/screen.scss */
+/* line 101, scss/screen.scss */
 #block-1 #iphone #iphone-content .hidden {
   display: none;
+}
+
+/* line 112, scss/screen.scss */
+#block-2 {
+  display: inline;
+  position: relative;
+  float: left;
+  height: auto;
+  width: auto;
+}
+/* line 120, scss/screen.scss */
+#block-2 #trophy-parade {
+  display: block;
+  position: relative;
+  height: auto;
+  width: auto;
+  margin: 190px 0 0 0;
+}
+/* line 127, scss/screen.scss */
+#block-2 #trophy-parade .trophies {
+  margin: 115px 0 0 0;
+}
+/* line 130, scss/screen.scss */
+#block-2 #trophy-parade #trophy-1 {
+  margin: 74px 0 0 0;
+}
+/* line 133, scss/screen.scss */
+#block-2 #trophy-parade #trophy-2 {
+  margin: 79px 0 0 0;
+}
+/* line 140, scss/screen.scss */
+#block-2 #trophy-parade #trophy-4 {
+  margin: 41px 0 0 0;
+}
+/* line 143, scss/screen.scss */
+#block-2 #trophy-parade #note {
+  margin: 0 0 0 80px;
+}
+/* line 148, scss/screen.scss */
+#block-2 #runner-container {
+  display: block;
+  position: static;
+  float: left;
+  height: 51px;
+  width: 100%;
+  background-color: magenta;
+}
+/* line 156, scss/screen.scss */
+#block-2 #runner-container #runner {
+  position: fixed;
 }
