@@ -37,7 +37,7 @@
     </div>
     <div id="block-2" class="block">
         <div id="trophy-parade">
-            <!-- <div id="trophy-1" class="trophy-container">
+            <div id="trophy-1" class="trophy-container">
                 <div class="text">
                     <p>
                         From the mind of visionary director Michael Tseng...
@@ -69,37 +69,47 @@
                 <div class='trophies'>
                     <%= image_tag('/images/trophies/5.png') %>
                 </div>
-            </div> -->
+            </div>
         </div>
         <div id="runner-container">
             <div id="runner">
-                <div id="input">
-                    <ul>
-                        <li><%= image_tag('/images/bottom/submit_field.png') %></li>
-                        <li><%= image_tag('/images/bottom/submit.png') %></li>
-                        <li><%= image_tag('/images/bottom/contact.png') %></li>
-                        <li><%= image_tag('/images/bottom/twitter.png') %></li>
-                        
-                    </ul>
-                </div>
+                <ul>
+                    <li><%= image_tag('/images/bottom/submit_field.png') %></li>
+                    <li><%= image_tag('/images/bottom/submit.png') %></li>
+                    <li class="spacer"><%= image_tag('/images/bottom/contact.png') %></li>
+                    <li class="spacer"><%= image_tag('/images/bottom/twitter.png') %></li>
+                </ul>
             </div>
         </div>
     </div>
     <div id="block-3" class="block">
-        <div class="text note">
-            <p>
-                Designer Seeking Developer
-
-                Do you or someone you know want to be part of something pretty great? Well then look no further. I'm searching for a rockin developer to help me turn this one man show into a classy duet.
-
-                requirements
-                + obj-c / iphone chops
-                + live in nyc
-                + have a huge appetite!
+        <div id="note" class="text">
+            <p id="section-1">                
+                <span style="color:#15bef0">D</span>
+                <span style="color:#ec008c">e</span>
+                <span style="color:#f2aacc">s</span>                
+                <span style="color:#fdb515">i</span>
+                <span style="color:#ef4642">g</span>
+                <span style="color:#7cc576">n</span>
+                <span style="color:#f37021">e</span>
+                <span style="color:#15bef0">r</span>
+                                            
+                Seeking 
+                
+                <span style="color:#00ff8b;background-color:black;paddin-left:2px;padding-right:2px;">Developer</span>
+            </p>
+            <p id="section-2">
+                Do you or someone you know want to be part of something pretty great? Well then look no further. I'm searching for a rockin developer to help me turn this one-man show into a classy duet.
+            </p>
+            <p id="section-3">
+                Requirements<br/>
+                + obj-c / iphone chops<br/>
+                + live in nyc<br/>
+                + have a huge appetite!<br/>
                 + sense of humor a plus
             </p>
         </div>
-        <div id="note" class="content-container">
+        <div id="paper" class="content-container">
             <%= image_tag('/images/paper.png') %>
         </div>
     </div>

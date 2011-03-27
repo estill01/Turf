@@ -10,18 +10,21 @@ body {
 	display:block;
     clear:both;
 	position: absolute;    
-	height: 592px;
-	width: 3500px;
+	height: 585px;
+	// width: 2990px;
+	width: 3090px;	
 	background: #68e3e7 url('/images/buildings.png') repeat-x bottom left;
 	border-bottom: 2px solid #c4d6dd;	
 }
 
 #main-container {
-	width: 3500px; 
-	height: 660px;
+	// width: 2990px; 
+	width: 3090px;		
+	height: 653px;
 	position: relative;
 	display: block;
 	// background-color: pink;
+	overflow: hidden;
 
 }
 
@@ -86,19 +89,19 @@ body {
 // = Block-1 =
 // ===========
 #block-1 {
-	margin: 0 0 0 250px;
-	height: 660px;
+	margin: 0 0 0 130px;
+	height: 650px;
 	width: auto;
 	position: relative;
 	display: inline;
 	float: left;
-	background-color: red;
+	// background-color: red;
 	
 	#logo {
 		clear: both;
 		display: block;
 		position: relative;
-		margin: 15px 0 20px 0;
+		margin: 15px 0 15px 0;
 		padding: 0;
 		// background-color: blue;
 		text-align: center;
@@ -154,22 +157,24 @@ body {
 	display: inline;
 	position: relative;
 	float: left;
-	height: 660px;
-	width: 800px;
-	// width: auto;
-	margin: 0 0 0 80px;
+	height: 650px;
+	width: auto;
+	margin: 0 0 0 60px;
 	padding: 0;
-	background-color: white;
+	// background-color: white;
 	
 	#trophy-parade {
 		display: block;
 		position: relative;
-		clear: right;	
-		height: auto;
+		height: 588px;
 		width: auto;
-		margin: 173px 0 0 0;
+		// background-color: orange;
+		
+		// margin: 173px 0 0 0;
 		.trophies {	
-			margin: 115px 0 0 0;
+			padding: 280px 0 0 0;
+			overflow:none;
+			// float:left;
 		}
 		#trophy-1 {
 			margin: 74px 0 0 0;
@@ -189,32 +194,29 @@ body {
 	#runner-container {
 		display: block;
 		position: relative;
-		float:none;
-		// float:left;
-		// margin: 400px 0 0 0;
-		height: 40px;
+		height: 60px;
 		// width: 100%;
-		background-color: magenta;
+		// background-color: magenta;
 
 		#runner {
 			display: inline;
 			position: fixed;
-			background-color: orange;
-			width: 400px;
-			#input {
-				float:left;
-				margin:0;
+			// background-color: green;
+			width: 700px;
+			// height: 98%;
+			margin: 16px 10px 0 12px;
+			ul {
+				display: inline;
+				float: left;
 				padding: 0;
-				display:inline;
-				position: fixed;				
-				ul {
-					padding: 0;
-					margin: 0;
-				}
-				li {
-					display: inline;
-					margin: 0;
-					padding: 0;
+				margin: 0;
+			}
+			li {
+				display: inline;
+				float: left;
+				margin: 0;
+				.spacer {
+					padding: 0 0 0 10px; 
 				}
 			}
 		}
@@ -232,10 +234,34 @@ body {
 // = Block-3 =
 // ===========
 #block-3 {
-	background-color: blue;
-	
+	// background-color: blue;
+	margin: 0 0 0 80px;
+
 	#note {
-		margin: 180px 0 0 40px;
+		margin: 205px 0 0 22px;
+		width: 280px;
+		color: #898989;
+		font-size: 20px;
+		line-height: 26px;
+		span {
+			padding: 0;
+			margin: 0;
+			word-spacing: 0;
+		}
+
+		#section-1 {
+			margin: 0 0 20px 0;
+		}
+		
+		#section-2 {
+			margin: 0 0 20px 0;
+		}
+
+	}
+	
+	
+	#paper {
+		margin: 160px 0 0 0;
 	}
 }
 
