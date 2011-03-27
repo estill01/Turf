@@ -69,13 +69,49 @@ body {
   display: block;
   clear: both;
   position: absolute;
-  height: 610px;
-  width: 4000px;
+  height: 592px;
+  width: 3500px;
   background: #68e3e7 url("/images/buildings.png") repeat-x bottom left;
   border-bottom: 2px solid #c4d6dd;
 }
 
-/* line 18, scss/screen.scss */
+/* line 19, scss/screen.scss */
+#main-container {
+  width: 3500px;
+  height: 660px;
+  position: relative;
+  display: block;
+}
+
+/* line 28, scss/screen.scss */
+.block {
+  display: inline;
+  position: relative;
+  float: left;
+  height: 660px;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 38, scss/screen.scss */
+.trophy-container {
+  display: inline;
+  position: relative;
+  float: left;
+  width: auto;
+  height: auto;
+}
+
+/* line 51, scss/screen.scss */
+#win {
+  position: absolute;
+  display: inline;
+  margin: 140px 0 0 0;
+  z-index: 3;
+}
+
+/* line 58, scss/screen.scss */
 .clouds {
   margin: 50px 0 0 300px;
   display: inline;
@@ -84,49 +120,48 @@ body {
   clear: both;
 }
 
-/* line 27, scss/screen.scss */
-#main-container {
-  width: 3000px;
-  height: auto;
-  display: block;
-  clear: both;
-  float: left;
+/* line 70, scss/screen.scss */
+.highlight {
+  color: #fff465;
 }
 
-/* line 37, scss/screen.scss */
-.content-container {
-  display: inline;
-  position: relative;
-  float: left;
-  width: auto;
-  height: auto;
+/* line 74, scss/screen.scss */
+.dev {
+  color: #00ff8b;
 }
 
-/* line 49, scss/screen.scss */
+/* line 78, scss/screen.scss */
+.note {
+  color: #898989;
+  font-size: 20px;
+}
+
+/* line 88, scss/screen.scss */
 #block-1 {
-  margin: 0 0 0 200px;
-  height: auto;
+  margin: 0 0 0 250px;
+  height: 660px;
   width: auto;
   position: relative;
   display: inline;
   float: left;
+  background-color: red;
 }
-/* line 58, scss/screen.scss */
+/* line 97, scss/screen.scss */
 #block-1 #logo {
   clear: both;
   display: block;
   position: relative;
-  margin: 20px 0 20px 0;
+  margin: 15px 0 20px 0;
   padding: 0;
   text-align: center;
   clear: both;
 }
-/* line 66, scss/screen.scss */
+/* line 105, scss/screen.scss */
 #block-1 #logo img {
   padding: 0;
   margin: 0;
 }
-/* line 74, scss/screen.scss */
+/* line 113, scss/screen.scss */
 #block-1 #iphone {
   display: inline;
   position: relative;
@@ -137,13 +172,15 @@ body {
   margin: 0;
   padding: 0;
 }
-/* line 85, scss/screen.scss */
+/* line 124, scss/screen.scss */
 #block-1 #iphone #iphone-body {
   display: inline;
   position: relative;
   float: left;
+  max-height: 516px;
+  overflow: hidden;
 }
-/* line 93, scss/screen.scss */
+/* line 134, scss/screen.scss */
 #block-1 #iphone #iphone-content .screen {
   display: inline;
   position: absolute;
@@ -152,57 +189,94 @@ body {
   margin: 93px 0 0 22px;
   z-index: 5;
 }
-/* line 101, scss/screen.scss */
+/* line 142, scss/screen.scss */
 #block-1 #iphone #iphone-content .hidden {
   display: none;
 }
 
-/* line 112, scss/screen.scss */
+/* line 153, scss/screen.scss */
 #block-2 {
   display: inline;
   position: relative;
   float: left;
-  height: auto;
-  width: auto;
+  height: 660px;
+  width: 800px;
+  margin: 0 0 0 80px;
+  padding: 0;
+  background-color: white;
 }
-/* line 120, scss/screen.scss */
+/* line 164, scss/screen.scss */
 #block-2 #trophy-parade {
   display: block;
   position: relative;
+  clear: right;
   height: auto;
   width: auto;
-  margin: 190px 0 0 0;
+  margin: 173px 0 0 0;
 }
-/* line 127, scss/screen.scss */
+/* line 171, scss/screen.scss */
 #block-2 #trophy-parade .trophies {
   margin: 115px 0 0 0;
 }
-/* line 130, scss/screen.scss */
+/* line 174, scss/screen.scss */
 #block-2 #trophy-parade #trophy-1 {
   margin: 74px 0 0 0;
 }
-/* line 133, scss/screen.scss */
+/* line 177, scss/screen.scss */
 #block-2 #trophy-parade #trophy-2 {
   margin: 79px 0 0 0;
 }
-/* line 140, scss/screen.scss */
+/* line 184, scss/screen.scss */
 #block-2 #trophy-parade #trophy-4 {
   margin: 41px 0 0 0;
 }
-/* line 143, scss/screen.scss */
-#block-2 #trophy-parade #note {
-  margin: 0 0 0 80px;
-}
-/* line 148, scss/screen.scss */
+/* line 189, scss/screen.scss */
 #block-2 #runner-container {
   display: block;
-  position: static;
-  float: left;
-  height: 51px;
-  width: 100%;
+  position: relative;
+  float: none;
+  height: 40px;
   background-color: magenta;
 }
-/* line 156, scss/screen.scss */
+/* line 199, scss/screen.scss */
 #block-2 #runner-container #runner {
+  display: inline;
   position: fixed;
+  background-color: orange;
+  width: 400px;
+}
+/* line 204, scss/screen.scss */
+#block-2 #runner-container #runner #input {
+  float: left;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  position: fixed;
+}
+/* line 210, scss/screen.scss */
+#block-2 #runner-container #runner #input ul {
+  padding: 0;
+  margin: 0;
+}
+/* line 214, scss/screen.scss */
+#block-2 #runner-container #runner #input li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 224, scss/screen.scss */
+.text {
+  position: absolute;
+  z-index: 2;
+  color: white;
+}
+
+/* line 234, scss/screen.scss */
+#block-3 {
+  background-color: blue;
+}
+/* line 237, scss/screen.scss */
+#block-3 #note {
+  margin: 180px 0 0 40px;
 }

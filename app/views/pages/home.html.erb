@@ -1,11 +1,11 @@
 <div id="background">
 </div>
-<div class="clouds">
+<!-- <div class="clouds">
     <%= image_tag('/images/clouds.png') %>
-</div>
+</div> -->
 
 <div id="main-container">
-    <div id="block-1" class="content-container">
+    <div id="block-1" class="block">
         <div id="logo">
             <%= image_tag('/images/logo.png') %>
         </div>
@@ -35,41 +35,72 @@
             </div>
         </div>
     </div>
-    <div id="block-2">
+    <div id="block-2" class="block">
         <div id="trophy-parade">
-            <div id="trophy-1" class="content-container">
+            <!-- <div id="trophy-1" class="trophy-container">
+                <div class="text">
+                    <p>
+                        From the mind of visionary director Michael Tseng...
+                    </p>
+                </div>
                 <div class='trophies'>
                     <%= image_tag('/images/trophies/1.png') %>
                 </div>
             </div>
-            <div id="trophy-2" class="content-container">
+            <div id="trophy-2" class="trophy-container">
                 <div class='trophies'>
                     <%= image_tag('/images/trophies/2.png') %>
                 </div>
             </div>
-            <div id="trophy-3" class="content-container">
+            <div id="trophy-3" class="trophy-container">
+                <div id="win">
+                    <%= image_tag('/images/win.png') %>
+                </div>
                 <div class='trophies'>
                     <%= image_tag('/images/trophies/3.png') %>
                 </div>
             </div>
-            <div id="trophy-4" class="content-container">
+            <div id="trophy-4" class="trophy-container">
                 <div class='trophies'>
                     <%= image_tag('/images/trophies/4.png') %>
                 </div>
             </div>
-            <div id="trophy-5" class="content-container">
+            <div id="trophy-5" class="trophy-container">
                 <div class='trophies'>
                     <%= image_tag('/images/trophies/5.png') %>
                 </div>
-            </div>
-            <div id="note" class="content-container">
-                <%= image_tag('/images/paper.png') %>
-            </div>
+            </div> -->
         </div>
         <div id="runner-container">
             <div id="runner">
-                <p>email</p>
+                <div id="input">
+                    <ul>
+                        <li><%= image_tag('/images/bottom/submit_field.png') %></li>
+                        <li><%= image_tag('/images/bottom/submit.png') %></li>
+                        <li><%= image_tag('/images/bottom/contact.png') %></li>
+                        <li><%= image_tag('/images/bottom/twitter.png') %></li>
+                        
+                    </ul>
+                </div>
             </div>
+        </div>
+    </div>
+    <div id="block-3" class="block">
+        <div class="text note">
+            <p>
+                Designer Seeking Developer
+
+                Do you or someone you know want to be part of something pretty great? Well then look no further. I'm searching for a rockin developer to help me turn this one man show into a classy duet.
+
+                requirements
+                + obj-c / iphone chops
+                + live in nyc
+                + have a huge appetite!
+                + sense of humor a plus
+            </p>
+        </div>
+        <div id="note" class="content-container">
+            <%= image_tag('/images/paper.png') %>
         </div>
     </div>
 </div>

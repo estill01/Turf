@@ -10,11 +10,51 @@ body {
 	display:block;
     clear:both;
 	position: absolute;    
-	height: 610px;
-	width: 4000px;
+	height: 592px;
+	width: 3500px;
 	background: #68e3e7 url('/images/buildings.png') repeat-x bottom left;
 	border-bottom: 2px solid #c4d6dd;	
 }
+
+#main-container {
+	width: 3500px; 
+	height: 660px;
+	position: relative;
+	display: block;
+	// background-color: pink;
+
+}
+
+.block {
+	display: inline;
+	position: relative;
+	float: left;
+	height: 660px;
+	width: auto;
+	margin: 0;
+	padding: 0;
+}
+
+.trophy-container {
+	display: inline;
+	position: relative;    
+	float: left;
+	width: auto;
+	height: auto;
+	// background-color: green;
+}
+
+
+// ==========
+// = Extras =
+// ==========
+#win {
+	position: absolute;
+	display: inline;
+	margin: 140px 0 0 0;
+	z-index: 3;
+}
+
 .clouds {
 	margin: 50px 0 0 300px;
 	display: inline;
@@ -24,42 +64,41 @@ body {
 }
 
 
-#main-container {
-	width: 3000px; 
-	height: auto;
-	display: block;
-	clear: both;
-	float: left;
-	// background-color: pink;
-
+// ===============
+// = Text styles =
+// ===============
+.highlight {
+	color: #fff465;
 }
 
-.content-container {
-	display: inline;
-	position: relative;    
-	float: left;
-	width: auto;
-	height: auto;
-	// background-color: yellow;
+.dev {
+	color: #00ff8b;
 }
+
+.note {
+	color: #898989;
+	font-size: 20px;
+}
+
+
 
 // ===========
 // = Block-1 =
 // ===========
 #block-1 {
-	margin: 0 0 0 200px;
-	height: auto;
+	margin: 0 0 0 250px;
+	height: 660px;
 	width: auto;
 	position: relative;
 	display: inline;
 	float: left;
-	// clear: both;
-	// background-color: orange;
+	background-color: red;
+	
 	#logo {
 		clear: both;
 		display: block;
 		position: relative;
-		margin: 20px 0 20px 0;
+		margin: 15px 0 20px 0;
 		padding: 0;
 		// background-color: blue;
 		text-align: center;
@@ -86,6 +125,8 @@ body {
 			display: inline;
 			position: relative;
 			float: left;
+			max-height: 516px;
+			overflow:hidden;
 			
 		}
 		
@@ -113,17 +154,20 @@ body {
 	display: inline;
 	position: relative;
 	float: left;
-	height: auto;
-	width: auto;
-	// background-color: red;
+	height: 660px;
+	width: 800px;
+	// width: auto;
+	margin: 0 0 0 80px;
+	padding: 0;
+	background-color: white;
 	
 	#trophy-parade {
 		display: block;
 		position: relative;
-		// clear: both;	
+		clear: right;	
 		height: auto;
 		width: auto;
-		margin: 190px 0 0 0;
+		margin: 173px 0 0 0;
 		.trophies {	
 			margin: 115px 0 0 0;
 		}
@@ -140,23 +184,59 @@ body {
 		#trophy-4 {
 			margin: 41px 0 0 0;
 		}
-		#note {
-			margin: 0 0 0 80px;
-		}
 	}
 	
 	#runner-container {
 		display: block;
-		position: static;
-		float:left;
-		height: 51px;
-		width: 100%;
+		position: relative;
+		float:none;
+		// float:left;
+		// margin: 400px 0 0 0;
+		height: 40px;
+		// width: 100%;
 		background-color: magenta;
 
 		#runner {
+			display: inline;
 			position: fixed;
+			background-color: orange;
+			width: 400px;
+			#input {
+				float:left;
+				margin:0;
+				padding: 0;
+				display:inline;
+				position: fixed;				
+				ul {
+					padding: 0;
+					margin: 0;
+				}
+				li {
+					display: inline;
+					margin: 0;
+					padding: 0;
+				}
+			}
 		}
 	}	
+}
+
+.text {
+	position: absolute;
+	z-index: 2;
+	color: white;
+}
+
+
+// ===========
+// = Block-3 =
+// ===========
+#block-3 {
+	background-color: blue;
+	
+	#note {
+		margin: 180px 0 0 40px;
+	}
 }
 
 
