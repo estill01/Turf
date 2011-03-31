@@ -12,14 +12,16 @@ body {
 	position: absolute;    
 	height: 585px;
 	// width: 2990px;
-	width: 3090px;	
-	background: #68e3e7 url('/images/buildings.png') repeat-x bottom left;
+	width: 2800px;	
+	background: #35e5f0 url('/images/buildings.png') repeat-x bottom left;
 	border-bottom: 2px solid #c4d6dd;	
 }
 
+
+
 #main-container {
 	// width: 2990px; 
-	width: 3090px;		
+	width: 2800px;		
 	height: 653px;
 	position: relative;
 	display: block;
@@ -47,6 +49,18 @@ body {
 	// background-color: green;
 }
 
+.text {
+	position: absolute;
+	z-index: 2;
+	color: white;
+	font-size: 19px;
+	width: 460px;
+	margin: 115px 0 0 10px;
+	line-height: 21px;
+	@include text-shadow(1px,1px, 1px, #8c8c8c)
+	
+}
+
 
 // ==========
 // = Extras =
@@ -54,12 +68,16 @@ body {
 #win {
 	position: absolute;
 	display: inline;
-	margin: 140px 0 0 0;
+	margin: 290px 0 0 0;
 	z-index: 3;
 }
 
+#features {
+	margin: 148px 0 0 0;
+}
+
 .clouds {
-	margin: 50px 0 0 300px;
+	margin: 80px 0 0 1080px;
 	display: inline;
 	float: left;
 	position: absolute;
@@ -177,34 +195,44 @@ body {
 			// float:left;
 		}
 		#trophy-1 {
-			margin: 74px 0 0 0;
+			margin: 75px 0 0 0;
+			a {
+				color: pink;
+			}
+			
 		}
 		#trophy-2 {
-			margin: 79px 0 0 0;
+			margin: 80px 0 0 0;
 			// background-color: green;
 		}
 		#trophy-3 {
+			margin: 1px 0 0 0;
 			// background-color: pink;	
 		}
 		#trophy-4 {
-			margin: 41px 0 0 0;
+			margin: 42px 0 0 0;
+		}
+		#trophy-5 {
+			margin: 1px 0 0 0;
 		}
 	}
 	
 	#runner-container {
 		display: block;
-		position: relative;
+		position: absolute;
 		height: 60px;
 		// width: 100%;
-		// background-color: magenta;
+		background-color: magenta;
 
 		#runner {
-			display: inline;
+			// display: inline;
 			position: fixed;
-			// background-color: green;
-			width: 700px;
+			background-color: green;
+			width: auto;
 			// height: 98%;
-			margin: 16px 10px 0 12px;
+			margin: 16px 0 0 12px;
+			// float: left;
+			clear: both;
 			ul {
 				display: inline;
 				float: left;
@@ -223,11 +251,6 @@ body {
 	}	
 }
 
-.text {
-	position: absolute;
-	z-index: 2;
-	color: white;
-}
 
 
 // ===========
@@ -243,6 +266,7 @@ body {
 		color: #898989;
 		font-size: 20px;
 		line-height: 26px;
+
 		span {
 			padding: 0;
 			margin: 0;
@@ -255,6 +279,11 @@ body {
 		
 		#section-2 {
 			margin: 0 0 20px 0;
+			@include text-shadow(1px, 1px, 1px, white);	
+		}
+		
+		#section-3 {
+			@include text-shadow(1px, 1px, 1px, white);
 		}
 
 	}

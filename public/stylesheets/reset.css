@@ -1,0 +1,502 @@
+@charset "UTF-8";
+/* line 14, ../../../../../../.rvm/gems/ruby-1.9.2-p136@rails3/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* line 17, ../../../../../../.rvm/gems/ruby-1.9.2-p136@rails3/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+/* line 19, ../../../../../../.rvm/gems/ruby-1.9.2-p136@rails3/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 21, ../../../../../../.rvm/gems/ruby-1.9.2-p136@rails3/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+/* line 23, ../../../../../../.rvm/gems/ruby-1.9.2-p136@rails3/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 25, ../../../../../../.rvm/gems/ruby-1.9.2-p136@rails3/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: "" "";
+}
+/* line 96, ../../../../../../.rvm/gems/ruby-1.9.2-p136@rails3/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+}
+
+/* line 27, ../../../../../../.rvm/gems/ruby-1.9.2-p136@rails3/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/**
+* HTML5 ✰ Boilerplate
+*
+* style.css contains a reset, font normalization and some base styles.
+*
+* Credit is left where credit is due.
+* Much inspiration was taken from these projects:
+* - yui.yahooapis.com/2.8.1/build/base/base.css
+* - camendesign.com/design/
+* - praegnanz.de/weblog/htmlcssjs-kickstart
+*/
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+/* line 30, scss/reset.scss */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 40, scss/reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 44, scss/reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 47, scss/reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 49, scss/reset.scss */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 51, scss/reset.scss */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* line 53, scss/reset.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* line 55, scss/reset.scss */
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+/* line 57, scss/reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 59, scss/reset.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 61, scss/reset.scss */
+input, select {
+  vertical-align: middle;
+}
+
+/**
+ * Font normalization inspired by YUI Library's fonts.css: developer.yahoo.com/yui/
+ */
+/* line 68, scss/reset.scss */
+body {
+  font: 13px/1.231 sans-serif;
+  *font-size: small;
+}
+
+/* Hack retained to preserve specificity */
+/* line 69, scss/reset.scss */
+select, input, textarea, button {
+  font: 99% sans-serif;
+}
+
+/* Normalize monospace sizing:
+   en.wikipedia.org/wiki/MediaWiki_talk:Common.css/Archive_11#Teletype_style_fix_for_Chrome */
+/* line 73, scss/reset.scss */
+pre, code, kbd, samp {
+  font-family: monospace, sans-serif;
+}
+
+/**
+ * Minimal base styles.
+ */
+/* Always force a scrollbar in non-IE */
+/* line 81, scss/reset.scss */
+html {
+  overflow-y: scroll;
+}
+
+/* Accessible focus treatment: people.opera.com/patrickl/experiments/keyboard/test */
+/* line 84, scss/reset.scss */
+a:hover, a:active {
+  outline: none;
+}
+
+/* line 86, scss/reset.scss */
+ul, ol {
+  margin-left: 2em;
+}
+
+/* line 87, scss/reset.scss */
+ol {
+  list-style-type: decimal;
+}
+
+/* Remove margins for navigation lists */
+/* line 90, scss/reset.scss */
+nav ul, nav li {
+  margin: 0;
+  list-style: none;
+  list-style-image: none;
+}
+
+/* line 92, scss/reset.scss */
+small {
+  font-size: 85%;
+}
+
+/* line 93, scss/reset.scss */
+strong, th {
+  font-weight: bold;
+}
+
+/* line 95, scss/reset.scss */
+td {
+  vertical-align: top;
+}
+
+/* Set sub, sup without affecting line-height: gist.github.com/413930 */
+/* line 98, scss/reset.scss */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+}
+
+/* line 99, scss/reset.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 100, scss/reset.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 102, scss/reset.scss */
+pre {
+  /* www.pathf.com/blogs/2008/05/formatting-quoted-code-in-blog-posts-css21-white-space-pre-wrap/ */
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  padding: 15px;
+}
+
+/* line 108, scss/reset.scss */
+textarea {
+  overflow: auto;
+}
+
+/* www.sitepoint.com/blogs/2010/08/20/ie-remove-textarea-scrollbars/ */
+/* line 110, scss/reset.scss */
+.ie6 legend, .ie7 legend {
+  margin-left: -7px;
+}
+
+/* Align checkboxes, radios, text inputs with their label by: Thierry Koblentz tjkdesign.com/ez-css/css/base.css  */
+/* line 113, scss/reset.scss */
+input[type="radio"] {
+  vertical-align: text-bottom;
+}
+
+/* line 114, scss/reset.scss */
+input[type="checkbox"] {
+  vertical-align: bottom;
+}
+
+/* line 115, scss/reset.scss */
+.ie7 input[type="checkbox"] {
+  vertical-align: baseline;
+}
+
+/* line 116, scss/reset.scss */
+.ie6 input {
+  vertical-align: text-bottom;
+}
+
+/* Hand cursor on clickable input elements */
+/* line 119, scss/reset.scss */
+label, input[type="button"], input[type="submit"], input[type="image"], button {
+  cursor: pointer;
+}
+
+/* Webkit browsers add a 2px margin outside the chrome of form elements */
+/* line 122, scss/reset.scss */
+button, input, select, textarea {
+  margin: 0;
+}
+
+/* Colors for form validity */
+/* line 126, scss/reset.scss */
+input:invalid, textarea:invalid {
+  border-radius: 1px;
+  -moz-box-shadow: 0px 0px 5px red;
+  -webkit-box-shadow: 0px 0px 5px red;
+  box-shadow: 0px 0px 5px red;
+}
+
+/* line 129, scss/reset.scss */
+.no-boxshadow input:invalid, .no-boxshadow textarea:invalid {
+  background-color: #f0dddd;
+}
+
+/* These selection declarations have to be separate
+   No text-shadow: twitter.com/miketaylr/status/12228805301
+   Also: hot pink! */
+/* line 135, scss/reset.scss */
+::-moz-selection {
+  background: #870150;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* line 136, scss/reset.scss */
+::selection {
+  background: #870150;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* j.mp/webkit-tap-highlight-color */
+/* line 139, scss/reset.scss */
+a:link {
+  -webkit-tap-highlight-color: #870150;
+}
+
+/* Make buttons play nice in IE:
+   www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
+/* line 143, scss/reset.scss */
+button {
+  width: auto;
+  overflow: visible;
+}
+
+/* Bicubic resizing for non-native sized IMG:
+   code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/ */
+/* line 147, scss/reset.scss */
+.ie7 img {
+  -ms-interpolation-mode: bicubic;
+}
+
+/**
+ * You might tweak these..
+ */
+/* line 153, scss/reset.scss */
+body, select, input, textarea {
+  /* #444 looks better than black: twitter.com/H_FJ/statuses/11800719859 */
+  color: #444;
+  /* Set your base font here, to apply evenly */
+  /* font-family: Georgia, serif;  */
+}
+
+/* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
+/* line 161, scss/reset.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+/* line 163, scss/reset.scss */
+a, a:active, a:visited {
+  color: #607890;
+}
+
+/* line 164, scss/reset.scss */
+a:hover {
+  color: #036;
+}
+
+/* line 165, scss/reset.scss */
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 166, scss/reset.scss */
+body {
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  font: 14px Verdana, "Lucida Grande", Lucida, Arial, Helvetica, sans-serif;
+  color: #000000;
+}
+
+/* line 171, scss/reset.scss */
+p, td, ul, ol, li, dl, dt, dd {
+  font-family: Verdana, "Lucida Grande", Lucida, Arial, Helvetica, sans-serif;
+}
+
+/* line 173, scss/reset.scss */
+iframe {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* line 174, scss/reset.scss */
+img {
+  border: none;
+}
+
+/* line 175, scss/reset.scss */
+textarea {
+  resize: none;
+}
+
+/* line 177, scss/reset.scss */
+table {
+  border-collapse: collapse;
+  vertical-align: top;
+}
+
+/* line 178, scss/reset.scss */
+table tr td {
+  vertical-align: top;
+}
+
+/* line 179, scss/reset.scss */
+h1 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+}
+
+/* line 180, scss/reset.scss */
+h2 {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  display: block;
+}
+
+/* line 181, scss/reset.scss */
+h3 {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  display: block;
+}
+
+/* line 182, scss/reset.scss */
+h4 {
+  font-size: 10px;
+  font-weight: bold;
+  text-align: left;
+  display: block;
+}
+
+/* line 183, scss/reset.scss */
+a, a:visited {
+  color: #007598;
+  text-decoration: none;
+  border: none;
+}
+
+/* line 184, scss/reset.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 185, scss/reset.scss */
+small {
+  font-size: 0.8em;
+}
+
+/* line 186, scss/reset.scss */
+fieldset {
+  border: none;
+}
+
+/* line 187, scss/reset.scss */
+.hidden {
+  display: none;
+}
+
+/* line 188, scss/reset.scss */
+.clear {
+  clear: both;
+}
+
+/* line 189, scss/reset.scss */
+.center {
+  text-align: center;
+}
+
+/* line 191, scss/reset.scss */
+.clear, .clearfix {
+  display: block;
+  clear: both;
+}
