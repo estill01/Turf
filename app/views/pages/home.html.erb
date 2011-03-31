@@ -6,8 +6,16 @@
 
 <div id="main-container">
     <div id="block-1" class="block">
+        <div id="flag">
+            <div id="flag-1">
+                <%= image_tag('/images/logo/flag1.png') %>
+            </div>
+            <div id="flag-2">
+                <%= image_tag('/images/logo/flag2.png') %>    
+            </div>
+        </div>
         <div id="logo">
-            <%= image_tag('/images/logo.png') %>
+            <%= image_tag('/images/logo/justlogo.png') %>
         </div>
         <div id="iphone">
             <div id="iphone-body">
@@ -87,8 +95,10 @@ From the mind of <%= link_to("Michael Tseng", "http://cargocollective.com/theory
                 <ul>
                     <li><%= image_tag('/images/bottom/submit_field.png') %></li>
                     <li><%= image_tag('/images/bottom/submit.png') %></li>
-                    <li class="spacer"><%= image_tag('/images/bottom/contact.png') %></li>
-                    <li class="spacer"><%= image_tag('/images/bottom/twitter.png') %></li>
+                    <li><%= image_tag('/images/bottom/split.png') %></li>
+                    <li id="blog"><%= link_to(image_tag('/images/bottom/blog.png'), "http://turfgeography.tumblr.com/") %></li>
+                    <li id="email" class="spacer"><%= mail_to("piechart@mac.com", image_tag('/images/bottom/email.png'), :subject => "TURF!") %></li>
+                    <li id="twitter" class="spacer"> <%= link_to(image_tag('/images/bottom/twitter.png'), "http://twitter.com/turfhq") %></li>
                 </ul>
 
             </div>

@@ -1,5 +1,27 @@
 $(document).ready(function () {
 
+// =============
+// = Flag flap =
+// =============
+
+	function flagFlap () {
+		var x = 1;
+		var max = 2;
+		
+		setInterval(function () {
+			$("#flag-" + x).fadeOut(300);
+			x++;
+			if (x > max) {
+				x = 1;
+			};
+			$("#flag-" + x).fadeIn(300);
+		},300);
+		
+	};
+	
+	flagFlap();
+
+
 // ===============
 // = iPhone loop =
 // ===============

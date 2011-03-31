@@ -114,12 +114,25 @@ body {
 	display: inline;
 	float: left;
 	// background-color: red;
+	#flag {
+		position: relative;
+		display:block;
+		margin: 16px 0 0 61px;
+		clear: both;
+		#flag-1 {
+			position: absolute;
+		}
+		#flag-2 {
+			display: none;
+			position: absolute;
+		}			
+	}
 	
 	#logo {
 		clear: both;
 		display: block;
 		position: relative;
-		margin: 15px 0 15px 0;
+		margin: 40px 0 15px 0;
 		padding: 0;
 		// background-color: blue;
 		text-align: center;
@@ -245,6 +258,22 @@ body {
 				margin: 0;
 				.spacer {
 					padding: 0 0 0 10px; 
+				
+				#blog {
+					a {
+						&:active {
+							background: url('./images/bottom/blogpress.png');
+						}
+					}
+				}
+				#email {
+					
+				}
+				#twitter {
+					
+				}
+					
+					
 				}
 			}
 		}
@@ -293,127 +322,3 @@ body {
 		margin: 160px 0 0 0;
 	}
 }
-
-
-// 		
-// 		#right-content {
-// 			display: inline;
-// 			float: left;
-// 			width: 600px;
-// 			height: 5em;
-// 			margin: 0 0 0 55px;
-// 			background-color: blue;
-// 			#copy {
-// 				font-family: 'VT323';
-// 				margin: 11px 0 0 0;
-// 				font-size: 20px;
-// 				// color: #544e49;
-// 				color: white;
-// 				// color: #21ffff;
-// 				text-shadow: 1px 1px 1px #c1c1c1;
-// 
-// 				a {
-// 					text-decoration: none;
-// 					color: #6820de;
-// 					text-shadow: none;
-// 					&:hover {
-// 						color: #b78ff8;
-// 					}
-// 				}
-// 
-// 				#overview {
-// 					margin: 0 0 24px 0;
-// 					em {
-// 						color: white;
-// 					}
-// 					
-// 				}
-// 				
-// 				#bullets {
-// 					color: white;
-// 					font-size: 20px;
-// 					line-height: 22px;
-// 					font-weight: thin;
-// 					em {
-// 						color: #544e49;
-// 						color: white;
-// 						// color: #21ffff;
-// 					}
-// 				}
-// 			}
-// 			
-// 			#shelf {
-// 				margin: 24px 0 0 0;
-// 			}
-// 		}
-// 	}
-// 	
-// 	#footer {
-// 		display: block;
-// 		position: fixed;
-// 		height: 10em;
-// 		margin-top: 95px;
-// 		
-// 		#footer-container {
-// 			width: 515px;
-// 			height: 76px;
-// 			margin: 0 auto;
-// 
-// 			line-height: 0.9em;
-// 			
-// 			#line-1 {
-// 				display: inline-block;
-// 				margin: 0;
-// 				line-height: 0.5;
-// 				// background-color: red;
-// 				img {
-// 					margin: 0;
-// 					padding: 0;
-// 				}
-// 			}
-// 			#line-2 {
-// 				display: inline-block;
-// 				float:left;
-// 				// background-color: yellow;
-// 				#more {
-// 					display: inline;
-// 					float:left;
-// 					margin: 0 7px 0 0;			
-// 				}
-// 				#email {
-// 					display: inline;
-// 					float:left;
-// 					margin: 0 7px 0 0;				
-// 				}
-// 				#twitter {
-// 					display: inline;
-// 					float:left;
-// 				}
-// 			}
-// 		}
-// 	}
-// 	
-// }
-// 
-// // ===========
-// // = Block-2 =
-// // ===========
-// #block-2 {
-// 	
-// }
-// 
-// 
-// 
-// // ==========
-// // = Footer =
-// // ==========
-// #footer {
-// 	p {
-// 		color: white;
-// 	}
-// }
-// 
-// 
-// 
-// 
-// 
