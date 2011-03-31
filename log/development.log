@@ -11311,3 +11311,1947 @@ Started GET "/" for 127.0.0.1 at 2011-03-31 01:49:04 -0400
   Processing by PagesController#home as HTML
 Rendered pages/home.html.erb within layouts/application (7.3ms)
 Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 01:50:04 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (67.2ms)
+Completed 200 OK in 73ms (Views: 71.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 01:50:15 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 01:50:24 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 01:50:28 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 01:50:33 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 01:50:41 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 01:50:48 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 01:54:28 -0400
+  Processing by UsersController#new as HTML
+Completed   in 18ms
+
+ActionView::MissingTemplate (Missing template users/new with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/Users/ethanstillman/work/clients/tseng/turf/app/views"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 01:58:25 -0400
+  Processing by UsersController#new as HTML
+Completed   in 15ms
+
+ActionView::MissingTemplate (Missing template users/new with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/Users/ethanstillman/work/clients/tseng/turf/app/views"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 01:58:27 -0400
+  Processing by UsersController#new as HTML
+Completed   in 14ms
+
+ActionView::MissingTemplate (Missing template users/new with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/Users/ethanstillman/work/clients/tseng/turf/app/views"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 01:59:12 -0400
+  Processing by UsersController#new as HTML
+ERROR: compiling _app_views_users_new_html_erb__1444703468670339272_2175241040__1063010392833240543 RAISED /Users/ethanstillman/work/clients/tseng/turf/app/views/users/new.html.erb:101: syntax error, unexpected ')', expecting tCOLON2 or '[' or '.'
+...('/images/bottom/submit.png') );@output_buffer.safe_concat('
+...                               ^
+/Users/ethanstillman/work/clients/tseng/turf/app/views/users/new.html.erb:103: syntax error, unexpected keyword_end, expecting ')'
+');                         end 
+                               ^
+/Users/ethanstillman/work/clients/tseng/turf/app/views/users/new.html.erb:141: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/ethanstillman/work/clients/tseng/turf/app/views/users/new.html.erb:143: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_users_new_html_erb__1444703468670339272_2175241040__1063010392833240543(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "users/new";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new;@output_buffer.safe_concat('<div id="background">
+</div>
+<div class="clouds">
+    ');@output_buffer.append= ( image_tag('/images/clouds.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('</div>
+
+<div id="main-container">
+    <div id="block-1" class="block">
+        <div id="flag">
+            <div id="flag-1">
+                ');@output_buffer.append= ( image_tag('/images/logo/flag1.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('            </div>
+            <div id="flag-2">
+                ');@output_buffer.append= ( image_tag('/images/logo/flag2.png') );@output_buffer.safe_concat('    
+');@output_buffer.safe_concat('            </div>
+        </div>
+        <div id="logo">
+            ');@output_buffer.append= ( image_tag('/images/logo/justlogo.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('        </div>
+        <div id="iphone">
+            <div id="iphone-body">
+                ');@output_buffer.append= ( image_tag('/images/iphone/iphone.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('            </div>
+            <div id="iphone-content">
+                <div id="iphone-6" class="screen hidden">
+                    ');@output_buffer.append= ( image_tag('/images/iphone/6.jpg') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>
+                <div id="iphone-5" class="screen hidden">
+                    ');@output_buffer.append= ( image_tag('/images/iphone/5.jpg') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>
+                <div id="iphone-4" class="screen hidden">
+                    ');@output_buffer.append= ( image_tag('/images/iphone/4.jpg') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>
+                <div id="iphone-3" class="screen hidden">
+                    ');@output_buffer.append= ( image_tag('/images/iphone/3.jpg') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>
+                <div id="iphone-2" class="screen hidden">
+                    ');@output_buffer.append= ( image_tag('/images/iphone/2.jpg') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>            
+                <div id="iphone-1" class="screen">
+                    ');@output_buffer.append= ( image_tag('/images/iphone/1.jpg') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>
+            </div>
+        </div>
+    </div>
+    <div id="block-2" class="block">
+        <div id="trophy-parade">
+            <div id="trophy-1" class="trophy-container">
+                <div class="text">
+                    <p>
+From the mind of ');@output_buffer.append= ( link_to("Michael Tseng", "http://cargocollective.com/theoryandcraft") );@output_buffer.safe_concat(' - Turf is a location based game set in the real world where you (the greatest person EVER) hang out with friends, amass gold coins, & construct properties. Own, Shape, and Dominate your turf.
+                    </p>
+                </div>                                
+                <div class=\'trophies\'>
+                    ');@output_buffer.append= ( image_tag('/images/trophies/1.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>
+            </div>
+            <div id="trophy-2" class="trophy-container">
+                <div class=\'trophies\'>
+                    ');@output_buffer.append= ( image_tag('/images/trophies/2.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>
+            </div>
+            <div id="trophy-3" class="trophy-container">
+                <div id="win">
+                    ');@output_buffer.append= ( image_tag('/images/win.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>
+                
+                <div class=\'trophies\'>
+                    ');@output_buffer.append= ( image_tag('/images/trophies/3.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>
+            </div>
+            <div id="trophy-4" class="trophy-container">                
+                <div class="text" id="features">
+                    <p>
+                        + location based game meets monopoly™<br/>
+                        + free to join and play<br/>
+                        + check in to earn coins (bonus for being with friends)<br/>
+                        + use coins to purchase <span style="color:#fff465">SWEET</span> items & properties<br/>
+                        + pimp out your buildings & dominate the game<br/>
+                    </p>
+                </div>
+                
+                <div class=\'trophies\'>
+                    ');@output_buffer.append= ( image_tag('/images/trophies/4.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>
+            </div>
+            <div id="trophy-5" class="trophy-container">
+                <div class=\'trophies\'>
+                    ');@output_buffer.append= ( image_tag('/images/trophies/5.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>
+            </div>
+        </div>
+        <div id="runner-container">
+            <div id="runner">
+                <ul>
+');@output_buffer.append_if_string=                      form_for @user do |f| 
+@output_buffer.safe_concat('                    <li>
+                        ');@output_buffer.append= ( f.text_field :email, :placeholder => "give us email + get updates!" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                    </li>
+                    <li>
+                        ');@output_buffer.append= ( f.submit, image_tag('/images/bottom/submit.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                            
+');                         end 
+@output_buffer.safe_concat('                        
+                        <!-- ');@output_buffer.append= ( image_tag('/images/bottom/submit_field.png') );@output_buffer.safe_concat(' -->
+                    </li>
+                    <li>');@output_buffer.append= ( image_tag('/images/bottom/submit.png') );@output_buffer.safe_concat('</li>
+                    <li>');@output_buffer.append= ( image_tag('/images/bottom/split.png') );@output_buffer.safe_concat('</li>
+                    <li id="blog">');@output_buffer.append= ( link_to(image_tag('/images/bottom/blog.png'), "http://turfgeography.tumblr.com/") );@output_buffer.safe_concat('</li>
+                    <li id="email" class="spacer">');@output_buffer.append= ( mail_to("piechart@mac.com", image_tag('/images/bottom/email.png'), :subject => "TURF!") );@output_buffer.safe_concat('</li>
+                    <li id="twitter" class="spacer"> ');@output_buffer.append= ( link_to(image_tag('/images/bottom/twitter.png'), "http://twitter.com/turfhq") );@output_buffer.safe_concat('</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <div id="block-3" class="block">
+        <div id="note" class="text">
+            <p id="section-1">                
+                <span style="color:#15bef0">T</span><span style="color:#ec008c">e</span><span style="color:#f2aacc">a</span><span style="color:#ef4642">m</span>                                            
+                Seeking 
+                
+                <span style="color:#00ff8b;background-color:black;paddin-left:2px;padding-right:2px;">+1 Developer</span>
+            </p>
+            <p id="section-2">
+                Do you or someone you know want to be part of something pretty great? Well then look no further. We\'re searching for another kickass dev to help turn this classy duet into a rock\'n roll band!
+            </p>
+            <p id="section-3">
+                Requirements<br/>
+                + obj-c / iphone chops<br/>
+                + live in nyc<br/>
+                + sleep deprivation skills<br/>
+                + sense of humor a plus
+            </p>
+        </div>
+        <div id="paper" class="content-container">
+            ');@output_buffer.append= ( image_tag('/images/paper.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('        </div>
+    </div>
+</div>');@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_view/template.rb:255:in `module_eval'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_view/template.rb:255:in `compile'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_view/template.rb:134:in `block in render'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/notifications.rb:54:in `instrument'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_view/template.rb:127:in `render'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/notifications.rb:52:in `block in instrument'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/notifications.rb:52:in `instrument'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_view/render/rendering.rb:56:in `_render_template'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_view/render/rendering.rb:26:in `render'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:115:in `_render_template'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:93:in `render'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/rendering.rb:17:in `render'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/ethanstillman/.rvm/rubies/ruby-1.9.2-p136/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activerecord-3.0.4/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/abstract_controller/base.rb:150:in `process_action'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/callbacks.rb:440:in `_run__63863870982251939__process_action__469246334594174985__callbacks'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/callbacks.rb:409:in `_run_process_action_callbacks'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/callbacks.rb:93:in `run_callbacks'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/notifications.rb:52:in `block in instrument'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/notifications.rb:52:in `instrument'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/abstract_controller/base.rb:119:in `process'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:41:in `process'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal.rb:138:in `dispatch'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal.rb:178:in `block in action'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-mount-0.6.13/lib/rack/mount/route_set.rb:148:in `block in call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:93:in `block in recognize'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:68:in `optimized_each'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:92:in `recognize'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-mount-0.6.13/lib/rack/mount/route_set.rb:139:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/routing/route_set.rb:492:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/haml-3.0.25/lib/sass/plugin/rack.rb:41:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-1.2.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activerecord-3.0.4/lib/active_record/query_cache.rb:32:in `block in call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activerecord-3.0.4/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activerecord-3.0.4/lib/active_record/query_cache.rb:12:in `cache'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activerecord-3.0.4/lib/active_record/query_cache.rb:31:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activerecord-3.0.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:354:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/callbacks.rb:46:in `block in call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/callbacks.rb:415:in `_run_call_callbacks'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-1.2.1/lib/rack/sendfile.rb:107:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/railties-3.0.4/lib/rails/rack/logger.rb:13:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-1.2.1/lib/rack/runtime.rb:17:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-1.2.1/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:10:in `synchronize'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-1.2.1/lib/rack/lock.rb:11:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/static.rb:30:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/railties-3.0.4/lib/rails/application.rb:168:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/railties-3.0.4/lib/rails/application.rb:77:in `method_missing'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/railties-3.0.4/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-1.2.1/lib/rack/content_length.rb:13:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-1.2.1/lib/rack/handler/webrick.rb:52:in `service'
+/Users/ethanstillman/.rvm/rubies/ruby-1.9.2-p136/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/Users/ethanstillman/.rvm/rubies/ruby-1.9.2-p136/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/Users/ethanstillman/.rvm/rubies/ruby-1.9.2-p136/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered users/new.html.erb within layouts/application (2.1ms)
+Completed   in 18ms
+
+ActionView::Template::Error (/Users/ethanstillman/work/clients/tseng/turf/app/views/users/new.html.erb:101: syntax error, unexpected ')', expecting tCOLON2 or '[' or '.'
+...('/images/bottom/submit.png') );@output_buffer.safe_concat('
+...                               ^
+/Users/ethanstillman/work/clients/tseng/turf/app/views/users/new.html.erb:103: syntax error, unexpected keyword_end, expecting ')'
+');                         end 
+                               ^
+/Users/ethanstillman/work/clients/tseng/turf/app/views/users/new.html.erb:141: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/ethanstillman/work/clients/tseng/turf/app/views/users/new.html.erb:143: syntax error, unexpected keyword_end, expecting ')'):
+    98:                         <%= f.text_field :email, :placeholder => "give us email + get updates!" %>
+    99:                     </li>
+    100:                     <li>
+    101:                         <%= f.submit, image_tag('/images/bottom/submit.png') %>
+    102:                             
+    103:                         <% end %>
+    104:                         
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 01:59:13 -0400
+  Processing by UsersController#new as HTML
+ERROR: compiling _app_views_users_new_html_erb__1444703468670339272_2175786120__1063010392833240543 RAISED /Users/ethanstillman/work/clients/tseng/turf/app/views/users/new.html.erb:101: syntax error, unexpected ')', expecting tCOLON2 or '[' or '.'
+...('/images/bottom/submit.png') );@output_buffer.safe_concat('
+...                               ^
+/Users/ethanstillman/work/clients/tseng/turf/app/views/users/new.html.erb:103: syntax error, unexpected keyword_end, expecting ')'
+');                         end 
+                               ^
+/Users/ethanstillman/work/clients/tseng/turf/app/views/users/new.html.erb:141: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/ethanstillman/work/clients/tseng/turf/app/views/users/new.html.erb:143: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_users_new_html_erb__1444703468670339272_2175786120__1063010392833240543(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "users/new";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new;@output_buffer.safe_concat('<div id="background">
+</div>
+<div class="clouds">
+    ');@output_buffer.append= ( image_tag('/images/clouds.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('</div>
+
+<div id="main-container">
+    <div id="block-1" class="block">
+        <div id="flag">
+            <div id="flag-1">
+                ');@output_buffer.append= ( image_tag('/images/logo/flag1.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('            </div>
+            <div id="flag-2">
+                ');@output_buffer.append= ( image_tag('/images/logo/flag2.png') );@output_buffer.safe_concat('    
+');@output_buffer.safe_concat('            </div>
+        </div>
+        <div id="logo">
+            ');@output_buffer.append= ( image_tag('/images/logo/justlogo.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('        </div>
+        <div id="iphone">
+            <div id="iphone-body">
+                ');@output_buffer.append= ( image_tag('/images/iphone/iphone.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('            </div>
+            <div id="iphone-content">
+                <div id="iphone-6" class="screen hidden">
+                    ');@output_buffer.append= ( image_tag('/images/iphone/6.jpg') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>
+                <div id="iphone-5" class="screen hidden">
+                    ');@output_buffer.append= ( image_tag('/images/iphone/5.jpg') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>
+                <div id="iphone-4" class="screen hidden">
+                    ');@output_buffer.append= ( image_tag('/images/iphone/4.jpg') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>
+                <div id="iphone-3" class="screen hidden">
+                    ');@output_buffer.append= ( image_tag('/images/iphone/3.jpg') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>
+                <div id="iphone-2" class="screen hidden">
+                    ');@output_buffer.append= ( image_tag('/images/iphone/2.jpg') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>            
+                <div id="iphone-1" class="screen">
+                    ');@output_buffer.append= ( image_tag('/images/iphone/1.jpg') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>
+            </div>
+        </div>
+    </div>
+    <div id="block-2" class="block">
+        <div id="trophy-parade">
+            <div id="trophy-1" class="trophy-container">
+                <div class="text">
+                    <p>
+From the mind of ');@output_buffer.append= ( link_to("Michael Tseng", "http://cargocollective.com/theoryandcraft") );@output_buffer.safe_concat(' - Turf is a location based game set in the real world where you (the greatest person EVER) hang out with friends, amass gold coins, & construct properties. Own, Shape, and Dominate your turf.
+                    </p>
+                </div>                                
+                <div class=\'trophies\'>
+                    ');@output_buffer.append= ( image_tag('/images/trophies/1.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>
+            </div>
+            <div id="trophy-2" class="trophy-container">
+                <div class=\'trophies\'>
+                    ');@output_buffer.append= ( image_tag('/images/trophies/2.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>
+            </div>
+            <div id="trophy-3" class="trophy-container">
+                <div id="win">
+                    ');@output_buffer.append= ( image_tag('/images/win.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>
+                
+                <div class=\'trophies\'>
+                    ');@output_buffer.append= ( image_tag('/images/trophies/3.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>
+            </div>
+            <div id="trophy-4" class="trophy-container">                
+                <div class="text" id="features">
+                    <p>
+                        + location based game meets monopoly™<br/>
+                        + free to join and play<br/>
+                        + check in to earn coins (bonus for being with friends)<br/>
+                        + use coins to purchase <span style="color:#fff465">SWEET</span> items & properties<br/>
+                        + pimp out your buildings & dominate the game<br/>
+                    </p>
+                </div>
+                
+                <div class=\'trophies\'>
+                    ');@output_buffer.append= ( image_tag('/images/trophies/4.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>
+            </div>
+            <div id="trophy-5" class="trophy-container">
+                <div class=\'trophies\'>
+                    ');@output_buffer.append= ( image_tag('/images/trophies/5.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>
+            </div>
+        </div>
+        <div id="runner-container">
+            <div id="runner">
+                <ul>
+');@output_buffer.append_if_string=                      form_for @user do |f| 
+@output_buffer.safe_concat('                    <li>
+                        ');@output_buffer.append= ( f.text_field :email, :placeholder => "give us email + get updates!" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                    </li>
+                    <li>
+                        ');@output_buffer.append= ( f.submit, image_tag('/images/bottom/submit.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                            
+');                         end 
+@output_buffer.safe_concat('                        
+                        <!-- ');@output_buffer.append= ( image_tag('/images/bottom/submit_field.png') );@output_buffer.safe_concat(' -->
+                    </li>
+                    <li>');@output_buffer.append= ( image_tag('/images/bottom/submit.png') );@output_buffer.safe_concat('</li>
+                    <li>');@output_buffer.append= ( image_tag('/images/bottom/split.png') );@output_buffer.safe_concat('</li>
+                    <li id="blog">');@output_buffer.append= ( link_to(image_tag('/images/bottom/blog.png'), "http://turfgeography.tumblr.com/") );@output_buffer.safe_concat('</li>
+                    <li id="email" class="spacer">');@output_buffer.append= ( mail_to("piechart@mac.com", image_tag('/images/bottom/email.png'), :subject => "TURF!") );@output_buffer.safe_concat('</li>
+                    <li id="twitter" class="spacer"> ');@output_buffer.append= ( link_to(image_tag('/images/bottom/twitter.png'), "http://twitter.com/turfhq") );@output_buffer.safe_concat('</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <div id="block-3" class="block">
+        <div id="note" class="text">
+            <p id="section-1">                
+                <span style="color:#15bef0">T</span><span style="color:#ec008c">e</span><span style="color:#f2aacc">a</span><span style="color:#ef4642">m</span>                                            
+                Seeking 
+                
+                <span style="color:#00ff8b;background-color:black;paddin-left:2px;padding-right:2px;">+1 Developer</span>
+            </p>
+            <p id="section-2">
+                Do you or someone you know want to be part of something pretty great? Well then look no further. We\'re searching for another kickass dev to help turn this classy duet into a rock\'n roll band!
+            </p>
+            <p id="section-3">
+                Requirements<br/>
+                + obj-c / iphone chops<br/>
+                + live in nyc<br/>
+                + sleep deprivation skills<br/>
+                + sense of humor a plus
+            </p>
+        </div>
+        <div id="paper" class="content-container">
+            ');@output_buffer.append= ( image_tag('/images/paper.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('        </div>
+    </div>
+</div>');@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_view/template.rb:255:in `module_eval'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_view/template.rb:255:in `compile'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_view/template.rb:134:in `block in render'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/notifications.rb:54:in `instrument'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_view/template.rb:127:in `render'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/notifications.rb:52:in `block in instrument'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/notifications.rb:52:in `instrument'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_view/render/rendering.rb:56:in `_render_template'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_view/render/rendering.rb:26:in `render'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:115:in `_render_template'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:93:in `render'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/rendering.rb:17:in `render'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/ethanstillman/.rvm/rubies/ruby-1.9.2-p136/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activerecord-3.0.4/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/abstract_controller/base.rb:150:in `process_action'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/callbacks.rb:440:in `_run__63863870982251939__process_action__469246334594174985__callbacks'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/callbacks.rb:409:in `_run_process_action_callbacks'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/callbacks.rb:93:in `run_callbacks'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/notifications.rb:52:in `block in instrument'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/notifications.rb:52:in `instrument'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/abstract_controller/base.rb:119:in `process'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:41:in `process'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal.rb:138:in `dispatch'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal.rb:178:in `block in action'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-mount-0.6.13/lib/rack/mount/route_set.rb:148:in `block in call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:93:in `block in recognize'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:68:in `optimized_each'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:92:in `recognize'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-mount-0.6.13/lib/rack/mount/route_set.rb:139:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/routing/route_set.rb:492:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/haml-3.0.25/lib/sass/plugin/rack.rb:41:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-1.2.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activerecord-3.0.4/lib/active_record/query_cache.rb:32:in `block in call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activerecord-3.0.4/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activerecord-3.0.4/lib/active_record/query_cache.rb:12:in `cache'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activerecord-3.0.4/lib/active_record/query_cache.rb:31:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activerecord-3.0.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:354:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/callbacks.rb:46:in `block in call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/callbacks.rb:415:in `_run_call_callbacks'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-1.2.1/lib/rack/sendfile.rb:107:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/railties-3.0.4/lib/rails/rack/logger.rb:13:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-1.2.1/lib/rack/runtime.rb:17:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-1.2.1/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:10:in `synchronize'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-1.2.1/lib/rack/lock.rb:11:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/static.rb:30:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/railties-3.0.4/lib/rails/application.rb:168:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/railties-3.0.4/lib/rails/application.rb:77:in `method_missing'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/railties-3.0.4/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-1.2.1/lib/rack/content_length.rb:13:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-1.2.1/lib/rack/handler/webrick.rb:52:in `service'
+/Users/ethanstillman/.rvm/rubies/ruby-1.9.2-p136/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/Users/ethanstillman/.rvm/rubies/ruby-1.9.2-p136/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/Users/ethanstillman/.rvm/rubies/ruby-1.9.2-p136/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered users/new.html.erb within layouts/application (2.3ms)
+Completed   in 79ms
+
+ActionView::Template::Error (/Users/ethanstillman/work/clients/tseng/turf/app/views/users/new.html.erb:101: syntax error, unexpected ')', expecting tCOLON2 or '[' or '.'
+...('/images/bottom/submit.png') );@output_buffer.safe_concat('
+...                               ^
+/Users/ethanstillman/work/clients/tseng/turf/app/views/users/new.html.erb:103: syntax error, unexpected keyword_end, expecting ')'
+');                         end 
+                               ^
+/Users/ethanstillman/work/clients/tseng/turf/app/views/users/new.html.erb:141: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/ethanstillman/work/clients/tseng/turf/app/views/users/new.html.erb:143: syntax error, unexpected keyword_end, expecting ')'):
+    98:                         <%= f.text_field :email, :placeholder => "give us email + get updates!" %>
+    99:                     </li>
+    100:                     <li>
+    101:                         <%= f.submit, image_tag('/images/bottom/submit.png') %>
+    102:                             
+    103:                         <% end %>
+    104:                         
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 01:59:30 -0400
+  Processing by UsersController#new as HTML
+Rendered users/new.html.erb within layouts/application (21.7ms)
+Completed   in 37ms
+
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00000103725200>:0x00000103722e10>):
+    93:         <div id="runner-container">
+    94:             <div id="runner">
+    95:                 <ul>
+    96:                     <% form_for @user do |f| %>
+    97:                     <li>
+    98:                         <%= f.text_field :email, :placeholder => "give us email + get updates!" %>
+    99:                     </li>
+  app/views/users/new.html.erb:96:in `_app_views_users_new_html_erb__1444703468670339272_2176376260__1063010392833240543'
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.8ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 01:59:34 -0400
+  Processing by UsersController#new as HTML
+ERROR: compiling _app_views_users_new_html_erb__1444703468670339272_2155565640__1063010392833240543 RAISED /Users/ethanstillman/work/clients/tseng/turf/app/views/users/new.html.erb:101: syntax error, unexpected ')', expecting tCOLON2 or '[' or '.'
+...r.append= ( f.submit, 'submit');@output_buffer.safe_concat('
+...                               ^
+/Users/ethanstillman/work/clients/tseng/turf/app/views/users/new.html.erb:103: syntax error, unexpected keyword_end, expecting ')'
+');                         end 
+                               ^
+/Users/ethanstillman/work/clients/tseng/turf/app/views/users/new.html.erb:141: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/ethanstillman/work/clients/tseng/turf/app/views/users/new.html.erb:143: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_users_new_html_erb__1444703468670339272_2155565640__1063010392833240543(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "users/new";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new;@output_buffer.safe_concat('<div id="background">
+</div>
+<div class="clouds">
+    ');@output_buffer.append= ( image_tag('/images/clouds.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('</div>
+
+<div id="main-container">
+    <div id="block-1" class="block">
+        <div id="flag">
+            <div id="flag-1">
+                ');@output_buffer.append= ( image_tag('/images/logo/flag1.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('            </div>
+            <div id="flag-2">
+                ');@output_buffer.append= ( image_tag('/images/logo/flag2.png') );@output_buffer.safe_concat('    
+');@output_buffer.safe_concat('            </div>
+        </div>
+        <div id="logo">
+            ');@output_buffer.append= ( image_tag('/images/logo/justlogo.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('        </div>
+        <div id="iphone">
+            <div id="iphone-body">
+                ');@output_buffer.append= ( image_tag('/images/iphone/iphone.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('            </div>
+            <div id="iphone-content">
+                <div id="iphone-6" class="screen hidden">
+                    ');@output_buffer.append= ( image_tag('/images/iphone/6.jpg') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>
+                <div id="iphone-5" class="screen hidden">
+                    ');@output_buffer.append= ( image_tag('/images/iphone/5.jpg') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>
+                <div id="iphone-4" class="screen hidden">
+                    ');@output_buffer.append= ( image_tag('/images/iphone/4.jpg') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>
+                <div id="iphone-3" class="screen hidden">
+                    ');@output_buffer.append= ( image_tag('/images/iphone/3.jpg') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>
+                <div id="iphone-2" class="screen hidden">
+                    ');@output_buffer.append= ( image_tag('/images/iphone/2.jpg') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>            
+                <div id="iphone-1" class="screen">
+                    ');@output_buffer.append= ( image_tag('/images/iphone/1.jpg') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>
+            </div>
+        </div>
+    </div>
+    <div id="block-2" class="block">
+        <div id="trophy-parade">
+            <div id="trophy-1" class="trophy-container">
+                <div class="text">
+                    <p>
+From the mind of ');@output_buffer.append= ( link_to("Michael Tseng", "http://cargocollective.com/theoryandcraft") );@output_buffer.safe_concat(' - Turf is a location based game set in the real world where you (the greatest person EVER) hang out with friends, amass gold coins, & construct properties. Own, Shape, and Dominate your turf.
+                    </p>
+                </div>                                
+                <div class=\'trophies\'>
+                    ');@output_buffer.append= ( image_tag('/images/trophies/1.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>
+            </div>
+            <div id="trophy-2" class="trophy-container">
+                <div class=\'trophies\'>
+                    ');@output_buffer.append= ( image_tag('/images/trophies/2.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>
+            </div>
+            <div id="trophy-3" class="trophy-container">
+                <div id="win">
+                    ');@output_buffer.append= ( image_tag('/images/win.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>
+                
+                <div class=\'trophies\'>
+                    ');@output_buffer.append= ( image_tag('/images/trophies/3.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>
+            </div>
+            <div id="trophy-4" class="trophy-container">                
+                <div class="text" id="features">
+                    <p>
+                        + location based game meets monopoly™<br/>
+                        + free to join and play<br/>
+                        + check in to earn coins (bonus for being with friends)<br/>
+                        + use coins to purchase <span style="color:#fff465">SWEET</span> items & properties<br/>
+                        + pimp out your buildings & dominate the game<br/>
+                    </p>
+                </div>
+                
+                <div class=\'trophies\'>
+                    ');@output_buffer.append= ( image_tag('/images/trophies/4.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>
+            </div>
+            <div id="trophy-5" class="trophy-container">
+                <div class=\'trophies\'>
+                    ');@output_buffer.append= ( image_tag('/images/trophies/5.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                </div>
+            </div>
+        </div>
+        <div id="runner-container">
+            <div id="runner">
+                <ul>
+');@output_buffer.append_if_string=                      form_for @user do |f| 
+@output_buffer.safe_concat('                    <li>
+                        ');@output_buffer.append= ( f.text_field :email, :placeholder => "give us email + get updates!" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                    </li>
+                    <li>
+                        ');@output_buffer.append= ( f.submit, 'submit');@output_buffer.safe_concat('
+');@output_buffer.safe_concat('                            
+');                         end 
+@output_buffer.safe_concat('                        
+                        <!-- ');@output_buffer.append= ( image_tag('/images/bottom/submit_field.png') );@output_buffer.safe_concat(' -->
+                    </li>
+                    <li>');@output_buffer.append= ( image_tag('/images/bottom/submit.png') );@output_buffer.safe_concat('</li>
+                    <li>');@output_buffer.append= ( image_tag('/images/bottom/split.png') );@output_buffer.safe_concat('</li>
+                    <li id="blog">');@output_buffer.append= ( link_to(image_tag('/images/bottom/blog.png'), "http://turfgeography.tumblr.com/") );@output_buffer.safe_concat('</li>
+                    <li id="email" class="spacer">');@output_buffer.append= ( mail_to("piechart@mac.com", image_tag('/images/bottom/email.png'), :subject => "TURF!") );@output_buffer.safe_concat('</li>
+                    <li id="twitter" class="spacer"> ');@output_buffer.append= ( link_to(image_tag('/images/bottom/twitter.png'), "http://twitter.com/turfhq") );@output_buffer.safe_concat('</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <div id="block-3" class="block">
+        <div id="note" class="text">
+            <p id="section-1">                
+                <span style="color:#15bef0">T</span><span style="color:#ec008c">e</span><span style="color:#f2aacc">a</span><span style="color:#ef4642">m</span>                                            
+                Seeking 
+                
+                <span style="color:#00ff8b;background-color:black;paddin-left:2px;padding-right:2px;">+1 Developer</span>
+            </p>
+            <p id="section-2">
+                Do you or someone you know want to be part of something pretty great? Well then look no further. We\'re searching for another kickass dev to help turn this classy duet into a rock\'n roll band!
+            </p>
+            <p id="section-3">
+                Requirements<br/>
+                + obj-c / iphone chops<br/>
+                + live in nyc<br/>
+                + sleep deprivation skills<br/>
+                + sense of humor a plus
+            </p>
+        </div>
+        <div id="paper" class="content-container">
+            ');@output_buffer.append= ( image_tag('/images/paper.png') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('        </div>
+    </div>
+</div>');@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_view/template.rb:255:in `module_eval'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_view/template.rb:255:in `compile'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_view/template.rb:134:in `block in render'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/notifications.rb:54:in `instrument'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_view/template.rb:127:in `render'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/notifications.rb:52:in `block in instrument'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/notifications.rb:52:in `instrument'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_view/render/rendering.rb:56:in `_render_template'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_view/render/rendering.rb:26:in `render'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:115:in `_render_template'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:93:in `render'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/rendering.rb:17:in `render'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/ethanstillman/.rvm/rubies/ruby-1.9.2-p136/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activerecord-3.0.4/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/abstract_controller/base.rb:150:in `process_action'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/callbacks.rb:440:in `_run__63863870982251939__process_action__469246334594174985__callbacks'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/callbacks.rb:409:in `_run_process_action_callbacks'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/callbacks.rb:93:in `run_callbacks'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/notifications.rb:52:in `block in instrument'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/notifications.rb:52:in `instrument'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/abstract_controller/base.rb:119:in `process'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:41:in `process'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal.rb:138:in `dispatch'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_controller/metal.rb:178:in `block in action'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-mount-0.6.13/lib/rack/mount/route_set.rb:148:in `block in call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:93:in `block in recognize'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:68:in `optimized_each'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:92:in `recognize'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-mount-0.6.13/lib/rack/mount/route_set.rb:139:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/routing/route_set.rb:492:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/haml-3.0.25/lib/sass/plugin/rack.rb:41:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-1.2.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activerecord-3.0.4/lib/active_record/query_cache.rb:32:in `block in call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activerecord-3.0.4/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activerecord-3.0.4/lib/active_record/query_cache.rb:12:in `cache'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activerecord-3.0.4/lib/active_record/query_cache.rb:31:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activerecord-3.0.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:354:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/callbacks.rb:46:in `block in call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/callbacks.rb:415:in `_run_call_callbacks'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-1.2.1/lib/rack/sendfile.rb:107:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/railties-3.0.4/lib/rails/rack/logger.rb:13:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-1.2.1/lib/rack/runtime.rb:17:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/activesupport-3.0.4/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-1.2.1/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:10:in `synchronize'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-1.2.1/lib/rack/lock.rb:11:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/static.rb:30:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/railties-3.0.4/lib/rails/application.rb:168:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/railties-3.0.4/lib/rails/application.rb:77:in `method_missing'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/railties-3.0.4/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-1.2.1/lib/rack/content_length.rb:13:in `call'
+/Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/rack-1.2.1/lib/rack/handler/webrick.rb:52:in `service'
+/Users/ethanstillman/.rvm/rubies/ruby-1.9.2-p136/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/Users/ethanstillman/.rvm/rubies/ruby-1.9.2-p136/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/Users/ethanstillman/.rvm/rubies/ruby-1.9.2-p136/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered users/new.html.erb within layouts/application (2.2ms)
+Completed   in 74ms
+
+ActionView::Template::Error (/Users/ethanstillman/work/clients/tseng/turf/app/views/users/new.html.erb:101: syntax error, unexpected ')', expecting tCOLON2 or '[' or '.'
+...r.append= ( f.submit, 'submit');@output_buffer.safe_concat('
+...                               ^
+/Users/ethanstillman/work/clients/tseng/turf/app/views/users/new.html.erb:103: syntax error, unexpected keyword_end, expecting ')'
+');                         end 
+                               ^
+/Users/ethanstillman/work/clients/tseng/turf/app/views/users/new.html.erb:141: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/ethanstillman/work/clients/tseng/turf/app/views/users/new.html.erb:143: syntax error, unexpected keyword_end, expecting ')'):
+    98:                         <%= f.text_field :email, :placeholder => "give us email + get updates!" %>
+    99:                     </li>
+    100:                     <li>
+    101:                         <%= f.submit, 'submit'%>
+    102:                             
+    103:                         <% end %>
+    104:                         
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 01:59:46 -0400
+  Processing by UsersController#new as HTML
+Rendered users/new.html.erb within layouts/application (19.2ms)
+Completed   in 35ms
+
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x0000010372e558>:0x0000010372c1e0>):
+    93:         <div id="runner-container">
+    94:             <div id="runner">
+    95:                 <ul>
+    96:                     <% form_for @user do |f| %>
+    97:                     <li>
+    98:                         <%= f.text_field :email, :placeholder => "give us email + get updates!" %>
+    99:                     </li>
+  app/views/users/new.html.erb:96:in `_app_views_users_new_html_erb__1444703468670339272_2176406320__1063010392833240543'
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 02:00:14 -0400
+  Processing by UsersController#new as HTML
+Rendered users/new.html.erb within layouts/application (74.2ms)
+Completed   in 90ms
+
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00000100f87220>:0x00000100f7fb60>):
+    93:         <div id="runner-container">
+    94:             <div id="runner">
+    95:                 <ul>
+    96:                     <%= form_for @user do |f| %>
+    97:                     <li>
+    98:                         <%= f.text_field :email, :placeholder => "give us email + get updates!" %>
+    99:                     </li>
+  app/views/users/new.html.erb:96:in `_app_views_users_new_html_erb__1444703468670339272_2155588900__1063010392833240543'
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 02:00:14 -0400
+  Processing by UsersController#new as HTML
+Rendered users/new.html.erb within layouts/application (20.4ms)
+Completed   in 36ms
+
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x000001036c7998>:0x000001036c5288>):
+    93:         <div id="runner-container">
+    94:             <div id="runner">
+    95:                 <ul>
+    96:                     <%= form_for @user do |f| %>
+    97:                     <li>
+    98:                         <%= f.text_field :email, :placeholder => "give us email + get updates!" %>
+    99:                     </li>
+  app/views/users/new.html.erb:96:in `_app_views_users_new_html_erb__1444703468670339272_2176195300__1063010392833240543'
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.6ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 02:03:03 -0400
+  Processing by UsersController#new as HTML
+Rendered users/new.html.erb within layouts/application (16.7ms)
+Completed   in 33ms
+
+ActionView::Template::Error (undefined method `user_path' for #<#<Class:0x00000105091d10>:0x0000010508dff8>):
+    93:         <div id="runner-container">
+    94:             <div id="runner">
+    95:                 <ul>
+    96:                     <%= form_for @user, :url => user_path(@user) do |f| %>
+    97:                     <li>
+    98:                         <%= f.text_field :email, :placeholder => "give us email + get updates!" %>
+    99:                     </li>
+  app/views/users/new.html.erb:96:in `_app_views_users_new_html_erb__1444703468670339272_2189714880__1063010392833240543'
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.6ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 02:03:04 -0400
+  Processing by UsersController#new as HTML
+Rendered users/new.html.erb within layouts/application (17.2ms)
+Completed   in 33ms
+
+ActionView::Template::Error (undefined method `user_path' for #<#<Class:0x000001035b8660>:0x000001035b4588>):
+    93:         <div id="runner-container">
+    94:             <div id="runner">
+    95:                 <ul>
+    96:                     <%= form_for @user, :url => user_path(@user) do |f| %>
+    97:                     <li>
+    98:                         <%= f.text_field :email, :placeholder => "give us email + get updates!" %>
+    99:                     </li>
+  app/views/users/new.html.erb:96:in `_app_views_users_new_html_erb__1444703468670339272_2175634800__1063010392833240543'
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.3ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 02:06:22 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (16.2ms)
+Completed   in 34ms
+
+ActionView::Template::Error (undefined method `user_path' for #<#<Class:0x00000103b25828>:0x00000103b21228>):
+    93:         <div id="runner-container">
+    94:             <div id="runner">
+    95:                 <ul>
+    96:                     <%= form_for @user, :url => user_path(@user) do |f| %>
+    97:                     <li>
+    98:                         <%= f.text_field :email, :placeholder => "give us email + get updates!" %>
+    99:                     </li>
+  app/views/pages/home.html.erb:96:in `_app_views_pages_home_html_erb___4310457131394727576_2178481220__1063010392833240543'
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.5ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 02:06:23 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (16.2ms)
+Completed   in 31ms
+
+ActionView::Template::Error (undefined method `user_path' for #<#<Class:0x00000103466af0>:0x000001034458a0>):
+    93:         <div id="runner-container">
+    94:             <div id="runner">
+    95:                 <ul>
+    96:                     <%= form_for @user, :url => user_path(@user) do |f| %>
+    97:                     <li>
+    98:                         <%= f.text_field :email, :placeholder => "give us email + get updates!" %>
+    99:                     </li>
+  app/views/pages/home.html.erb:96:in `_app_views_pages_home_html_erb___4310457131394727576_2174885860__1063010392833240543'
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (57.6ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (63.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 02:08:38 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (19.4ms)
+Completed   in 41ms
+
+ActionView::Template::Error (undefined method `user_path' for #<#<Class:0x00000103a9b150>:0x00000103a48ce8>):
+    93:         <div id="runner-container">
+    94:             <div id="runner">
+    95:                 <ul>
+    96:                     <%= form_for @user, :url => user_path(@user) do |f| %>
+    97:                     <li>
+    98:                         <%= f.text_field :email, :placeholder => "give us email + get updates!" %>
+    99:                     </li>
+  app/views/pages/home.html.erb:96:in `_app_views_pages_home_html_erb___4310457131394727576_2178037900__1063010392833240543'
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.6ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:34:35 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (77.9ms)
+Completed   in 108ms
+
+ActionView::Template::Error (undefined method `user_path' for #<#<Class:0x000001015d8750>:0x000001015c8e90>):
+    93:         <div id="runner-container">
+    94:             <div id="runner">
+    95:                 <ul>
+    96:                     <%= form_for @user, :url => user_path(@user) do |f| %>
+    97:                     <li>
+    98:                         <%= f.text_field :email, :placeholder => "give us email + get updates!" %>
+    99:                     </li>
+  app/views/pages/home.html.erb:96:in `_app_views_pages_home_html_erb___4310457131394727576_2158870020__1063010392833240543'
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:35:52 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (17.0ms)
+Completed   in 33ms
+
+ActionView::Template::Error (undefined method `user_path' for #<#<Class:0x00000103804900>:0x00000103800b98>):
+    93:         <div id="runner-container">
+    94:             <div id="runner">
+    95:                 <ul>
+    96:                     <%= form_for @user, :url => user_path(@user) do |f| %>
+    97:                     <li>
+    98:                         <%= f.text_field :email, :placeholder => "give us email + get updates!" %>
+    99:                     </li>
+  app/views/pages/home.html.erb:96:in `_app_views_pages_home_html_erb___4310457131394727576_2176601000__1063010392833240543'
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:36:17 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (17.6ms)
+Completed   in 87ms
+
+ActionView::Template::Error (undefined method `user_path' for #<#<Class:0x000001050c43a0>:0x000001050c1100>):
+    93:         <div id="runner-container">
+    94:             <div id="runner">
+    95:                 <ul>
+    96:                     <%= form_for @user, :url => user_path(@user) do |f| %>
+    97:                     <li>
+    98:                         <%= f.text_field :email, :placeholder => "give us email + get updates!" %>
+    99:                     </li>
+  app/views/pages/home.html.erb:96:in `_app_views_pages_home_html_erb___4310457131394727576_2189818760__1063010392833240543'
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:37:06 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (17.4ms)
+Completed   in 33ms
+
+ActionView::Template::Error (undefined local variable or method `user_path' for #<#<Class:0x00000103629e28>:0x00000103625b48>):
+    93:         <div id="runner-container">
+    94:             <div id="runner">
+    95:                 <ul>
+    96:                     <%= form_for @user, :url => user_path do |f| %>
+    97:                     <li>
+    98:                         <%= f.text_field :email, :placeholder => "give us email + get updates!" %>
+    99:                     </li>
+  app/views/pages/home.html.erb:96:in `_app_views_pages_home_html_erb___4310457131394727576_2175869480__1063010392833240543'
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:38:32 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 29ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-03-31 09:38:41 -0400
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0zvVvRE8tczwmdZNfCX8glxYVTmb1Z/9vDN/THI8THY=", "user"=>{"email"=>"asdfkljahsdfkj"}, "commit"=>"submit"}
+Completed   in 18ms
+
+ActionView::MissingTemplate (Missing template users/create with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/Users/ethanstillman/work/clients/tseng/turf/app/views"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:39:43 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (7.3ms)
+Completed   in 25ms
+
+ActionView::Template::Error (No route matches {:controller=>"users"}):
+    93:         <div id="runner-container">
+    94:             <div id="runner">
+    95:                 <ul>
+    96:                     <%= form_for @user do |f| %>
+    97:                     <li>
+    98:                         <%= f.text_field :email, :placeholder => "give us email + get updates!" %>
+    99:                     </li>
+  app/views/pages/home.html.erb:96:in `_app_views_pages_home_html_erb___4310457131394727576_2175555600__1063010392833240543'
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:39:47 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 29ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:40:51 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 28ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:40:59 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 84ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:41:26 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 82ms (Views: 70.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:41:39 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 27ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:41:56 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 27ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:41:59 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 27ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:42:02 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 27ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:43:18 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 34ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:45:18 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 28ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:46:15 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 27ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:46:39 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 28ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:47:06 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 28ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:47:09 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 82ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:47:14 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (72.5ms)
+Completed 200 OK in 89ms (Views: 77.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:47:52 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 29ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:47:58 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 30ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:48:03 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 28ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:48:11 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 29ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:49:16 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 30ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:51:07 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 30ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:51:11 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 28ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:51:27 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 27ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:51:51 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 28ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:52:28 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 29ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:53:17 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 27ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:53:47 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 27ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:54:04 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 27ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:54:12 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 27ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:55:12 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 30ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:58:18 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 27ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:58:27 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 29ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:58:54 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 28ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:59:39 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 28ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 09:59:53 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 83ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-03-31 10:00:23 -0400
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0zvVvRE8tczwmdZNfCX8glxYVTmb1Z/9vDN/THI8THY=", "user"=>{"email"=>"ehs.stillman@gmail.com"}, "commit"=>"submit"}
+Completed   in 19ms
+
+ActionView::MissingTemplate (Missing template users/create with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/Users/ethanstillman/work/clients/tseng/turf/app/views"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.9ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-03-31 10:01:27 -0400
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0zvVvRE8tczwmdZNfCX8glxYVTmb1Z/9vDN/THI8THY=", "user"=>{"email"=>"ehs.stillman@gmail.com"}, "commit"=>"submit"}
+Rendered users/create.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 39ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:01:33 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 26ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-03-31 10:01:40 -0400
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0zvVvRE8tczwmdZNfCX8glxYVTmb1Z/9vDN/THI8THY=", "user"=>{"email"=>"ehs.stillman@gmail.com"}, "commit"=>"submit"}
+Rendered users/create.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 94ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: Base.named_scope has been deprecated, please use Base.scope instead. (called from <top (required)> at /Users/ethanstillman/work/clients/tseng/turf/config/environment.rb:5)
+DEPRECATION WARNING: Base.named_scope has been deprecated, please use Base.scope instead. (called from <top (required)> at /Users/ethanstillman/work/clients/tseng/turf/config/environment.rb:5)
+  [1m[36mUser Load (89.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 0 LIMIT 1
+
+
+Started POST "/users" for 127.0.0.1 at 2011-03-31 10:35:08 -0400
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0zvVvRE8tczwmdZNfCX8glxYVTmb1Z/9vDN/THI8THY=", "user"=>{"email"=>"ehs.stillman@gmail.com"}, "commit"=>"submit"}
+Rendered users/create.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 44ms (Views: 22.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-03-31 10:36:34 -0400
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0zvVvRE8tczwmdZNfCX8glxYVTmb1Z/9vDN/THI8THY=", "user"=>{"email"=>"ehs.stillman@gmail.com"}, "commit"=>"submit"}
+Rendered users/create.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 27ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:36:37 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 28ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:37:48 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 28ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:37:58 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 27ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:38:28 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 29ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:38:47 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (74.1ms)
+Completed 200 OK in 91ms (Views: 80.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:38:51 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 29ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:38:53 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 89ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:39:04 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (73.7ms)
+Completed 200 OK in 93ms (Views: 80.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:39:38 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 27ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:39:50 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 29ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:40:01 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 28ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:40:06 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 28ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:40:11 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 31ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:40:18 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 29ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:40:36 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 28ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:40:48 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 29ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:41:04 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 81ms (Views: 70.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:41:15 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 29ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/categories/5-outerwear" for 127.0.0.1 at 2011-03-31 10:41:24 -0400
+
+ActionController::RoutingError (No route matches "/categories/5-outerwear"):
+  
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:41:29 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 29ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:42:26 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 31ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:42:45 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 34ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:42:58 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 36ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:43:32 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 32ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:43:46 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 39ms (Views: 26.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:44:09 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 27ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:44:17 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (24.5ms)
+Completed 200 OK in 47ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:44:28 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 31ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:44:34 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 31ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:44:54 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 33ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:45:03 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 34ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:45:17 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 36ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:45:28 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 31ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:45:39 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 29ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:45:46 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 28ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:45:50 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 29ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:45:57 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 31ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:46:02 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 38ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:47:00 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 29ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:47:20 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 87ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:47:39 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 33ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:48:23 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 32ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:48:31 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 29ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:48:36 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 31ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:48:42 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (70.2ms)
+Completed 200 OK in 89ms (Views: 74.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:49:06 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 33ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:50:47 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 30ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:51:02 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 28ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:53:36 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (9.3ms)
+Completed   in 28ms
+
+ActionView::Template::Error (No route matches {:action=>"http://turfgeography.tumblr.com/", :controller=>"pages"}):
+    102:                         <%= f.submit ''%>
+    103:                     </li>
+    104:                     <li id="split"><%= image_tag('/images/bottom/split.png') %></li>
+    105:                     <li id="blog"><%= button_to(image_tag('/images/bottom/blog.png'), :action => "http://turfgeography.tumblr.com/") %></li>
+    106:                     <li id="email" class="spacer"><%= mail_to("piechart@mac.com", image_tag('/images/bottom/email.png'), :subject => "TURF!") %></li>
+    107:                     <li id="twitter" class="spacer"> <%= link_to(image_tag('/images/bottom/twitter.png'), "http://twitter.com/turfhq") %></li>
+    108:                     <% end %>
+  app/views/pages/home.html.erb:105:in `block in _app_views_pages_home_html_erb___4310457131394727576_2178394660__1063010392833240543'
+  app/views/pages/home.html.erb:97:in `_app_views_pages_home_html_erb___4310457131394727576_2178394660__1063010392833240543'
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.4ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:53:37 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (10.3ms)
+Completed   in 26ms
+
+ActionView::Template::Error (No route matches {:action=>"http://turfgeography.tumblr.com/", :controller=>"pages"}):
+    102:                         <%= f.submit ''%>
+    103:                     </li>
+    104:                     <li id="split"><%= image_tag('/images/bottom/split.png') %></li>
+    105:                     <li id="blog"><%= button_to(image_tag('/images/bottom/blog.png'), :action => "http://turfgeography.tumblr.com/") %></li>
+    106:                     <li id="email" class="spacer"><%= mail_to("piechart@mac.com", image_tag('/images/bottom/email.png'), :subject => "TURF!") %></li>
+    107:                     <li id="twitter" class="spacer"> <%= link_to(image_tag('/images/bottom/twitter.png'), "http://twitter.com/turfhq") %></li>
+    108:                     <% end %>
+  app/views/pages/home.html.erb:105:in `block in _app_views_pages_home_html_erb___4310457131394727576_2173147640__1063010392833240543'
+  app/views/pages/home.html.erb:97:in `_app_views_pages_home_html_erb___4310457131394727576_2173147640__1063010392833240543'
+
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.2ms)
+Rendered /Users/ethanstillman/.rvm/gems/ruby-1.9.2-p136@rails3/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:54:01 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 36ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-03-31 10:54:35 -0400
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0zvVvRE8tczwmdZNfCX8glxYVTmb1Z/9vDN/THI8THY=", "user"=>{"email"=>""}}
+Rendered users/create.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 45ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:55:02 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 30ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-03-31 10:55:04 -0400
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0zvVvRE8tczwmdZNfCX8glxYVTmb1Z/9vDN/THI8THY=", "user"=>{"email"=>""}}
+Rendered users/create.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 33ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-03-31 10:55:06 -0400
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0zvVvRE8tczwmdZNfCX8glxYVTmb1Z/9vDN/THI8THY=", "user"=>{"email"=>""}}
+Rendered users/create.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 30ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-03-31 10:55:12 -0400
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0zvVvRE8tczwmdZNfCX8glxYVTmb1Z/9vDN/THI8THY=", "user"=>{"email"=>""}, "commit"=>""}
+Rendered users/create.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 92ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-03-31 10:55:15 -0400
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0zvVvRE8tczwmdZNfCX8glxYVTmb1Z/9vDN/THI8THY=", "user"=>{"email"=>""}, "commit"=>""}
+Rendered users/create.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 29ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:56:15 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 30ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-03-31 10:56:18 -0400
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0zvVvRE8tczwmdZNfCX8glxYVTmb1Z/9vDN/THI8THY=", "user"=>{"email"=>""}}
+Rendered users/create.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 40ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:56:39 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (73.1ms)
+Completed 200 OK in 91ms (Views: 79.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:56:44 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 28ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:57:54 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (21.8ms)
+Completed 200 OK in 53ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:59:22 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 30ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 10:59:58 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 32ms (Views: 19.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 11:00:17 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (81.0ms)
+Completed 200 OK in 102ms (Views: 86.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 11:00:42 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (80.8ms)
+Completed 200 OK in 100ms (Views: 85.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 11:01:44 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 31ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 11:02:25 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (31.7ms)
+Completed 200 OK in 54ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 11:02:59 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 38ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 11:03:10 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 34ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 11:03:42 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (20.3ms)
+Completed 200 OK in 48ms (Views: 25.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 11:04:09 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 34ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 11:04:15 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 29ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 11:04:24 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 29ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 11:04:28 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 31ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 11:05:32 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (72.5ms)
+Completed 200 OK in 90ms (Views: 77.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 11:05:35 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 30ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 11:05:48 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (81.2ms)
+Completed 200 OK in 101ms (Views: 85.8ms | ActiveRecord: 0.0ms)

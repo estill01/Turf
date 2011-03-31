@@ -65,6 +65,12 @@ body {
 }
 
 /* line 9, scss/screen.scss */
+.clearfix {
+  display: block;
+  clear: both;
+}
+
+/* line 14, scss/screen.scss */
 #background {
   display: block;
   clear: both;
@@ -75,7 +81,7 @@ body {
   border-bottom: 2px solid #c4d6dd;
 }
 
-/* line 22, scss/screen.scss */
+/* line 27, scss/screen.scss */
 #main-container {
   width: 2800px;
   height: 653px;
@@ -84,7 +90,7 @@ body {
   overflow: hidden;
 }
 
-/* line 33, scss/screen.scss */
+/* line 38, scss/screen.scss */
 .block {
   display: inline;
   position: relative;
@@ -95,7 +101,7 @@ body {
   padding: 0;
 }
 
-/* line 43, scss/screen.scss */
+/* line 48, scss/screen.scss */
 .trophy-container {
   display: inline;
   position: relative;
@@ -104,32 +110,7 @@ body {
   height: auto;
 }
 
-/* line 52, scss/screen.scss */
-.text {
-  position: absolute;
-  z-index: 2;
-  color: white;
-  font-size: 19px;
-  width: 460px;
-  margin: 115px 0 0 10px;
-  line-height: 21px;
-  text-shadow: 1px 1px 1px #8c8c8c;
-}
-
-/* line 68, scss/screen.scss */
-#win {
-  position: absolute;
-  display: inline;
-  margin: 290px 0 0 0;
-  z-index: 3;
-}
-
-/* line 75, scss/screen.scss */
-#features {
-  margin: 148px 0 0 0;
-}
-
-/* line 79, scss/screen.scss */
+/* line 62, scss/screen.scss */
 .clouds {
   margin: 80px 0 0 1080px;
   display: inline;
@@ -138,23 +119,56 @@ body {
   clear: both;
 }
 
+/* line 70, scss/screen.scss */
+#win {
+  position: absolute;
+  display: inline;
+  margin: 290px 0 0 0;
+  z-index: 3;
+}
+
 /* line 91, scss/screen.scss */
+#text-1 {
+  position: absolute;
+  z-index: 2;
+  color: white;
+  font-size: 19px;
+  margin: 115px 0 0 5px;
+  line-height: 21px;
+  text-shadow: 1px 1px 1px #8c8c8c;
+  width: 430px;
+}
+
+/* line 96, scss/screen.scss */
+#text-2 {
+  position: absolute;
+  z-index: 2;
+  color: white;
+  font-size: 19px;
+  margin: 115px 0 0 5px;
+  line-height: 21px;
+  text-shadow: 1px 1px 1px #8c8c8c;
+  margin: 148px 0 0 0;
+  width: 450px;
+}
+
+/* line 107, scss/screen.scss */
 .highlight {
   color: #fff465;
 }
 
-/* line 95, scss/screen.scss */
+/* line 111, scss/screen.scss */
 .dev {
   color: #00ff8b;
 }
 
-/* line 99, scss/screen.scss */
+/* line 115, scss/screen.scss */
 .note {
   color: #898989;
   font-size: 20px;
 }
 
-/* line 109, scss/screen.scss */
+/* line 126, scss/screen.scss */
 #block-1 {
   margin: 0 0 0 130px;
   height: 650px;
@@ -163,23 +177,23 @@ body {
   display: inline;
   float: left;
 }
-/* line 117, scss/screen.scss */
+/* line 134, scss/screen.scss */
 #block-1 #flag {
   position: relative;
   display: block;
   margin: 16px 0 0 61px;
   clear: both;
 }
-/* line 122, scss/screen.scss */
+/* line 139, scss/screen.scss */
 #block-1 #flag #flag-1 {
   position: absolute;
 }
-/* line 125, scss/screen.scss */
+/* line 142, scss/screen.scss */
 #block-1 #flag #flag-2 {
   display: none;
   position: absolute;
 }
-/* line 131, scss/screen.scss */
+/* line 148, scss/screen.scss */
 #block-1 #logo {
   clear: both;
   display: block;
@@ -189,12 +203,12 @@ body {
   text-align: center;
   clear: both;
 }
-/* line 139, scss/screen.scss */
+/* line 156, scss/screen.scss */
 #block-1 #logo img {
   padding: 0;
   margin: 0;
 }
-/* line 147, scss/screen.scss */
+/* line 164, scss/screen.scss */
 #block-1 #iphone {
   display: inline;
   position: relative;
@@ -205,7 +219,7 @@ body {
   margin: 0;
   padding: 0;
 }
-/* line 158, scss/screen.scss */
+/* line 175, scss/screen.scss */
 #block-1 #iphone #iphone-body {
   display: inline;
   position: relative;
@@ -213,7 +227,7 @@ body {
   max-height: 516px;
   overflow: hidden;
 }
-/* line 168, scss/screen.scss */
+/* line 185, scss/screen.scss */
 #block-1 #iphone #iphone-content .screen {
   display: inline;
   position: absolute;
@@ -222,12 +236,12 @@ body {
   margin: 93px 0 0 22px;
   z-index: 5;
 }
-/* line 176, scss/screen.scss */
+/* line 193, scss/screen.scss */
 #block-1 #iphone #iphone-content .hidden {
   display: none;
 }
 
-/* line 187, scss/screen.scss */
+/* line 204, scss/screen.scss */
 #block-2 {
   display: inline;
   position: relative;
@@ -237,111 +251,149 @@ body {
   margin: 0 0 0 60px;
   padding: 0;
 }
-/* line 197, scss/screen.scss */
+/* line 214, scss/screen.scss */
 #block-2 #trophy-parade {
   display: block;
   position: relative;
   height: 588px;
   width: auto;
 }
-/* line 205, scss/screen.scss */
+/* line 222, scss/screen.scss */
 #block-2 #trophy-parade .trophies {
   padding: 280px 0 0 0;
   overflow: none;
 }
-/* line 210, scss/screen.scss */
+/* line 227, scss/screen.scss */
 #block-2 #trophy-parade #trophy-1 {
   margin: 75px 0 0 0;
 }
-/* line 212, scss/screen.scss */
+/* line 229, scss/screen.scss */
 #block-2 #trophy-parade #trophy-1 a {
-  color: pink;
+  color: #3261b7;
 }
-/* line 217, scss/screen.scss */
+/* line 233, scss/screen.scss */
 #block-2 #trophy-parade #trophy-2 {
   margin: 80px 0 0 0;
 }
-/* line 221, scss/screen.scss */
+/* line 237, scss/screen.scss */
 #block-2 #trophy-parade #trophy-3 {
   margin: 1px 0 0 0;
 }
-/* line 225, scss/screen.scss */
+/* line 241, scss/screen.scss */
 #block-2 #trophy-parade #trophy-4 {
   margin: 42px 0 0 0;
 }
-/* line 228, scss/screen.scss */
+/* line 244, scss/screen.scss */
 #block-2 #trophy-parade #trophy-5 {
   margin: 1px 0 0 0;
 }
-/* line 233, scss/screen.scss */
+/* line 249, scss/screen.scss */
 #block-2 #runner-container {
   display: block;
   position: absolute;
-  height: 60px;
+  height: auto;
   background-color: magenta;
 }
-/* line 240, scss/screen.scss */
+/* line 256, scss/screen.scss */
 #block-2 #runner-container #runner {
   position: fixed;
-  background-color: green;
-  width: auto;
+  width: 750px;
+  height: auto;
   margin: 16px 0 0 12px;
   clear: both;
 }
-/* line 249, scss/screen.scss */
+/* line 264, scss/screen.scss */
 #block-2 #runner-container #runner ul {
   display: inline;
   float: left;
   padding: 0;
   margin: 0;
 }
-/* line 255, scss/screen.scss */
+/* line 270, scss/screen.scss */
 #block-2 #runner-container #runner li {
   display: inline;
   float: left;
   margin: 0;
 }
-/* line 259, scss/screen.scss */
+/* line 275, scss/screen.scss */
+#block-2 #runner-container #runner li #split {
+  display: inline;
+  position: relative;
+  padding: 0 10px 0 10px;
+}
+/* line 280, scss/screen.scss */
 #block-2 #runner-container #runner li .spacer {
   padding: 0 0 0 10px;
 }
-/* line 264, scss/screen.scss */
-#block-2 #runner-container #runner li .spacer #blog a:active {
-  background: url("./images/bottom/blogpress.png");
+/* line 283, scss/screen.scss */
+#block-2 #runner-container #runner li .spacer #blog {
+  width: 95px;
+  height: 40px;
+  background: url("/images/bottom/blog.png");
+}
+/* line 290, scss/screen.scss */
+#block-2 #runner-container #runner li .spacer #blog input[type="button"]:active {
+  background: url("/images/bottom/blogpress.png");
+}
+/* line 304, scss/screen.scss */
+#block-2 #runner-container #runner li input[type="text"] {
+  background: url("/images/bottom/submit_field.png");
+  width: 263px;
+  height: 36px;
+  border: none;
+  font-family: 'VT323';
+  font-size: 16px;
+}
+/* line 313, scss/screen.scss */
+#block-2 #runner-container #runner li input[type="submit"] {
+  background: url("/images/bottom/submit.png");
+  width: 112px;
+  height: 40px;
+}
+/* line 317, scss/screen.scss */
+#block-2 #runner-container #runner li input[type="submit"]:active {
+  background: url("/images/bottom/submit_click.png");
 }
 
-/* line 288, scss/screen.scss */
+/* line 331, scss/screen.scss */
 #block-3 {
   margin: 0 0 0 80px;
 }
-/* line 292, scss/screen.scss */
+/* line 335, scss/screen.scss */
 #block-3 #note {
+  position: absolute;
+  z-index: 2;
+  color: white;
+  font-size: 19px;
+  margin: 115px 0 0 5px;
+  line-height: 21px;
+  text-shadow: 1px 1px 1px #8c8c8c;
   margin: 205px 0 0 22px;
   width: 280px;
   color: #898989;
   font-size: 20px;
   line-height: 26px;
 }
-/* line 299, scss/screen.scss */
+/* line 343, scss/screen.scss */
 #block-3 #note span {
   padding: 0;
   margin: 0;
   word-spacing: 0;
 }
-/* line 305, scss/screen.scss */
+/* line 349, scss/screen.scss */
 #block-3 #note #section-1 {
   margin: 0 0 20px 0;
 }
-/* line 309, scss/screen.scss */
+/* line 353, scss/screen.scss */
 #block-3 #note #section-2 {
   margin: 0 0 20px 0;
   text-shadow: 1px 1px 1px white;
 }
-/* line 314, scss/screen.scss */
+/* line 358, scss/screen.scss */
 #block-3 #note #section-3 {
   text-shadow: 1px 1px 1px white;
 }
-/* line 321, scss/screen.scss */
+/* line 365, scss/screen.scss */
 #block-3 #paper {
   margin: 160px 0 0 0;
 }

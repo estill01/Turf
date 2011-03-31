@@ -6,14 +6,14 @@
 
 <div id="main-container">
     <div id="block-1" class="block">
-        <div id="flag">
+        <!-- <div id="flag">
             <div id="flag-1">
                 <%= image_tag('/images/logo/flag1.png') %>
             </div>
             <div id="flag-2">
                 <%= image_tag('/images/logo/flag2.png') %>    
             </div>
-        </div>
+        </div> -->
         <div id="logo">
             <%= image_tag('/images/logo/justlogo.png') %>
         </div>
@@ -96,18 +96,20 @@ From the mind of <%= link_to("Michael Tseng", "http://cargocollective.com/theory
                 <ul>
                     <%= form_for @user do |f| %>
                     <li>
-                        <%= f.text_field :email, :placeholder => "give us email => get updates!" %>
+                        <%= f.text_field :email, :placeholder => "give us email + get updates!" %>
                     </li>
                     <li>
-                        <%= f.submit ''%>
+                        <%= f.submit 'submit'%>
+                            
                         <% end %>
+                        
+                        <!-- <%= image_tag('/images/bottom/submit_field.png') %> -->
                     </li>
-                    
-                    <li id="split"><%= image_tag('/images/bottom/split.png') %></li>
-                    <li id="blog"><input type="button" value='hello'/></li>
+                    <li><%= image_tag('/images/bottom/submit.png') %></li>
+                    <li><%= image_tag('/images/bottom/split.png') %></li>
+                    <li id="blog"><%= link_to(image_tag('/images/bottom/blog.png'), "http://turfgeography.tumblr.com/") %></li>
                     <li id="email" class="spacer"><%= mail_to("piechart@mac.com", image_tag('/images/bottom/email.png'), :subject => "TURF!") %></li>
                     <li id="twitter" class="spacer"> <%= link_to(image_tag('/images/bottom/twitter.png'), "http://twitter.com/turfhq") %></li>
-
                 </ul>
 
             </div>

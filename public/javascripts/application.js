@@ -9,13 +9,13 @@ $(document).ready(function () {
 		var max = 2;
 		
 		setInterval(function () {
-			$("#flag-" + x).fadeOut(300);
+			$("#flag-" + x).fadeOut(200);
 			x++;
 			if (x > max) {
 				x = 1;
 			};
-			$("#flag-" + x).fadeIn(300);
-		},300);
+			$("#flag-" + x).fadeIn(200);
+		},200);
 		
 	};
 	
