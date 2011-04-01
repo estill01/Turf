@@ -16,8 +16,7 @@ body {
     clear:both;
 	position: absolute;    
 	height: 585px;
-	// width: 2990px;
-	width: 2800px;	
+	width: 2735px;	
 	background: #35e5f0 url('/images/buildings.png') repeat-x bottom left;
 	border-bottom: 2px solid #c4d6dd;	
 }
@@ -25,9 +24,8 @@ body {
 
 
 #main-container {
-	// width: 2990px; 
-	width: 2800px;		
-	height: 653px;
+	width: 2735px;		
+	height: 669px;
 	position: relative;
 	display: block;
 	// background-color: pink;
@@ -82,20 +80,24 @@ body {
 	position: absolute;
 	z-index: 2;
 	color: white;
-	font-size: 19px;
-	margin: 115px 0 0 5px;
+	font-size: 20px;
+	margin: 135px 0 0 5px;
 	line-height: 21px;
-	@include text-shadow(1px,1px, 1px, #8c8c8c);	
+	font-weight: 100;
+	@include text-shadow(1px,1px, 1px, #bbbbbb);	
 }
 
 #text-1 {
 	@include text;
-	width: 430px;
+	// width: 480px;
+	width: 466px;
+	margin-left: 13px;
+	// text-align: justify;
 }
 
 #text-2 {
 	@include text;
-	margin: 148px 0 0 0;
+	margin: 168px 0 0 0;
 	width: 450px;
 }
 
@@ -130,7 +132,7 @@ body {
 	position: relative;
 	display: inline;
 	float: left;
-	// background-color: red;
+
 	#flag {
 		position: relative;
 		display:block;
@@ -151,12 +153,12 @@ body {
 		position: relative;
 		margin: 40px 0 15px 0;
 		padding: 0;
-		// background-color: blue;
+
 		text-align: center;
 		img {
 			padding: 0;
 			margin: 0;
-			// background-color: red;
+
 		}		
 		clear: both;	
 	}
@@ -168,7 +170,6 @@ body {
 		width: auto;
 		height: auto;
 		z-index: 1;
-		// background-color: green;
 		margin: 0;
 		padding: 0;
 		
@@ -198,6 +199,22 @@ body {
 }
 
 
+#focus-container {
+	display: inline;
+	position: relative;
+	float: left;
+	height: auto;
+}
+
+#block-container {
+	display: block;
+	position: relative;
+	height: auto;
+	overflow: hidden;
+	width: auto;
+	// clear:both;
+	
+}
 // ===========
 // = Block-2 =
 // ===========
@@ -205,7 +222,7 @@ body {
 	display: inline;
 	position: relative;
 	float: left;
-	height: 650px;
+	height: auto;
 	width: auto;
 	margin: 0 0 0 60px;
 	padding: 0;
@@ -222,12 +239,17 @@ body {
 		.trophies {	
 			padding: 280px 0 0 0;
 			overflow:none;
-			// float:left;
 		}
 		#trophy-1 {
 			margin: 75px 0 0 0;
 			a {
-				color: #3261b7;
+				color: white;
+				text-decoration: underline;
+				
+				&:hover {
+					color: #fff465;
+					text-decoration: none;
+				}
 			}			
 		}
 		#trophy-2 {
@@ -245,82 +267,6 @@ body {
 			margin: 1px 0 0 0;
 		}
 	}
-	
-	#runner-container {
-		display: block;
-		position: absolute;
-		height: auto;
-		// width: 100%;
-		background-color: magenta;
-
-		#runner {
-			// display: inline;
-			position: fixed;
-			width: 750px;
-			height: auto;
-			margin: 16px 0 0 12px;
-			// float: left;
-			clear: both;
-			ul {
-				display: inline;
-				float: left;
-				padding: 0;
-				margin: 0;
-			}
-			li {
-				display: inline;
-				float: left;
-				margin: 0;
-				
-				#split {
-					display: inline;
-					position: relative;
-					padding: 0 10px 0 10px;
-				}
-				.spacer {
-					padding: 0 0 0 10px; 
-				
-				#blog {
-					width: 95px;
-					height: 40px;
-					background: url('/images/bottom/blog.png');
-					input[type="button"] {
-						background: url('/images/bottom/blog.png');
-
-						&:active {
-							background: url('/images/bottom/blogpress.png');
-						}	
-					}
-				}
-				#email {
-					
-				}
-				#twitter {
-					
-				}
-					
-					
-				}
-			input[type="text"] {
-				background: url('/images/bottom/submit_field.png') ;
-				width: 263px;
-				height:36px;
-				border:none;
-				font-family: 'VT323';
-				font-size: 16px;
-				
-			}
-			input[type="submit"] {
-				background: url('/images/bottom/submit.png');
-				width: 112px;
-				height:40px;
-				&:active {
-					background: url('/images/bottom/submit_click.png');
-				}
-			}
-			}
-		}
-	}	
 }
 
 
@@ -329,8 +275,12 @@ body {
 // = Block-3 =
 // ===========
 #block-3 {
-	// background-color: blue;
-	margin: 0 0 0 80px;
+	margin: 0 0 0 60px;
+	display: inline;
+	position: relative;
+	height: auto;
+	float: left;
+
 
 	#note {
 		@include text;
@@ -348,6 +298,7 @@ body {
 
 		#section-1 {
 			margin: 0 0 20px 0;
+			@include text-shadow(1px,1px,1px, #BBBBBB);
 		}
 		
 		#section-2 {
@@ -366,3 +317,160 @@ body {
 		margin: 160px 0 0 0;
 	}
 }
+
+
+// ==========
+// = Runner =
+// ==========
+#runner-container {
+	display: block;
+	position: relative;
+	height: auto;
+	width: 100%;
+	// background-color: red;
+	float: left;
+	margin: 0;
+
+	#runner-left {
+		display: inline;
+		position: relative;
+		width: 652px;
+		height: auto;
+		float: left;
+		padding: 0 0 0 75px;
+		
+		#runner-line-1, #runner-line-2 {
+			width: auto;
+			height: auto;
+			display: block;
+			position: relative;
+
+		}
+		
+		#form {
+			form {
+				clear: none;
+				display: inline;
+				float: left;
+				margin: 0;
+				padding: 0;
+				text-align: left;
+			}
+			
+			input[type="text"] {
+				background: url('/images/bottom/submit_field.png') ;
+				width: 253px;
+				height:36px;
+				border:none;
+				font-family: 'VT323';
+				font-size: 16px;
+				padding: 0 0 0 10px;
+				float:left;
+
+			}
+			input[type="submit"] {
+				background: url('/images/bottom/submit.png');
+				width: 112px;
+				height:40px;
+				border: none;
+				padding: none;
+				float:left;
+				&:active {
+					background: url('/images/bottom/submit_click.png');
+				}
+			}
+		}			
+			
+		#split {
+			display: inline;
+			position: relative;
+			margin: 0 10px 0 10px;
+			float: left;
+		}
+		
+		#blog {
+			width: 95px;
+			height: 40px;
+			float: left;
+			margin: 0 3px 0 0;
+			input[type="button"] {
+				background: url('/images/bottom/blog.png');
+				border: none;
+				width: 95px;
+				height: 40px;
+				&:active {
+					background: url('/images/bottom/blogpress.png');
+				}	
+			}
+		}
+		#email {
+			display: inline;
+			float: left;
+			margin: 0 3px 0 0;
+			input[type="button"] {
+				background: url('/images/bottom/email.png');
+				border: none;
+				width: 93px;
+				height: 40px;
+				&:active {
+					background: url('/images/bottom/emailpress.png');
+				}
+			}
+		}
+		#twitter {
+			display: inline;
+			float: left;
+			input[type="button"] {
+				background: url('/images/bottom/twitter.png');
+				border: none;
+				width: 39px;
+				height: 40px;
+				&:active {
+					background: url('/images/bottom/twitterpress.png');
+				}
+			}
+		}
+		
+		#now-hiring{
+			width: 89px;
+			height: 30px;
+			float: right;
+		}		
+	}
+	
+	#runner-right {
+		display: inline;
+		position: relative;
+		width: 76px;
+		height: auto;
+		float: right;
+	
+		#email-right {
+			display: inline;
+			float: right;
+			input[type="button"] {
+				background: url('/images/bottom/emailus.png');
+				border: none;
+				width: 76px;
+				height: 20px;
+				&:active {
+					background: url('/images/bottom/emailuspress.png');
+				}
+			}
+		}
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

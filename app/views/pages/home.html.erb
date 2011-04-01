@@ -3,7 +3,6 @@
 <div class="clouds">
     <%= image_tag('/images/clouds.png') %>
 </div>
-
 <div id="main-container">
     <div id="block-1" class="block">
         <div id="flag">
@@ -43,97 +42,109 @@
             </div>
         </div>
     </div>
-    <div id="block-2" class="block">
-        <div id="trophy-parade">
-            <div id="trophy-1" class="trophy-container">
-                <div id="text-1">
-                    <p>
-From the mind of <%= link_to("Michael Tseng", "http://cargocollective.com/theoryandcraft#568489/the-hunter") %> - Turf is a location based game set in your life where you (the greatest person EVER) hang out with friends, amass gold coins, & construct an empire!</p><br/>
-<p>Own, Shape, and Dominate your turf.
+    <div id="focus-container">
+        <div id="block-container">
+            <div id="block-2" class="block">
+                <div id="trophy-parade">
+                    <div id="trophy-1" class="trophy-container">
+                        <div id="text-1">
+                            <p>
+        From the mind of <%= link_to("michael tseng", "http://cargocollective.com/theoryandcraft") %> - Turf is a free location based game set in the real world where you (the greatest person EVER) hang out with friends, amass gold coins, & construct properties. <span style="color:#fff465">Own, Shape, and Dominate your turf.</span></p><br/>
+                        </div>                                
+                        <div class='trophies'>
+                            <%= image_tag('/images/trophies/1.png') %>
+                        </div>
+                    </div>
+                    <div id="trophy-2" class="trophy-container">
+                        <div class='trophies'>
+                            <%= image_tag('/images/trophies/2.png') %>
+                        </div>
+                    </div>
+                    <div id="trophy-3" class="trophy-container">
+                        <div id="win">
+                            <%= image_tag('/images/win.png') %>
+                        </div>
+                        <div class='trophies'>
+                            <%= image_tag('/images/trophies/3.png') %>
+                        </div>
+                    </div>
+                    <div id="trophy-4" class="trophy-container">
+                        <div id="text-2">
+                            <p>
+                                + Location based game meets monopoly™<br/>
+                                + Free to join and play<br/>
+                                + Check-in to earn coins (bonus for being with friends)<br/>
+                                + Use coins to purchase <span style="color:#fff465">SWEET</span> items & properties<br/>
+                                + Pimp out your buildings & dominate the game<br/>
+                            </p>
+                        </div>
+                        <div class='trophies'>
+                            <%= image_tag('/images/trophies/4.png') %>
+                        </div>
+                    </div>
+                    <div id="trophy-5" class="trophy-container">
+                        <div class='trophies'>
+                            <%= image_tag('/images/trophies/5.png') %>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="block-3" class="block">
+                <div id="note" class="text">
+                    <p id="section-1">                
+                        <span style="color:#15bef0">T</span><span style="color:#ec008c">e</span><span style="color:#ffd600">a</span><span style="color:#ef4642">m</span>                                            
+                        seeking
+                        <span style="color:#00ff8b;background-color:black;paddin-left:2px;padding-right:2px;">+1 Developer</span>
                     </p>
-                </div>                                
-                <div class='trophies'>
-                    <%= image_tag('/images/trophies/1.png') %>
-                </div>
-            </div>
-            <div id="trophy-2" class="trophy-container">
-                <div class='trophies'>
-                    <%= image_tag('/images/trophies/2.png') %>
-                </div>
-            </div>
-            <div id="trophy-3" class="trophy-container">
-                <div id="win">
-                    <%= image_tag('/images/win.png') %>
-                </div>
-                
-                <div class='trophies'>
-                    <%= image_tag('/images/trophies/3.png') %>
-                </div>
-            </div>
-            <div id="trophy-4" class="trophy-container">                
-                <div id="text-2">
-                    <p>
-                        + location based game meets monopoly™<br/>
-                        + free to join and play<br/>
-                        + check in to earn coins (bonus for being with friends)<br/>
-                        + use coins to purchase <span style="color:#fff465">SWEET</span> items & properties<br/>
-                        + pimp out your buildings & dominate the game<br/>
+                    <p id="section-2">
+                        Do you or someone you know want to be part of something pretty great? Well then look no further. We're searching for another kickass dev to help turn this classy duet into a rock'n roll band!
+                    </p>
+                    <p id="section-3">
+                        Requirements<br/>
+                        + obj-c / iphone chops<br/>
+                        + live in nyc<br/>
+                        + sleep deprivation skills<br/>
+                        + sense of humor a plus
                     </p>
                 </div>
-                
-                <div class='trophies'>
-                    <%= image_tag('/images/trophies/4.png') %>
-                </div>
-            </div>
-            <div id="trophy-5" class="trophy-container">
-                <div class='trophies'>
-                    <%= image_tag('/images/trophies/5.png') %>
+                <div id="paper" class="content-container">
+                    <%= image_tag('/images/paper.png') %>
                 </div>
             </div>
         </div>
         <div id="runner-container">
-            <div id="runner">
-                <ul>
-                    <%= form_for @user do |f| %>
-                    <li>
-                        <%= f.text_field :email, :placeholder => "give us email => get updates!" %>
-                    </li>
-                    <li>
-                        <%= f.submit ''%>
+            <div id="runner-left">
+                <div id="runner-line-1">
+                    <div id="form">
+                        <%= form_for @user do |f| %>
+                            <%= f.text_field :email, :placeholder => "give us email => get updates!" %>
+                            <%= f.submit ''%>
                         <% end %>
-                    </li>
-                    
-                    <li id="split"><%= image_tag('/images/bottom/split.png') %></li>
-                    <li id="blog"><input type="button" value='hello'/></li>
-                    <li id="email" class="spacer"><%= mail_to("piechart@mac.com", image_tag('/images/bottom/email.png'), :subject => "TURF!") %></li>
-                    <li id="twitter" class="spacer"> <%= link_to(image_tag('/images/bottom/twitter.png'), "http://twitter.com/turfhq") %></li>
-
-                </ul>
-
+                    </div>
+                    <div id="split">
+                        <%= image_tag('/images/bottom/split.png') %>
+                    </div>
+                    <div id="blog">
+                        <input type="button" value=''/>
+                    </div>
+                    <div id="email">
+                        <input type="button" value=''/>
+                    </div>
+                    <div id="twitter">
+                        <input type="button" value=''/>
+                    </div>
+                </div>
+                <div id="runner-line-2">
+                    <div id="now-hiring">
+                        <%= image_tag('/images/bottom/nowhiring.png') %>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-    <div id="block-3" class="block">
-        <div id="note" class="text">
-            <p id="section-1">                
-                <span style="color:#15bef0">T</span><span style="color:#ec008c">e</span><span style="color:#f2aacc">a</span><span style="color:#ef4642">m</span>                                            
-                seeking
-                
-                <span style="color:#00ff8b;background-color:black;paddin-left:2px;padding-right:2px;">+1 Developer</span>
-            </p>
-            <p id="section-2">
-                Do you or someone you know want to be part of something pretty great? Well then look no further. We're searching for another kickass dev to help turn this classy duet into a rock'n roll band!
-            </p>
-            <p id="section-3">
-                Requirements<br/>
-                + obj-c / iphone chops<br/>
-                + live in nyc<br/>
-                + sleep deprivation skills<br/>
-                + sense of humor a plus
-            </p>
-        </div>
-        <div id="paper" class="content-container">
-            <%= image_tag('/images/paper.png') %>
+            <div id="runner-right">
+                <div id="email-right"> 
+                    <input type="button" value=""/>
+                </div>
+            </div>
         </div>
     </div>
 </div>

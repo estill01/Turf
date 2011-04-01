@@ -42,19 +42,47 @@ $(document).ready(function () {
 
 	iphoneLoop();
 	
-	
+// ==============
+// = Win bounce =
+// ==============
+	// function winBounce () {
+	// 	setInterval(function () {
+	// 		$("#win").animate({
+	// 			up: '+=50'
+	// 		}, 1000, function () {
+	// 			$("#win").animate({
+	// 				bottom: '+=50'
+	// 			}, 1000, function () {
+	// 				winBounce();
+	// 			});
+	// 		});
+	// 	}, 2000);
+	// };
+
+	// function winBounce () {
+	// 	setInterval(function () {
+	// 		$("#win").animate({
+	// 			up: '+=50',
+	// 			bottom: '+=50'
+	// 		}, 1000 });
+	// 	}, 1000);
+	// };
+	// 
+	// 
+	// winBounce();
+
 // ==============================
 // = Clouds and planes and such =
 // ==============================
-	function cloudFloat () {
-		setInterval(function () {
-			$(".clouds").animate({
-				left: '+= 2000'
-			}, 2000);
-		}, 3000);		
-	};
-	
-	cloudFloat();
+	// function cloudFloat () {
+	// 	setInterval(function () {
+	// 		$(".clouds").animate({
+	// 			left: '+= 2000'
+	// 		}, 2000);
+	// 	}, 3000);		
+	// };
+	// 
+	// cloudFloat();
 	
 
 
