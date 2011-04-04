@@ -17,6 +17,7 @@ source 'http://rubygems.org'
   gem 'compass'
   gem 'cancan'
   gem 'gravatar_image_tag', '1.0.0.pre2'
+  # gem 'heroku_jammit'
 
 group :development do
   gem 'thin'
