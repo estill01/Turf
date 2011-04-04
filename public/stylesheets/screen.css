@@ -81,16 +81,16 @@ body {
   border-bottom: 2px solid #c4d6dd;
 }
 
-/* line 26, scss/screen.scss */
+/* line 27, scss/screen.scss */
 #main-container {
   width: 2735px;
-  height: 669px;
+  height: 642px;
   position: relative;
   display: block;
   overflow: hidden;
 }
 
-/* line 36, scss/screen.scss */
+/* line 38, scss/screen.scss */
 .block {
   display: inline;
   position: relative;
@@ -101,7 +101,7 @@ body {
   padding: 0;
 }
 
-/* line 46, scss/screen.scss */
+/* line 48, scss/screen.scss */
 .trophy-container {
   display: inline;
   position: relative;
@@ -110,7 +110,7 @@ body {
   height: auto;
 }
 
-/* line 60, scss/screen.scss */
+/* line 62, scss/screen.scss */
 .clouds {
   margin: 80px 0 0 1080px;
   display: inline;
@@ -119,7 +119,7 @@ body {
   clear: both;
 }
 
-/* line 68, scss/screen.scss */
+/* line 70, scss/screen.scss */
 #win {
   position: absolute;
   display: inline;
@@ -127,7 +127,7 @@ body {
   z-index: 3;
 }
 
-/* line 90, scss/screen.scss */
+/* line 92, scss/screen.scss */
 #text-1 {
   position: absolute;
   z-index: 2;
@@ -141,7 +141,7 @@ body {
   margin-left: 13px;
 }
 
-/* line 98, scss/screen.scss */
+/* line 100, scss/screen.scss */
 #text-2 {
   position: absolute;
   z-index: 2;
@@ -155,66 +155,69 @@ body {
   width: 450px;
 }
 
-/* line 109, scss/screen.scss */
+/* line 111, scss/screen.scss */
 .highlight {
   color: #fff465;
 }
 
-/* line 113, scss/screen.scss */
+/* line 115, scss/screen.scss */
 .dev {
   color: #00ff8b;
 }
 
-/* line 117, scss/screen.scss */
+/* line 119, scss/screen.scss */
 .note {
   color: #898989;
   font-size: 20px;
 }
 
-/* line 128, scss/screen.scss */
+/* line 130, scss/screen.scss */
 #block-1 {
   margin: 0 0 0 130px;
-  height: 650px;
+  height: auto;
   width: auto;
   position: relative;
   display: inline;
   float: left;
 }
-/* line 136, scss/screen.scss */
+/* line 139, scss/screen.scss */
 #block-1 #flag {
-  position: relative;
-  display: block;
-  margin: 16px 0 0 61px;
+  position: absolute;
+  display: inline;
+  clear: both;
+  margin: 13px 0 0 63px;
   clear: both;
 }
-/* line 141, scss/screen.scss */
-#block-1 #flag #flag-1 {
-  position: absolute;
-}
-/* line 144, scss/screen.scss */
-#block-1 #flag #flag-2 {
-  display: none;
+/* line 147, scss/screen.scss */
+#block-1 #flag-1 {
   position: absolute;
 }
 /* line 150, scss/screen.scss */
+#block-1 #flag-2 {
+  display: none;
+  position: absolute;
+}
+/* line 155, scss/screen.scss */
 #block-1 #logo {
   clear: both;
   display: block;
   position: relative;
-  margin: 40px 0 15px 0;
+  margin: 10px 0 15px 0;
   padding: 0;
   text-align: center;
+  width: 267px;
   clear: both;
 }
-/* line 158, scss/screen.scss */
+/* line 163, scss/screen.scss */
 #block-1 #logo img {
   padding: 0;
   margin: 0;
 }
-/* line 166, scss/screen.scss */
+/* line 171, scss/screen.scss */
 #block-1 #iphone {
-  display: inline;
+  display: block;
   position: relative;
+  clear: both;
   float: left;
   width: auto;
   height: auto;
@@ -222,7 +225,7 @@ body {
   margin: 0;
   padding: 0;
 }
-/* line 176, scss/screen.scss */
+/* line 183, scss/screen.scss */
 #block-1 #iphone #iphone-body {
   display: inline;
   position: relative;
@@ -230,7 +233,7 @@ body {
   max-height: 516px;
   overflow: hidden;
 }
-/* line 186, scss/screen.scss */
+/* line 193, scss/screen.scss */
 #block-1 #iphone #iphone-content .screen {
   display: inline;
   position: absolute;
@@ -239,12 +242,12 @@ body {
   margin: 93px 0 0 22px;
   z-index: 5;
 }
-/* line 194, scss/screen.scss */
+/* line 201, scss/screen.scss */
 #block-1 #iphone #iphone-content .hidden {
   display: none;
 }
 
-/* line 202, scss/screen.scss */
+/* line 209, scss/screen.scss */
 #focus-container {
   display: inline;
   position: relative;
@@ -252,69 +255,71 @@ body {
   height: auto;
 }
 
-/* line 209, scss/screen.scss */
+/* line 216, scss/screen.scss */
 #block-container {
   display: block;
   position: relative;
   height: auto;
   overflow: hidden;
   width: auto;
+  margin: 0 0 0 60px;
 }
 
-/* line 221, scss/screen.scss */
+/* line 229, scss/screen.scss */
 #block-2 {
   display: inline;
   position: relative;
   float: left;
   height: auto;
   width: auto;
-  margin: 0 0 0 60px;
+  margin: 0 0 0 100px;
+  margin: 0;
   padding: 0;
 }
-/* line 231, scss/screen.scss */
+/* line 240, scss/screen.scss */
 #block-2 #trophy-parade {
   display: block;
   position: relative;
   height: 588px;
   width: auto;
 }
-/* line 239, scss/screen.scss */
+/* line 248, scss/screen.scss */
 #block-2 #trophy-parade .trophies {
   padding: 280px 0 0 0;
   overflow: none;
 }
-/* line 243, scss/screen.scss */
+/* line 252, scss/screen.scss */
 #block-2 #trophy-parade #trophy-1 {
   margin: 75px 0 0 0;
 }
-/* line 245, scss/screen.scss */
+/* line 254, scss/screen.scss */
 #block-2 #trophy-parade #trophy-1 a {
   color: white;
   text-decoration: underline;
 }
-/* line 249, scss/screen.scss */
+/* line 258, scss/screen.scss */
 #block-2 #trophy-parade #trophy-1 a:hover {
   color: #fff465;
   text-decoration: none;
 }
-/* line 255, scss/screen.scss */
+/* line 264, scss/screen.scss */
 #block-2 #trophy-parade #trophy-2 {
   margin: 80px 0 0 0;
 }
-/* line 259, scss/screen.scss */
+/* line 268, scss/screen.scss */
 #block-2 #trophy-parade #trophy-3 {
   margin: 1px 0 0 0;
 }
-/* line 263, scss/screen.scss */
+/* line 272, scss/screen.scss */
 #block-2 #trophy-parade #trophy-4 {
   margin: 42px 0 0 0;
 }
-/* line 266, scss/screen.scss */
+/* line 275, scss/screen.scss */
 #block-2 #trophy-parade #trophy-5 {
   margin: 1px 0 0 0;
 }
 
-/* line 277, scss/screen.scss */
+/* line 286, scss/screen.scss */
 #block-3 {
   margin: 0 0 0 60px;
   display: inline;
@@ -322,7 +327,7 @@ body {
   height: auto;
   float: left;
 }
-/* line 285, scss/screen.scss */
+/* line 294, scss/screen.scss */
 #block-3 #note {
   position: absolute;
   z-index: 2;
@@ -338,32 +343,32 @@ body {
   font-size: 20px;
   line-height: 26px;
 }
-/* line 293, scss/screen.scss */
+/* line 302, scss/screen.scss */
 #block-3 #note span {
   padding: 0;
   margin: 0;
   word-spacing: 0;
 }
-/* line 299, scss/screen.scss */
+/* line 308, scss/screen.scss */
 #block-3 #note #section-1 {
   margin: 0 0 20px 0;
   text-shadow: 1px 1px 1px #bbbbbb;
 }
-/* line 304, scss/screen.scss */
+/* line 313, scss/screen.scss */
 #block-3 #note #section-2 {
   margin: 0 0 20px 0;
   text-shadow: 1px 1px 1px white;
 }
-/* line 309, scss/screen.scss */
+/* line 318, scss/screen.scss */
 #block-3 #note #section-3 {
   text-shadow: 1px 1px 1px white;
 }
-/* line 316, scss/screen.scss */
+/* line 325, scss/screen.scss */
 #block-3 #paper {
   margin: 160px 0 0 0;
 }
 
-/* line 325, scss/screen.scss */
+/* line 334, scss/screen.scss */
 #runner-container {
   display: block;
   position: relative;
@@ -372,7 +377,7 @@ body {
   float: left;
   margin: 0;
 }
-/* line 334, scss/screen.scss */
+/* line 343, scss/screen.scss */
 #runner-container #runner-left {
   display: inline;
   position: relative;
@@ -381,14 +386,14 @@ body {
   float: left;
   padding: 0 0 0 75px;
 }
-/* line 342, scss/screen.scss */
+/* line 351, scss/screen.scss */
 #runner-container #runner-left #runner-line-1, #runner-container #runner-left #runner-line-2 {
   width: auto;
   height: auto;
   display: block;
   position: relative;
 }
-/* line 351, scss/screen.scss */
+/* line 360, scss/screen.scss */
 #runner-container #runner-left #form form {
   clear: none;
   display: inline;
@@ -397,7 +402,7 @@ body {
   padding: 0;
   text-align: left;
 }
-/* line 360, scss/screen.scss */
+/* line 369, scss/screen.scss */
 #runner-container #runner-left #form input[type="text"] {
   background: url("/images/bottom/submit_field.png");
   width: 253px;
@@ -408,7 +413,7 @@ body {
   padding: 0 0 0 10px;
   float: left;
 }
-/* line 371, scss/screen.scss */
+/* line 380, scss/screen.scss */
 #runner-container #runner-left #form input[type="submit"] {
   background: url("/images/bottom/submit.png");
   width: 112px;
@@ -417,75 +422,69 @@ body {
   padding: none;
   float: left;
 }
-/* line 378, scss/screen.scss */
+/* line 387, scss/screen.scss */
 #runner-container #runner-left #form input[type="submit"]:active {
   background: url("/images/bottom/submit_click.png");
 }
-/* line 384, scss/screen.scss */
+/* line 393, scss/screen.scss */
 #runner-container #runner-left #split {
   display: inline;
   position: relative;
   margin: 0 10px 0 10px;
   float: left;
 }
-/* line 391, scss/screen.scss */
+/* line 400, scss/screen.scss */
 #runner-container #runner-left #blog {
   width: 95px;
   height: 40px;
   float: left;
   margin: 0 3px 0 0;
 }
-/* line 396, scss/screen.scss */
+/* line 405, scss/screen.scss */
 #runner-container #runner-left #blog input[type="button"] {
   background: url("/images/bottom/blog.png");
   border: none;
   width: 95px;
   height: 40px;
 }
-/* line 401, scss/screen.scss */
+/* line 410, scss/screen.scss */
 #runner-container #runner-left #blog input[type="button"]:active {
   background: url("/images/bottom/blogpress.png");
 }
-/* line 406, scss/screen.scss */
+/* line 415, scss/screen.scss */
 #runner-container #runner-left #email {
   display: inline;
   float: left;
   margin: 0 3px 0 0;
 }
-/* line 410, scss/screen.scss */
+/* line 419, scss/screen.scss */
 #runner-container #runner-left #email input[type="button"] {
   background: url("/images/bottom/email.png");
   border: none;
   width: 93px;
   height: 40px;
 }
-/* line 415, scss/screen.scss */
+/* line 424, scss/screen.scss */
 #runner-container #runner-left #email input[type="button"]:active {
   background: url("/images/bottom/emailpress.png");
 }
-/* line 420, scss/screen.scss */
+/* line 429, scss/screen.scss */
 #runner-container #runner-left #twitter {
   display: inline;
   float: left;
 }
-/* line 423, scss/screen.scss */
+/* line 432, scss/screen.scss */
 #runner-container #runner-left #twitter input[type="button"] {
   background: url("/images/bottom/twitter.png");
   border: none;
   width: 39px;
   height: 40px;
 }
-/* line 428, scss/screen.scss */
+/* line 437, scss/screen.scss */
 #runner-container #runner-left #twitter input[type="button"]:active {
   background: url("/images/bottom/twitterpress.png");
 }
-/* line 434, scss/screen.scss */
-#runner-container #runner-left #now-hiring {
-  width: 89px;
-  height: 30px;
-  float: right;
-}
-/* line 441, scss/screen.scss */
+/* line 444, scss/screen.scss */
 #runner-container #runner-right {
   display: inline;
   position: relative;
@@ -493,19 +492,65 @@ body {
   height: auto;
   float: right;
 }
-/* line 448, scss/screen.scss */
+/* line 451, scss/screen.scss */
 #runner-container #runner-right #email-right {
   display: inline;
   float: right;
 }
-/* line 451, scss/screen.scss */
+/* line 454, scss/screen.scss */
 #runner-container #runner-right #email-right input[type="button"] {
   background: url("/images/bottom/emailus.png");
   border: none;
   width: 76px;
   height: 20px;
 }
-/* line 456, scss/screen.scss */
+/* line 459, scss/screen.scss */
 #runner-container #runner-right #email-right input[type="button"]:active {
   background: url("/images/bottom/emailuspress.png");
+}
+
+/* line 474, scss/screen.scss */
+#bottom-container {
+  display: block;
+  position: relative;
+  width: 967px;
+  height: auto;
+  clear: both;
+  margin: 0 0 0 155px;
+}
+/* line 483, scss/screen.scss */
+#bottom-container #copyright {
+  position: relative;
+  display: inline;
+  margin: 6px 0 0 0;
+  color: #d2dfe4;
+  color: #cdd6da;
+  line-height: 30px;
+  vertical-align: bottom;
+}
+/* line 492, scss/screen.scss */
+#bottom-container #copyright a {
+  color: #cdd6da;
+  text-decoration: none;
+}
+/* line 496, scss/screen.scss */
+#bottom-container #copyright a:hover {
+  text-decoration: underline;
+  color: #fff465;
+}
+/* line 503, scss/screen.scss */
+#bottom-container #now-hiring {
+  position: relative;
+  display: inline;
+  height: auto;
+  width: auto;
+  vertical-align: top;
+  float: right;
+  height: 30px;
+}
+/* line 512, scss/screen.scss */
+#bottom-container #now-hiring img {
+  width: 89px;
+  height: 30px;
+  overflow: hidden;
 }

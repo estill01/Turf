@@ -1,6 +1,6 @@
 BaseApp::Application.routes.draw do
   resources :users
-  root :to => "pages#home"
+  root :to => "users#new"
   
 
   # The priority is based upon order of creation:

@@ -15,7 +15,7 @@ $(document).ready(function () {
 				x = 1;
 			};
 			$("#flag-" + x).fadeIn(200);
-		},200);
+		},0);
 		
 	};
 	
@@ -42,6 +42,31 @@ $(document).ready(function () {
 
 	iphoneLoop();
 	
+	
+// ==================
+// = Button actions =
+// ==================	
+	$("#blog").click(function(){
+		$(window.location).attr('href', 'http://turfgeography.tumblr.com');
+	});
+	
+	$("#email").click(function(){
+		$(window.location).attr('href', 'mailto:piechart@mac.com?Subject=Turf!');
+	});
+	
+	$("#twitter").click(function(){
+		$(window.location).attr('href', 'http://twitter.com/turfhq')
+	});
+
+	// $("#now-hiring").click(function(){
+	// 	$(window).scrollTo
+	// });
+
+	$("#email-right").click(function(){
+		$(window.location).attr('href', 'mailto:piechart@mac.com?Subject=Turf!');
+	});
+
+
 // ==============
 // = Win bounce =
 // ==============
@@ -49,25 +74,14 @@ $(document).ready(function () {
 	// 	setInterval(function () {
 	// 		$("#win").animate({
 	// 			up: '+=50'
-	// 		}, 1000, function () {
-	// 			$("#win").animate({
-	// 				bottom: '+=50'
-	// 			}, 1000, function () {
-	// 				winBounce();
-	// 			});
-	// 		});
-	// 	}, 2000);
-	// };
-
-	// function winBounce () {
-	// 	setInterval(function () {
-	// 		$("#win").animate({
-	// 			up: '+=50',
-	// 			bottom: '+=50'
-	// 		}, 1000 });
-	// 	}, 1000);
-	// };
+	// 		}, 1000, nil).delay(200);
 	// 
+	// 		$("#win").animate({
+	// 			down: "+=50"
+	// 			
+	// 		}, 1000, nil);
+	// 	},500);
+	// };	
 	// 
 	// winBounce();
 

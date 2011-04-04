@@ -17,6 +17,7 @@ body {
 	position: absolute;    
 	height: 585px;
 	width: 2735px;	
+	// width: 2835px;		
 	background: #35e5f0 url('/images/buildings.png') repeat-x bottom left;
 	border-bottom: 2px solid #c4d6dd;	
 }
@@ -24,8 +25,9 @@ body {
 
 
 #main-container {
-	width: 2735px;		
-	height: 669px;
+	width: 2735px;
+	// width: 2835px;				
+	height: 642px;
 	position: relative;
 	display: block;
 	// background-color: pink;
@@ -127,34 +129,37 @@ body {
 // ===========
 #block-1 {
 	margin: 0 0 0 130px;
-	height: 650px;
+	height: auto;
 	width: auto;
 	position: relative;
 	display: inline;
 	float: left;
+	// background-color: red;
 
 	#flag {
-		position: relative;
-		display:block;
-		margin: 16px 0 0 61px;
+		position: absolute;
+		display:inline;
+		clear: both;		
+		margin: 13px 0 0 63px;
 		clear: both;
-		#flag-1 {
-			position: absolute;
-		}
-		#flag-2 {
-			display: none;
-			position: absolute;
-		}			
 	}
+
+	#flag-1 {
+		position: absolute;
+	}
+	#flag-2 {
+		display: none;
+		position: absolute;
+	}			
 	
 	#logo {
 		clear: both;
 		display: block;
 		position: relative;
-		margin: 40px 0 15px 0;
+		margin: 10px 0 15px 0;
 		padding: 0;
-
 		text-align: center;
+		width: 267px;
 		img {
 			padding: 0;
 			margin: 0;
@@ -164,14 +169,16 @@ body {
 	}
 	
 	#iphone {
-		display: inline;
+		display: block;
 		position: relative;
+		clear: both;
 		float: left;
 		width: auto;
 		height: auto;
 		z-index: 1;
 		margin: 0;
 		padding: 0;
+		// background-color: blue;
 		
 		#iphone-body {
 			display: inline;
@@ -212,6 +219,7 @@ body {
 	height: auto;
 	overflow: hidden;
 	width: auto;
+	margin: 0 0 0 60px;
 	// clear:both;
 	
 }
@@ -224,7 +232,8 @@ body {
 	float: left;
 	height: auto;
 	width: auto;
-	margin: 0 0 0 60px;
+	margin: 0 0 0 100px;
+	margin: 0;
 	padding: 0;
 	// background-color: white;
 	
@@ -430,12 +439,6 @@ body {
 				}
 			}
 		}
-		
-		#now-hiring{
-			width: 89px;
-			height: 30px;
-			float: right;
-		}		
 	}
 	
 	#runner-right {
@@ -464,13 +467,54 @@ body {
 
 
 
+// ====================
+// = Bottom container =
+// ====================
 
+#bottom-container {
+	display: block;
+	position: relative;
+	width: 967px;
+	height: auto;
+	clear: both;
+	// background-color: red;
+	margin: 0 0 0 155px;
 
+	#copyright {
+		position: relative;
+		display: inline;
+		margin: 6px 0 0 0;
+		color: #d2dfe4;
+		color: #cdd6da;
+		line-height: 30px;
+		vertical-align:bottom;
+		// background-color: green;
+		a {
+			color: #cdd6da;
+			text-decoration: none;
+			
+			&:hover {
+				text-decoration: underline;
+				color: #fff465;
+			}
+		}
+	}
+	
+	#now-hiring {
+		position: relative;
+		display: inline;
+		height: auto;
+		width: auto;
+		vertical-align: top;
+		float: right;
+		// margin: 0 0 0 20px;
+		height: 30px;
+		img {
+			width: 89px;
+			height: 30px;			
+			overflow:hidden;
+		}		
+	}
 
-
-
-
-
-
-
-
+	
+}
